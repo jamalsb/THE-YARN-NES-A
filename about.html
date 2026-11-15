@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | The Yarn Nest</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🧶</span>
+        <span class="logo-text">The Yarn <span>Nest</span></span>
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#deals">Deals</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main class="container" style="padding:60px 20px;max-width:820px;">
+    <h1 style="font-family:'Playfair Display',serif;font-size:42px;margin-bottom:20px;">
+      About The Yarn Nest 🧶
+    </h1>
+    <p style="color:var(--muted);font-size:17px;margin-bottom:20px;">
+      Welcome to <strong>The Yarn Nest</strong> — your cozy corner for the best yarn, crochet hooks, knitting kits and craft supplies on the internet.
+    </p>
+    <p style="margin-bottom:20px;">
+      We’re a small team of passionate crafters who got tired of scrolling through endless stores to find quality supplies at fair prices. So we built this nest: a curated collection of the best affiliate deals from trusted stores like Amazon, Etsy, LoveCrafts and more.
+    </p>
+    <h2 style="font-size:24px;margin:30px 0 10px;">Why Trust Us?</h2>
+    <ul style="padding-left:20px;line-height:1.9;">
+      <li>✅ Every deal is hand-picked and reviewed</li>
+      <li>✅ We only link to stores with good return policies</li>
+      <li>✅ We clearly mark all affiliate links</li>
+      <li>✅ 100% free to use — you pay nothing extra</li>
+    </ul>
+    <h2 style="font-size:24px;margin:30px 0 10px;">Affiliate Disclosure</h2>
+    <p style="color:var(--muted);">
+      The Yarn Nest participates in affiliate programs. When you buy through our links, we may earn a small commission at no extra cost to you. This helps us keep the site running and free. Thank you for your support! 💛
+    </p>
+  </main>
+
+  <footer class="footer" style="margin-top:60px;">
+    <div class="footer-bottom container">
+      <p>© <span id="year"></span> The Yarn Nest. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+                </html>
