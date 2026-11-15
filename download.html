@@ -1,1 +1,119 @@
- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download Files | The Yarn Nest</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #fdf9f4 0%, #f6efe6 100%); min-height: 100vh; padding: 40px 20px; color: #2a2420; }
+    .container { max-width: 960px; margin: 0 auto; }
+    .logo { text-align: center; font-size: 56px; margin-bottom: 12px; }
+    h1 { font-size: 36px; font-weight: 800; text-align: center; margin-bottom: 8px; }
+    h1 span { color: #c76b4a; }
+    .subtitle { text-align: center; color: #7a6f68; margin-bottom: 36px; font-size: 15px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-bottom: 32px; }
+    .card { background: #fff; border: 1px solid #ecdfd0; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 10px; transition: 0.25s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,.1); border-color: #c76b4a; }
+    .icon { font-size: 36px; }
+    .card h3 { font-size: 16px; font-weight: 700; }
+    .card p { font-size: 13px; color: #7a6f68; flex: 1; }
+    .btn { display: block; padding: 12px 20px; background: #c76b4a; color: #fff; text-align: center; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 14px; border: none; cursor: pointer; transition: 0.2s; width: 100%; }
+    .btn:hover { background: #a85336; }
+    .btn-zip { padding: 18px; font-size: 16px; font-weight: 700; background: linear-gradient(135deg, #c76b4a 0%, #e88762 100%); margin-bottom: 24px; border-radius: 14px; }
+    .info { background: #fff; border: 1px solid #ecdfd0; border-radius: 16px; padding: 24px; font-size: 14px; line-height: 1.8; }
+    .info h4 { margin-bottom: 12px; }
+    .info ul { padding-left: 20px; }
+    .status { padding: 14px; border-radius: 12px; margin-bottom: 24px; font-weight: 600; text-align: center; display: none; }
+    .status.info { display: block; background: #e0ecff; color: #2a5db0; }
+    .status.success { display: block; background: #d4f4dd; color: #1e7a3f; }
+    .status.error { display: block; background: #ffe0e0; color: #c73e3e; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🧶</div>
+    <h1>Download <span>The Yarn Nest</span> Files</h1>
+    <p class="subtitle">Click to download individual files or grab everything as a ZIP.</p>
+
+    <div class="status" id="status"></div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📄</div>
+        <h3>index.html</h3>
+        <p>Homepage with hero, deals grid, and newsletter.</p>
+        <a href="index.html" download="index.html" class="btn">⬇ Download</a>
+      </div>
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>style.css</h3>
+        <p>Full stylesheet with dark mode and responsive layout.</p>
+        <a href="css/style.css" download="style.css" class="btn">⬇ Download</a>
+      </div>
+      <div class="card">
+        <div class="icon">🗃️</div>
+        <h3>data.js</h3>
+        <p>Affiliate products & categories. Edit links here.</p>
+        <a href="js/data.js" download="data.js" class="btn">⬇ Download</a>
+      </div>
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h3>main.js</h3>
+        <p>Site logic: theme toggle, search, and filtering.</p>
+        <a href="js/main.js" download="main.js" class="btn">⬇ Download</a>
+      </div>
+    </div>
+
+    <button class="btn btn-zip" onclick="downloadZip()">📦 Download All Files as ZIP</button>
+
+    <div class="info">
+      <h4>💡 How to use</h4>
+      <ul>
+        <li>Individual buttons work instantly.</li>
+        <li>ZIP button requires a local server or live site.</li>
+        <li>Keep folder structure: <code>css/</code> and <code>js/</code>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script>
+    async function downloadZip() {
+      const status = document.getElementById('status');
+      status.className = 'status info';
+      status.textContent = '⏳ Preparing ZIP…';
+
+      const files = [
+        { path: 'index.html', name: 'index.html' },
+        { path: 'css/style.css', name: 'css/style.css' },
+        { path: 'js/data.js', name: 'js/data.js' },
+        { path: 'js/main.js', name: 'js/main.js' },
+      ];
+
+      try {
+        const zip = new JSZip();
+        for (const f of files) {
+          const res = await fetch(f.path);
+          if (!res.ok) throw new Error(`File not found: ${f.path}`);
+          const text = await res.text();
+          zip.file(f.name, text);
+        }
+        const blob = await zip.generateAsync({ type: 'blob' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'the-yarn-nest.zip';
+        a.click();
+        URL.revokeObjectURL(url);
+        status.className = 'status success';
+        status.textContent = '✅ ZIP downloaded!';
+      } catch (err) {
+        status.className = 'status error';
+        status.textContent = '⚠️ ZIP needs a server. Use individual buttons.';
+      }
+    }
+  </script>
+</body>
+</html>
