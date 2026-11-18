@@ -1,0 +1,38 @@
+name: Auto Generate HTML Blog Post
+
+on:
+  schedule:
+    # روزانہ پاکستانی وقت کے مطابق دوپہر 2 بجے چلے گا
+    - cron: '0 9 * * *'
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install google-genai
+
+      - name: Run AI Blog Generator
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generate_post.py
+
+      - name: Commit and Push New Post
+        run: |
+          git config --global user.name "YarnNest Bot"
+          git config --global user.email "bot@theyarnnest.com"
+          git add .
+          git commit -m "Auto-added new HTML blog post via AI" || exit 0
+          git push
