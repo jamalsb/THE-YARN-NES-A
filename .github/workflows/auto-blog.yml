@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: yarn-nest-auto-blog
+  cancel-in-progress: false
+
 jobs:
   build-and-post:
     runs-on: ubuntu-latest
@@ -21,18 +25,22 @@ jobs:
           python-version: '3.11'
 
       - name: Install Dependencies
-        run: pip install google-genai
+        run: pip install google-genai requests
 
-      - name: Run AI Blog Generator
+      - name: Generate Blog Post
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: python generate_post.py
 
-      - name: Commit and Push New Post
+      - name: Commit and Push
         run: |
-          git config --global user.name "YarnNest Bot"
-          git config --global user.email "bot@yarnnest.local"
-          git add .
-          git commit -m "Auto-added new HTML blog post by AI"
+          git config user.name "YarnNest Bot"
+          git config user.email "bot@yarnnest.local"
+          git add blog.html post-*.html images/ .cache/
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git commit -m "Add automatically generated crochet blog post"
           git push
-          
