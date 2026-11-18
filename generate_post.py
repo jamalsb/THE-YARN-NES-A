@@ -60,8 +60,30 @@ def main():
     prompt = """Write a helpful English crochet blog article about modern amigurumi plush ideas.
 Return clean HTML only, with one h1 title, an introduction, 3-4 h2 sections,
 practical beginner-friendly advice, and a conclusion. No Markdown fences."""
-    response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
-    article = (response.text or "").strip()
+    # Retry temporary Gemini capacity/rate-limit errors instead of failing the workflow immediately.
+    response = None
+    for attempt in range(6):
+        try:
+            response = client.models.generate_content(
+                model="gemini-3.8-flash",
+                contents=prompt
+            )
+            break
+        except Exception as exc:
+            status = getattr(exc, "status_code", None)
+            message = str(exc)
+            temporary = status in (429, 500, 502, 503, 504) or any(
+                code in message for code in ("429", "500", "502", "503", "504")
+            )
+            if not temporary or attempt == 5:
+                raise
+            delay = min(30, 5 * (2 ** attempt))
+            print(f"Gemini temporarily unavailable; retry {attempt + 1}/5 in {delay}s: {message}")
+            time.sleep(delay)
+
+    if response is None or not response.text:
+        raise RuntimeError("Gemini returned an empty article after retries.")
+    article = response.text.strip()
     article = re.sub(r"^\x60\x60\x60(?:html)?\s*|\s*\x60\x60\x60$", "", article, flags=re.I).strip()
     title_match = re.search(r"<h1\b[^>]*>(.*?)</h1>", article, re.I | re.S)
     if not title_match:
