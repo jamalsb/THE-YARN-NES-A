@@ -101,6 +101,7 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{safe_title}</title><link rel="stylesheet" href="css/style.css"></head>
 <body><div class="container"><a href="blog.html">Back to Blog</a>
+<figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
 {article}
 <p class="image-credit">Image source: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></p>
 </div></body></html>"""
