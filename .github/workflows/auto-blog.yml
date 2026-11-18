@@ -2,7 +2,7 @@ name: Auto Generate HTML Blog Post
 
 on:
   schedule:
-    # روزانہ پاکستانی وقت کے مطابق دوپہر 2 بجے چلے گا
+    
     - cron: '0 9 * * *'
   workflow_dispatch: 
 
