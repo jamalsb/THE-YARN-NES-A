@@ -19,7 +19,7 @@ class Extractor(HTMLParser):
 def plain(html):
     parser = Extractor()
     parser.feed(html)
-    return re.sub(r"\\s+", " ", unescape(" ".join(parser.parts))).strip()
+    return re.sub(r"\s+", " ", unescape(" ".join(parser.parts))).strip()
 
 def pixabay_image():
     cache = ROOT / ".cache" / "pixabay.json"
@@ -62,8 +62,8 @@ Return clean HTML only, with one h1 title, an introduction, 3-4 h2 sections,
 practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
     article = (response.text or "").strip()
-    article = re.sub(r"^\x60\x60\x60(?:html)?\\s*|\\s*\x60\x60\x60$", "", article, flags=re.I).strip()
-    title_match = re.search(r"<h1\\b[^>]*>(.*?)</h1>", article, re.I | re.S)
+    article = re.sub(r"^\x60\x60\x60(?:html)?\s*|\s*\x60\x60\x60$", "", article, flags=re.I).strip()
+    title_match = re.search(r"<h1\b[^>]*>(.*?)</h1>", article, re.I | re.S)
     if not title_match:
         raise RuntimeError("Gemini response did not contain an h1 title.")
     title = plain(title_match.group(1))
@@ -76,10 +76,10 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     grid_start = blog.find('<div class="blog-grid">')
     if grid_start < 0:
         raise RuntimeError("blog-grid container not found.")
-    count = len(re.findall(r'<article\\b[^>]*class=["\'][^"\']*\\bblog-card\\b', blog, re.I))
+    count = len(re.findall(r'<article\b[^>]*class=["\'][^"\']*\bblog-card\b', blog, re.I))
     post_number = count + 1
     depth = 1
-    token = re.compile(r"<div\\b[^>]*>|</div>", re.I)
+    token = re.compile(r"<div\b[^>]*>|</div>", re.I)
     grid_end = -1
     for match in token.finditer(blog, grid_start + len('<div class="blog-grid">')):
         if match.group(0).lower().startswith("<div"):
