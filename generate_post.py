@@ -1,182 +1,126 @@
-
-import os
-import re
-import time
-import random
-import datetime
+import os, re, json, time, random, datetime
+from pathlib import Path
 from html import escape, unescape
 from html.parser import HTMLParser
+import requests
 from google import genai
 
-api_key = os.environ.get("GEMINI_API_KEY")
-if not api_key:
-    raise ValueError("GEMINI_API_KEY is missing in GitHub Secrets.")
+ROOT = Path(__file__).resolve().parent
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+PIXABAY_KEY = os.environ["PIXABAY_API_KEY"]
 
-client = genai.Client(api_key=api_key)
-
-
-class TextExtractor(HTMLParser):
+class Extractor(HTMLParser):
     def __init__(self):
         super().__init__()
         self.parts = []
-
     def handle_data(self, data):
         self.parts.append(data)
 
-    def get_text(self):
-        return " ".join(self.parts)
+def plain(html):
+    parser = Extractor()
+    parser.feed(html)
+    return re.sub(r"\\s+", " ", unescape(" ".join(parser.parts))).strip()
 
-
-def clean_text(content):
-    parser = TextExtractor()
-    parser.feed(content)
-    return re.sub(r"\s+", " ", unescape(parser.get_text())).strip()
-
-
-def generate_blog_post():
-    prompt = """
-    Write a complete, engaging blog post about modern crochet
-    ideas and tips for handmade plushes.
-
-    Requirements:
-    - Write in clear natural English.
-    - Include a catchy title inside an h1 tag.
-    - Include an introduction.
-    - Include 3-4 sections with h2 headings.
-    - Include a useful conclusion.
-    - Return only clean HTML article content.
-    - Do not use Markdown code fences.
-    """
-
-    article_html = None
-
-    for attempt in range(1, 6):
+def pixabay_image():
+    cache = ROOT / ".cache" / "pixabay.json"
+    data = None
+    if cache.exists():
         try:
-            print(f"Generating post: Attempt {attempt}/5")
+            old = json.loads(cache.read_text(encoding="utf-8"))
+            if time.time() - old["saved"] < 86400:
+                data = old["data"]
+        except Exception:
+            data = None
+    if data is None:
+        r = requests.get("https://pixabay.com/api/", params={
+            "key": PIXABAY_KEY, "q": "crochet amigurumi yarn craft",
+            "image_type": "photo", "safesearch": "true", "per_page": 20,
+            "order": "popular"
+        }, timeout=30)
+        r.raise_for_status()
+        data = r.json()
+        if not data.get("hits"):
+            raise RuntimeError("Pixabay returned no images.")
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps({"saved": time.time(), "data": data}), encoding="utf-8")
+    hit = random.choice(data["hits"])
+    image_url, credit_url = hit.get("webformatURL"), hit.get("pageURL")
+    if not image_url or not credit_url:
+        raise RuntimeError("Pixabay result has no image or attribution URL.")
+    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d-%H%M%S")
+    folder = ROOT / "images"
+    folder.mkdir(exist_ok=True)
+    name = f"crochet-{stamp}.jpg"
+    response = requests.get(image_url, timeout=45)
+    response.raise_for_status()
+    (folder / name).write_bytes(response.content)
+    return "images/" + name, credit_url
 
-            response = client.models.generate_content(
-                model="gemini-3.8-flash",
-                contents=prompt
-            )
-
-            article_html = response.text
-
-            if not article_html or not article_html.strip():
-                raise ValueError("Gemini returned an empty response.")
-
-            article_html = re.sub(
-                r"^```(?:html)?\s*|\s*```$",
-                "",
-                article_html.strip(),
-                flags=re.IGNORECASE
-            ).strip()
-
-            break
-
-        except Exception as error:
-            message = str(error).upper()
-            retry_codes = [
-                "503", "429", "500", "502", "504",
-                "UNAVAILABLE", "RESOURCE_EXHAUSTED",
-                "INTERNAL", "TIMEOUT"
-            ]
-
-            if not any(code in message for code in retry_codes):
-                raise
-
-            if attempt == 5:
-                raise
-
-            wait = min(60, 5 * (2 ** (attempt - 1)))
-            wait += random.uniform(0, 3)
-
-            print(f"Temporary Gemini error. Waiting {wait:.1f}s")
-            time.sleep(wait)
-
-    if not article_html:
-        raise RuntimeError("Post generation failed.")
-
-    title_match = re.search(
-        r"<h1\b[^>]*>(.*?)</h1>",
-        article_html,
-        flags=re.IGNORECASE | re.DOTALL
-    )
-
-    title = (
-        clean_text(title_match.group(1))
-        if title_match
-        else "New Crochet Ideas and Tips"
-    )
-
+def main():
+    prompt = """Write a helpful English crochet blog article about modern amigurumi plush ideas.
+Return clean HTML only, with one h1 title, an introduction, 3-4 h2 sections,
+practical beginner-friendly advice, and a conclusion. No Markdown fences."""
+    response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
+    article = (response.text or "").strip()
+    article = re.sub(r"^\x60\x60\x60(?:html)?\\s*|\\s*\x60\x60\x60$", "", article, flags=re.I).strip()
+    title_match = re.search(r"<h1\\b[^>]*>(.*?)</h1>", article, re.I | re.S)
+    if not title_match:
+        raise RuntimeError("Gemini response did not contain an h1 title.")
+    title = plain(title_match.group(1))
     safe_title = escape(title)
+    excerpt = plain(article)
+    excerpt = excerpt[:157].rsplit(" ", 1)[0] + "..." if len(excerpt) > 160 else excerpt
 
-    excerpt = clean_text(article_html)
-    if len(excerpt) > 160:
-        excerpt = excerpt[:157].rsplit(" ", 1)[0] + "..."
-
-    safe_excerpt = escape(excerpt)
+    blog_path = ROOT / "blog.html"
+    blog = blog_path.read_text(encoding="utf-8")
+    grid_start = blog.find('<div class="blog-grid">')
+    if grid_start < 0:
+        raise RuntimeError("blog-grid container not found.")
+    count = len(re.findall(r'<article\\b[^>]*class=["\'][^"\']*\\bblog-card\\b', blog, re.I))
+    post_number = count + 1
+    depth = 1
+    token = re.compile(r"<div\\b[^>]*>|</div>", re.I)
+    grid_end = -1
+    for match in token.finditer(blog, grid_start + len('<div class="blog-grid">')):
+        if match.group(0).lower().startswith("<div"):
+            depth += 1
+        else:
+            depth -= 1
+            if depth == 0:
+                grid_end = match.start()
+                break
+    if grid_end < 0:
+        raise RuntimeError("Could not safely locate blog-grid end.")
 
     now = datetime.datetime.now(datetime.timezone.utc)
-    filename = "post-" + now.strftime("%Y-%m-%d-%H-%M-%S") + ".html"
-    date_text = now.strftime("%B %d, %Y")
-
+    stamp = now.strftime("%Y-%m-%d-%H-%M-%S")
+    filename = "post-" + stamp + ".html"
+    image_path, credit_url = pixabay_image()
     page = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
+<html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{safe_title}</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div class="container">
-<a href="blog.html">← Back to Blog</a>
-{article_html}
-</div>
-</body>
-</html>
+<title>{safe_title}</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="container"><a href="blog.html">Back to Blog</a>
+{article}
+<p class="image-credit">Image source: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></p>
+</div></body></html>"""
+    post_file = ROOT / filename
+    if post_file.exists():
+        raise RuntimeError("Refusing to overwrite an existing post.")
+    post_file.write_text(page, encoding="utf-8")
+    card = f"""
+<!-- POST {post_number} - AUTO GENERATED -->
+<article class="blog-card"><div class="blog-img">
+<img src="{escape(image_path, quote=True)}" alt="{safe_title}">
+<span class="blog-cat">Crochet Ideas</span></div>
+<div class="blog-content"><span class="blog-date">{now.strftime("%B %d, %Y")}</span>
+<h3><a href="{filename}">{safe_title}</a></h3><p>{escape(excerpt)}</p>
+<a href="{filename}" class="read-more">Read Article</a>
+<small>Image: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></small>
+</div></article>
 """
-
-    with open(filename, "w", encoding="utf-8") as file:
-        file.write(page)
-
-    blog_path = "blog.html"
-    marker = "<!-- END POST 6 -->"
-
-    with open(blog_path, "r", encoding="utf-8") as file:
-        blog_html = file.read()
-
-    if filename not in blog_html:
-        if marker not in blog_html:
-            raise RuntimeError("Blog insertion marker was not found.")
-
-        card = f"""
-<article class="blog-card">
-  <div class="blog-img">
-    <img src="dot6.jpg" alt="{safe_title}">
-    <span class="blog-cat">AI Crochet Guide</span>
-  </div>
-  <div class="blog-content">
-    <span class="blog-date">{date_text}</span>
-    <h3><a href="{filename}">{safe_title}</a></h3>
-    <p>{safe_excerpt}</p>
-    <a href="{filename}" class="read-more">Read Article →</a>
-  </div>
-</article>
-"""
-
-        blog_html = blog_html.replace(
-            marker,
-            marker + "\n" + card,
-            1
-        )
-
-        with open(blog_path, "w", encoding="utf-8") as file:
-            file.write(blog_html)
-
-    print(f"SUCCESS: Created {filename}")
-    print("Blog page updated successfully.")
-
+    blog_path.write_text(blog[:grid_end] + card + blog[grid_end:], encoding="utf-8")
+    print(f"Created post {post_number}: {filename}; image: {image_path}")
 
 if __name__ == "__main__":
-    generate_blog_post()
+    main()
