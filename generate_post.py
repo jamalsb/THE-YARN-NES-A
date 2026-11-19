@@ -144,13 +144,13 @@ SEO requirements:
     if primary_keyword.lower() not in title.lower():
         raise RuntimeError(f"Generated H1 does not contain the selected primary keyword: {primary_keyword}")
     safe_title = escape(title)
-    description_match = re.search(r"<!--\\s*SEO_DESCRIPTION:\\s*(.*?)\\s*-->", article, re.I | re.S)
+    description_match = re.search(r"<!--\s*SEO_DESCRIPTION:\s*(.*?)\s*-->", article, re.I | re.S)
     if not description_match:
         raise RuntimeError("Gemini response did not include the required SEO_DESCRIPTION comment.")
     description = plain(description_match.group(1))
     if not (120 <= len(description) <= 180):
         raise RuntimeError(f"SEO description length is outside the accepted range: {len(description)} characters")
-    article = re.sub(r"<!--\\s*SEO_DESCRIPTION:.*?-->", "", article, flags=re.I | re.S).strip()
+    article = re.sub(r"<!--\s*SEO_DESCRIPTION:.*?-->", "", article, flags=re.I | re.S).strip()
     excerpt = plain(article)
     excerpt = excerpt[:157].rsplit(" ", 1)[0] + "..." if len(excerpt) > 160 else excerpt
 
@@ -265,14 +265,14 @@ SEO requirements:
 """
     blog_path.write_text(blog[:grid_end] + card + blog[grid_end:], encoding="utf-8")
     sitemap_path.write_text(sitemap, encoding="utf-8")
-    history.setdefault("used", []).append({
+        history.setdefault("used", []).append({
         "primary": primary_keyword,
         "secondary": secondary_keywords,
         "title": title,
         "file": filename,
         "published_at": published_at
     })
-    history_path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    history_path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Created post {post_number}: {filename}; primary keyword: {primary_keyword}; image: {image_path}; sitemap updated.")
 
 if __name__ == "__main__":
