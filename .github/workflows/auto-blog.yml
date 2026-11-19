@@ -1,8 +1,7 @@
 name: Auto Generate HTML Blog Post
 
 on:
-  schedule:
-    - cron: '0 1 * * *'
+  # Manual runs only. Automatic publishing stays disabled until keywords are verified.
   workflow_dispatch:
 
 permissions:
