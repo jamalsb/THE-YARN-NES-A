@@ -162,7 +162,15 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
 <meta property="og:image" content="{image_url}">
 <script type="application/ld+json">{article_json}</script>
 <script type="application/ld+json">{breadcrumb_json}</script>
-<link rel="stylesheet" href="css/style.css"></head>
+<link rel="stylesheet" href="css/style.css">  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8H6KLQH6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZT8H6KLQH6');
+  </script>
+</head>
 <body><div class="container"><a href="blog.html">Back to Blog</a>
 <figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
 {article}
