@@ -51,7 +51,7 @@ def pixabay_image():
         try:
             html = html_file.read_text(encoding="utf-8")
             used_urls.update(re.findall(
-                r"href=['\\"](https?://(?:www\\.)?pixabay\\.com/[^'\\"]+)",
+                r'href="(https?://(?:www\.)?pixabay\.com/[^"]+)',
                 html, re.I
             ))
         except OSError:
