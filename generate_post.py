@@ -92,6 +92,7 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     safe_title = escape(title)
     excerpt = plain(article)
     excerpt = excerpt[:157].rsplit(" ", 1)[0] + "..." if len(excerpt) > 160 else excerpt
+    description = excerpt
 
     blog_path = ROOT / "blog.html"
     blog = blog_path.read_text(encoding="utf-8")
@@ -117,11 +118,19 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     now = datetime.datetime.now(datetime.timezone.utc)
     stamp = now.strftime("%Y-%m-%d-%H-%M-%S")
     filename = "post-" + stamp + ".html"
+    canonical_url = "https://www.theyarnnest.shop/" + filename
     image_path, credit_url = pixabay_image()
     page = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{safe_title}</title><link rel="stylesheet" href="css/style.css"></head>
+<title>{safe_title} | The Yarn Nest</title>
+<meta name="description" content="{escape(description, quote=True)}">
+<link rel="canonical" href="{canonical_url}">
+<meta property="og:title" content="{safe_title}">
+<meta property="og:description" content="{escape(description, quote=True)}">
+<meta property="og:url" content="{canonical_url}">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="css/style.css"></head>
 <body><div class="container"><a href="blog.html">Back to Blog</a>
 <figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
 {article}
@@ -130,6 +139,17 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     post_file = ROOT / filename
     if post_file.exists():
         raise RuntimeError("Refusing to overwrite an existing post.")
+
+    sitemap_path = ROOT / "sitemap.xml"
+    if not sitemap_path.exists():
+        raise RuntimeError("sitemap.xml not found; refusing to create a post without updating the sitemap.")
+    sitemap = sitemap_path.read_text(encoding="utf-8")
+    sitemap_entry = f"<url><loc>{canonical_url}</loc></url>"
+    if canonical_url not in sitemap:
+        if "</urlset>" not in sitemap:
+            raise RuntimeError("sitemap.xml has no closing urlset element.")
+        sitemap = sitemap.replace("</urlset>", f"  {sitemap_entry}\\n</urlset>")
+
     post_file.write_text(page, encoding="utf-8")
     card = f"""
 <!-- POST {post_number} - AUTO GENERATED -->
@@ -143,7 +163,8 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
 </div></article>
 """
     blog_path.write_text(blog[:grid_end] + card + blog[grid_end:], encoding="utf-8")
-    print(f"Created post {post_number}: {filename}; image: {image_path}")
+    sitemap_path.write_text(sitemap, encoding="utf-8")
+    print(f"Created post {post_number}: {filename}; image: {image_path}; sitemap updated.")
 
 if __name__ == "__main__":
     main()
