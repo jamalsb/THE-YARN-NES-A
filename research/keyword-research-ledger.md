@@ -163,3 +163,26 @@ The user's suggested strategy is to prioritize long-tail phrases that combine us
 6. Keep brand terms, local terms, Canada-specific terms, and wholesale/B2B terms in separate groups; assess relevance before targeting.
 7. Keep every candidate unverified until complete evidence is entered in keyword_bank.json. The generator's safe-stop rule must remain in place.
 8. Automated blog publishing stays disabled until the user explicitly approves a verified keyword workflow.
+
+
+## H. Editorial SEO rules and first-post queue
+
+### First proposed article
+- Primary keyword: easy yarn crafts
+- User-reported Ahrefs difficulty: Easy (exact KD score not supplied; still unverified)
+- Search volume: not supplied for this exact phrase
+- Proposed SEO title / H1: Easy Yarn Crafts: 12 Beginner-Friendly Ideas for Leftover Yarn
+- Related phrases to use naturally when relevant: what to do with leftover yarn; yarn crafts for kids; easy yarn projects for beginners; how to make yarn crafts
+- Search intent: practical craft ideas/tutorials. Confirm SERP intent before publishing.
+- Status: queued as first priority, NOT verified and NOT published.
+
+### Rules for every future article
+1. Select topics only from this research ledger and keyword_bank.json.
+2. Choose the easiest eligible keyword only after checking exact organic KD and target-country volume. Do not equate high volume with easy ranking.
+3. Put the exact primary keyword naturally in the SEO title/H1, meta description, introduction, and where appropriate a relevant subheading.
+4. Use closely related and secondary keywords naturally in the article body, headings, image alt text only when accurate, and FAQs where they genuinely answer the reader's questions. No keyword stuffing.
+5. Keep the article tightly aligned to the search intent. Do not force unrelated terms such as crochet, knitting, or yarn into an article if they do not fit the topic.
+6. Use a newly selected, unused, topic-relevant image for every article, or create an original image specifically for that article. Do not reuse an image from an earlier post. Verify image rights and provide attribution when required by the source.
+7. Include useful, original instructions, clear headings, FAQs, relevant internal links, descriptive image alt text, canonical URL, meta description, and valid structured data.
+8. Do not publish until keyword verification evidence is complete and the user explicitly approves publication. Keep automated publishing paused.
+
