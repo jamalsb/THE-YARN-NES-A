@@ -79,9 +79,39 @@ def pixabay_image():
     return "images/" + name, credit_url
 
 def main():
-    prompt = """Write a helpful English crochet blog article about modern amigurumi plush ideas.
-Return clean HTML only, with one h1 title, an introduction, 3-4 h2 sections,
-practical beginner-friendly advice, and a conclusion. No Markdown fences."""
+    # Select the next unused long-tail keyword candidate. These candidates are not live competition metrics.
+    bank_path = ROOT / "keyword_bank.json"
+    history_path = ROOT / "keyword_history.json"
+    if not bank_path.exists():
+        raise RuntimeError("keyword_bank.json is missing.")
+    bank = json.loads(bank_path.read_text(encoding="utf-8"))
+    history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {"used": []}
+    used = {item.get("primary", "").strip().lower() for item in history.get("used", [])}
+    candidates = [item for item in bank.get("keywords", []) if item.get("primary", "").strip().lower() not in used]
+    if not candidates:
+        raise RuntimeError("All keyword candidates have been used. Add and verify more keywords before publishing another post.")
+    keyword = candidates[0]
+    primary_keyword = keyword["primary"]
+    secondary_keywords = keyword.get("secondary", [])
+
+    prompt = f"""You are the SEO editor and expert crochet writer for The Yarn Nest.
+Write ONE genuinely useful, original, detailed blog article in English only.
+Chosen primary long-tail keyword: "{primary_keyword}"
+Related secondary keywords: {", ".join(secondary_keywords)}
+
+SEO requirements:
+- Use the exact primary keyword naturally in the H1 title and within the opening paragraph.
+- Use the primary keyword naturally in one relevant H2 where it reads well.
+- Include related secondary keywords naturally in relevant sections; never stuff keywords.
+- Write a compelling meta description of 140-160 characters that includes the primary keyword naturally.
+- Return that description in an HTML comment exactly like: <!-- SEO_DESCRIPTION: your description here -->
+- Use one H1, a helpful introduction, 4-6 informative H2 sections, practical step-by-step advice where relevant, a useful FAQ section, and a conclusion.
+- Aim for about 900-1,200 words of genuinely helpful content. Do not pad or repeat ideas.
+- Do not invent personal experience, product testing, measurements, or factual claims.
+- Do not target the same broad topic with a different title. Focus tightly on the chosen search intent.
+- Return clean HTML only. No Markdown fences, no outer html/head/body tags.
+"""
+
     # Retry temporary Gemini capacity/rate-limit errors instead of failing the workflow immediately.
     response = None
     for attempt in range(6):
@@ -111,10 +141,18 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     if not title_match:
         raise RuntimeError("Gemini response did not contain an h1 title.")
     title = plain(title_match.group(1))
+    if primary_keyword.lower() not in title.lower():
+        raise RuntimeError(f"Generated H1 does not contain the selected primary keyword: {primary_keyword}")
     safe_title = escape(title)
+    description_match = re.search(r"<!--\\s*SEO_DESCRIPTION:\\s*(.*?)\\s*-->", article, re.I | re.S)
+    if not description_match:
+        raise RuntimeError("Gemini response did not include the required SEO_DESCRIPTION comment.")
+    description = plain(description_match.group(1))
+    if not (120 <= len(description) <= 180):
+        raise RuntimeError(f"SEO description length is outside the accepted range: {len(description)} characters")
+    article = re.sub(r"<!--\\s*SEO_DESCRIPTION:.*?-->", "", article, flags=re.I | re.S).strip()
     excerpt = plain(article)
     excerpt = excerpt[:157].rsplit(" ", 1)[0] + "..." if len(excerpt) > 160 else excerpt
-    description = excerpt
 
     blog_path = ROOT / "blog.html"
     blog = blog_path.read_text(encoding="utf-8")
@@ -152,6 +190,7 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
         "mainEntityOfPage": {"@type": "WebPage", "@id": canonical_url},
         "headline": title,
         "description": description,
+        "keywords": ", ".join([primary_keyword] + secondary_keywords),
         "image": [image_url],
         "datePublished": published_at,
         "dateModified": published_at,
@@ -226,7 +265,15 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
 """
     blog_path.write_text(blog[:grid_end] + card + blog[grid_end:], encoding="utf-8")
     sitemap_path.write_text(sitemap, encoding="utf-8")
-    print(f"Created post {post_number}: {filename}; image: {image_path}; sitemap updated.")
+    history.setdefault("used", []).append({
+        "primary": primary_keyword,
+        "secondary": secondary_keywords,
+        "title": title,
+        "file": filename,
+        "published_at": published_at
+    })
+    history_path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    print(f"Created post {post_number}: {filename}; primary keyword: {primary_keyword}; image: {image_path}; sitemap updated.")
 
 if __name__ == "__main__":
     main()
