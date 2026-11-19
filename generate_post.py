@@ -87,9 +87,30 @@ def main():
     bank = json.loads(bank_path.read_text(encoding="utf-8"))
     history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {"used": []}
     used = {item.get("primary", "").strip().lower() for item in history.get("used", [])}
-    candidates = [item for item in bank.get("keywords", []) if item.get("primary", "").strip().lower() not in used]
+    def is_verified(item):
+        evidence = item.get("verification") or {}
+        difficulty = evidence.get("organic_difficulty")
+        volume = evidence.get("monthly_searches")
+        return (
+            item.get("status") == "verified"
+            and isinstance(evidence.get("source"), str) and evidence["source"].strip()
+            and isinstance(evidence.get("checked_at"), str) and evidence["checked_at"].strip()
+            and isinstance(volume, (int, float)) and volume >= 0
+            and isinstance(difficulty, (int, float)) and 0 <= difficulty <= 30
+            and isinstance(evidence.get("search_intent"), str) and evidence["search_intent"].strip()
+            and evidence.get("serp_review") is True
+        )
+    candidates = [
+        item for item in bank.get("keywords", [])
+        if item.get("primary", "").strip().lower() not in used and is_verified(item)
+    ]
     if not candidates:
-        raise RuntimeError("All keyword candidates have been used. Add and verify more keywords before publishing another post.")
+        raise RuntimeError(
+            "SAFE STOP: No unused keyword has verified evidence. "
+            "No article was generated or published. Verify a keyword first "
+            "(organic_difficulty 0-30, source, checked_at, monthly_searches, "
+            "search_intent, and serp_review=true)."
+        )
     keyword = candidates[0]
     primary_keyword = keyword["primary"]
     secondary_keywords = keyword.get("secondary", [])
