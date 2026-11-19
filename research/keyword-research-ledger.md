@@ -1,0 +1,144 @@
+# The Yarn Nest — Keyword Research Ledger
+
+Last updated: 2026-11-19
+Target market: United States (intended; country setting for the volume lists below has NOT yet been confirmed).
+Publishing status: Automated publishing remains paused. Do not trigger publishing workflows.
+Important: Search-volume ranges below are copied from the user's supplied research. They are not independently verified. KD is recorded only where the user explicitly reported Ahrefs showing "Easy". N/A means Ahrefs did not show a KD value, not that the keyword is easy or hard.
+
+## A. Crochet-related keywords with supplied volume
+
+| Keyword | Monthly volume range | Category |
+|---|---:|---|
+| crochet | 1M–10M | General / Main Category |
+| crochet top | 100K–1M | Clothing (Women's) |
+| woobles | 100K–1M | Brand / Kits |
+| crochet kits | 100K–1M | Supplies / Kits |
+| crochet patterns | 100K–1M | Tutorials / Designs |
+| crochet bag | 100K–1M | Accessories |
+| crochet sweater | 100K–1M | Clothing (Winter) |
+| amigurumi | 100K–1M | Toys / Stuffed Animals |
+| crochet for beginners | 100K–1M | Learning / Tutorials |
+| crochet hooks | 100K–1M | Tools / Equipment |
+| crochet hat | 100K–1M | Accessories (Headwear) |
+| crochet blanket | 100K–1M | Home Decor / Bedding |
+| crochet dresses | 100K–1M | Clothing (Women's) |
+| crochet flowers | 100K–1M | Decoration / Accessories |
+| the woobles | 10K–100K | Brand / Kits |
+| crochet cover up | 10K–100K | Clothing (Beachwear) |
+| crochet bucket hat | 10K–100K | Accessories (Headwear) |
+| crochet kits for beginners | 10K–100K | Supplies / Beginner Kits |
+| woobles crochet | 10K–100K | Brand / Tutorials |
+| crochet beach cover up | 10K–100K | Clothing (Beachwear) |
+| crochet beach dress | 10K–100K | Clothing (Beachwear) |
+| crochet shorts | 10K–100K | Clothing (Bottom wear) |
+| free crochet patterns | 10K–100K | Tutorials (Free) |
+| mens crochet shirt | 10K–100K | Clothing (Men's) |
+| crochet needle | 10K–100K | Tools / Equipment |
+| crochet shirt | 10K–100K | Clothing (Unisex) |
+| top crochet | 10K–100K | Clothing (Women's) |
+| crochet vest | 10K–100K | Clothing (Outerwear) |
+| prada crochet bag | 1K–10K | Luxury Fashion / Accessories |
+| crochet swim cover up | 1K–10K | Clothing (Swimwear) |
+| bernat velvet yarn | 1K–10K | Materials / Yarn Brand |
+| annie's crochet | 1K–10K | Brand / Patterns |
+
+## B. Yarn-related keywords with supplied volume
+
+| Keyword | Monthly volume range | Category |
+|---|---:|---|
+| yarn | 100K–1M | General / Main Category |
+| mohair | 100K–1M | Material / Fiber Type |
+| yarn store near me | 100K–1M | Local Business / Retail |
+| chunky yarn | 10K–100K | Material / Yarn Weight |
+| cotton yarn | 10K–100K | Material / Fiber Type |
+| red heart yarn | 10K–100K | Brand |
+| hobbii yarn | 10K–100K | Brand |
+| mohair yarn | 10K–100K | Material / Fiber Type |
+| chenille yarn | 10K–100K | Material / Yarn Texture |
+| malabrigo yarn | 10K–100K | Brand |
+| caron simply soft yarn | 10K–100K | Brand |
+| t shirt yarn | 10K–100K | Material / Specialty Yarn |
+| bernat yarn | 10K–100K | Brand |
+| sock yarn | 10K–100K | Material / Yarn Weight |
+| alize puffy | 10K–100K | Brand |
+| wool yarn | 10K–100K | Material / Fiber Type |
+| worsted weight yarn | 10K–100K | Material / Yarn Weight |
+| drops alpaca | 10K–100K | Brand / Material |
+| cashmere yarn | 10K–100K | Material / Fiber Type |
+| stylecraft special dk | 1K–10K | Brand / Yarn Weight |
+| aran wool | 1K–10K | Material / Yarn Weight |
+| scheepjes yarn | 1K–10K | Brand |
+| super chunky yarn | 1K–10K | Material / Yarn Weight |
+| chunky wool | 1K–10K | Material / Fiber & Weight |
+| yarn canada | 1K–10K | Local Business / Region |
+| yarn bee | 1K–10K | Brand |
+| scheepjes catona | 1K–10K | Brand / Specific Yarn Line |
+| wholesale yarn | 1K–10K | B2B / Bulk Buying |
+| velvet yarn | 1K–10K | Material / Yarn Texture |
+| bulky yarn | 1K–10K | Material / Yarn Weight |
+| norwegian wool | 1K–10K | Material / Origin |
+| malabrigo rios | 1K–10K | Brand / Specific Yarn Line |
+
+## C. Ahrefs Easy keywords reported by user
+
+These were explicitly reported by the user as marked Easy in Ahrefs Free Keyword Generator. Exact KD scores and monthly volumes were not supplied for these phrases.
+
+- yarn crafts
+- yarn crafts for kids
+- easy yarn crafts for kids
+- easy yarn crafts
+- crafts what to do with leftover yarn
+- how to crochet
+- how to crochet a granny square
+- how to crochet a blanket
+- how to crochet for beginners
+- how to crochet a heart
+
+## D. Other Ahrefs question keywords; KD shown as N/A by user
+
+N/A means KD was not available in the free-tool result. Do not label these Easy.
+
+- what are the most popular yarn crafts right now?
+- how to make yarn stiff for crafts?
+- how to make crafts with yarn
+- what crafts can i do with...
+
+## E. Additional selected keyword ideas (volume and KD not yet checked)
+
+### Yarn crafts / DIY
+- how to make yarn crafts
+- how to make easy yarn crafts for kids
+- how to use leftover yarn for crafts
+- how to make yarn decorations at home
+- how to make yarn flowers
+- how to make yarn pom poms
+- how to make yarn wall hangings
+- how to make yarn projects
+- how to make DIY yarn crafts
+- how to make handmade yarn crafts
+
+### Crochet
+- how to make simple crochet projects
+- crochet patterns for beginners
+- crochet stitches
+
+### Knitting
+- how to knit for beginners
+- how to make easy knitting projects
+
+### Yarn art
+- how to make yarn art
+
+### Macrame
+- how to make macrame crafts
+
+## F. Research rules / next steps
+
+1. Confirm that each supplied volume range is for United States, English, and Google. Until confirmed, keep country as unconfirmed.
+2. For each priority keyword, record exact Ahrefs KD score (if shown), volume, source, date checked, and a brief Google SERP review.
+3. Do not confuse Google Ads Competition with organic SEO Keyword Difficulty.
+4. Do not infer that high-volume keywords are easy. Volume and KD are separate metrics.
+5. Deduplicate close variants before planning articles, while retaining distinct search intent where appropriate.
+6. Keep brand terms, local terms, Canada-specific terms, and wholesale/B2B terms in separate groups; assess relevance before targeting.
+7. Keep every candidate unverified until complete evidence is entered in keyword_bank.json. The generator's safe-stop rule must remain in place.
+8. Automated blog publishing stays disabled until the user explicitly approves a verified keyword workflow.
