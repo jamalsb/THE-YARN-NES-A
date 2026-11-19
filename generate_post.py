@@ -120,6 +120,35 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     filename = "post-" + stamp + ".html"
     canonical_url = "https://www.theyarnnest.shop/" + filename
     image_path, credit_url = pixabay_image()
+    image_url = "https://www.theyarnnest.shop/" + image_path
+    published_at = now.isoformat(timespec="seconds").replace("+00:00", "Z")
+
+    # Structured data for search engines: BlogPosting + BreadcrumbList.
+    article_schema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": canonical_url},
+        "headline": title,
+        "description": description,
+        "image": [image_url],
+        "datePublished": published_at,
+        "dateModified": published_at,
+        "author": {"@type": "Organization", "name": "The Yarn Nest"},
+        "publisher": {"@type": "Organization", "name": "The Yarn Nest"},
+        "articleSection": "Crochet Ideas",
+        "inLanguage": "en"
+    }
+    breadcrumb_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.theyarnnest.shop/"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.theyarnnest.shop/blog.html"},
+            {"@type": "ListItem", "position": 3, "name": title, "item": canonical_url}
+        ]
+    }
+    article_json = json.dumps(article_schema, ensure_ascii=False).replace("<", "\\u003c")
+    breadcrumb_json = json.dumps(breadcrumb_schema, ensure_ascii=False).replace("<", "\\u003c")
     page = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -130,6 +159,9 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
 <meta property="og:description" content="{escape(description, quote=True)}">
 <meta property="og:url" content="{canonical_url}">
 <meta property="og:type" content="article">
+<meta property="og:image" content="{image_url}">
+<script type="application/ld+json">{article_json}</script>
+<script type="application/ld+json">{breadcrumb_json}</script>
 <link rel="stylesheet" href="css/style.css"></head>
 <body><div class="container"><a href="blog.html">Back to Blog</a>
 <figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
