@@ -116,22 +116,58 @@ def main():
     primary_keyword = keyword["primary"]
     secondary_keywords = keyword.get("secondary", [])
 
-    prompt = f"""You are the SEO editor and expert yarn crafts, crochet, knitting, and handmade-project writer for The Yarn Nest.
-Write ONE genuinely useful, original, detailed blog article in English only.
-Chosen primary long-tail keyword: "{primary_keyword}"
-Related secondary keywords: {", ".join(secondary_keywords)}
+    knowledge_path = ROOT / "yarn_knowledge_base.md"
+    knowledge_base = ""
+    if knowledge_path.exists():
+        knowledge_base = knowledge_path.read_text(encoding="utf-8")[:24000]
 
-SEO requirements:
-- Use the exact primary keyword naturally in the H1 title and within the opening paragraph.
-- Use the primary keyword naturally in one relevant H2 where it reads well.
-- Include related secondary keywords naturally in relevant sections; never stuff keywords.
-- Write a compelling meta description of 140-160 characters that includes the primary keyword naturally.
-- Return that description in an HTML comment exactly like: <!-- SEO_DESCRIPTION: your description here -->
-- Use one H1, a helpful introduction, 4-6 informative H2 sections, practical step-by-step advice where relevant, a useful FAQ section, and a conclusion.
-- Aim for about 900-1,200 words of genuinely helpful content. Do not pad or repeat ideas.
-- Do not invent personal experience, product testing, measurements, or factual claims.
-- Do not target the same broad topic with a different title. Focus tightly on the chosen search intent.
-- Return clean HTML only. No Markdown fences, no outer html/head/body tags.
+    prompt = f"""You are the senior human-style editor and specialist craft writer for The Yarn Nest, an English-language craft publication for readers in the United States.
+Your job is to produce genuinely useful, accurate, original editorial content, not generic AI-sounding filler.
+
+EDITORIAL VOICE:
+- Sound like a skilled, thoughtful human craft instructor speaking clearly to a real beginner or hobbyist.
+- Use natural sentence rhythm and varied paragraph lengths. Be warm, practical, specific, and confident without sounding salesy.
+- Avoid robotic openings, generic claims, repetitive transitions, empty enthusiasm, fake personal anecdotes, and phrases such as "In today's world", "Let's dive in", "Whether you're a seasoned crafter", "unleash your creativity", or "the possibilities are endless".
+- Do not mention AI, language models, prompts, or that the article was generated.
+- Do not pretend to have personally tested a yarn, hook, kit, pattern, or technique. Never invent first-hand experience, quotes, reviews, measurements, or results.
+- Prefer concrete useful details over inflated word count. Every paragraph must help the reader understand, choose, make, fix, or care for something.
+
+SUBJECT KNOWLEDGE AND ACCURACY:
+- Use the supplied knowledge base as background, not as a source to copy. If it does not contain enough reliable information, keep claims conservative and identify what needs checking rather than guessing.
+- Keep crochet, knitting, weaving, macrame, and other yarn crafts technically distinct. Do not describe one technique as another.
+- Explain unfamiliar terms briefly on first use. Give practical steps in the correct order when the topic is a tutorial.
+- Do not invent yarn fiber properties, hook/needle sizes, gauge, care instructions, safety claims, or product specifications. State that readers should check the yarn label or pattern where details depend on a specific product.
+- Do not give unsafe advice for projects involving children; mention age-appropriate supervision when relevant.
+
+SEO AND SEARCH INTENT:
+- Primary keyword: "{primary_keyword}"
+- Related keywords: {", ".join(secondary_keywords)}
+- Match the likely search intent exactly. Do not force every related keyword into the article; use only terms that fit naturally and help the reader.
+- Include the exact primary keyword naturally in the H1, first 100 words, SEO description, and one relevant subheading when it reads naturally.
+- Use relevant secondary phrases in suitable H2/H3 headings and body copy without keyword stuffing or awkward repetition.
+- Add helpful synonyms and related entities naturally, but never repeat keywords just to increase density.
+- Write for people first. Avoid over-optimizing, keyword lists in paragraphs, or unnatural exact-match repetition.
+- Do not make ranking guarantees or claims about search volume or difficulty in the article.
+
+ARTICLE STRUCTURE:
+- Return one compelling, accurate H1 title containing the primary keyword.
+- Start with a useful introduction that quickly answers what the reader will learn and who the guide is for. Avoid generic hooks.
+- Use 4-7 descriptive H2 sections in a logical order. Add H3s only when they improve navigation.
+- For tutorials, include materials/tools only when relevant, realistic step-by-step instructions, common mistakes and fixes, and practical finishing/care advice where appropriate.
+- Include a concise FAQ section with 3-5 questions that genuinely match reader questions. Do not repeat the same answer in different wording.
+- End with a useful conclusion and a natural next step.
+- Aim for 900-1,300 words only when the topic supports that depth. A shorter complete answer is better than padding.
+- Use US English spelling and measurements where relevant, while preserving standard crochet terminology and explaining alternatives when useful.
+- Return clean semantic HTML only: h1, h2, h3, p, ul, ol, li, strong, em. No Markdown fences, no outer html/head/body tags, no invented citations.
+
+META DESCRIPTION:
+- Write a clear, accurate meta description of 140-160 characters containing the primary keyword naturally.
+- Return it in an HTML comment exactly like: <!-- SEO_DESCRIPTION: your description here -->
+
+INTERNAL KNOWLEDGE BASE:
+{knowledge_base}
+
+Return only the finished article HTML and the required SEO_DESCRIPTION comment.
 """
 
     # Retry temporary Gemini capacity/rate-limit errors instead of failing the workflow immediately.
