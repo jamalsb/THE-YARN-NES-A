@@ -132,6 +132,27 @@ N/A means KD was not available in the free-tool result. Do not label these Easy.
 ### Macrame
 - how to make macrame crafts
 
+
+## G. User-provided shortlist: proposed high-volume / lower-competition yarn keywords
+
+The following shortlist and difficulty labels were supplied in a later user message. Treat the volume ranges as user-provided and the difficulty labels as unverified estimates, NOT confirmed Ahrefs KD measurements. No keyword in this section is eligible for publishing until independently checked and fully verified.
+
+| Keyword | Monthly volume range | User-provided difficulty label | Research note |
+|---|---:|---|---|
+| t shirt yarn | 10K–100K | Easy-Medium | Relevant specialty yarn topic |
+| chenille yarn | 10K–100K | Easy-Medium | Relevant yarn texture/material |
+| malabrigo yarn | 10K–100K | Easy-Medium | Brand query; assess product-review intent |
+| bernat yarn | 10K–100K | Easy | Brand query; assess product-review intent |
+| caron simply soft yarn | 10K–100K | Easy | Specific brand/product query |
+| worsted weight yarn | 10K–100K | Easy-Medium | Yarn weight education/tutorial topic |
+| drops alpaca | 10K–100K | Easy | Brand/material query; spelling is DROPS Alpaca |
+| stylecraft special dk | 1K–10K | Very Easy | Brand/yarn line; UK-oriented audience may be stronger |
+| scheepjes catona | 1K–10K | Very Easy | Brand/yarn line; validate US demand |
+| velvet yarn | 1K–10K | Easy | Material/texture topic |
+
+The user's suggested strategy is to prioritize long-tail phrases that combine useful volume with low organic difficulty. This is a sensible research direction, but it is not evidence that these phrases will rank quickly. The term "yarn store near me" is a local-business query and is not a priority for a non-local craft tutorial blog unless the site offers a relevant local store/service.
+
+
 ## F. Research rules / next steps
 
 1. Confirm that each supplied volume range is for United States, English, and Google. Until confirmed, keep country as unconfirmed.
