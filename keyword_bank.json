@@ -1,5 +1,5 @@
 {
-  "note": "All keyword candidates start as unverified. A keyword can be published only after a human adds status='verified' and complete verification evidence: source, checked_at, monthly_searches, organic_difficulty (0-30), search_intent, and serp_review=true. Candidate phrases are not verified metrics.",
+  "note": "All keyword candidates start as unverified. A keyword can be published only after a human adds status='verified' and complete verification evidence: source, checked_at, monthly_searches, organic_difficulty (0-30), search_intent, and serp_review=true. Candidate phrases are not verified metrics. Ahrefs-reported Easy keywords are research priorities only until full evidence is recorded.",
   "keywords": [
     {
       "primary": "how to crochet a granny square",
@@ -300,6 +300,78 @@
       ],
       "status": "unverified",
       "verification": null
+    },
+    {
+      "primary": "how to crochet",
+      "secondary": [
+        "crochet for beginners",
+        "learn crochet step by step"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Ahrefs Free Keyword Generator; user reported Easy"
+    },
+    {
+      "primary": "crochet patterns for beginners",
+      "secondary": [
+        "easy crochet patterns",
+        "beginner crochet projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Ahrefs Free Keyword Generator; user reported Easy"
+    },
+    {
+      "primary": "crochet stitches",
+      "secondary": [
+        "basic crochet stitches",
+        "crochet stitch tutorial"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Ahrefs Free Keyword Generator; user reported Easy"
+    },
+    {
+      "primary": "how to crochet a blanket",
+      "secondary": [
+        "easy crochet blanket tutorial",
+        "crochet blanket for beginners"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Ahrefs Questions section; user-provided keyword list"
+    },
+    {
+      "primary": "how to crochet for beginners",
+      "secondary": [
+        "learn how to crochet for beginners",
+        "crochet basics tutorial"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Ahrefs Questions section; user-provided keyword list"
+    },
+    {
+      "primary": "how to crochet a heart",
+      "secondary": [
+        "easy crochet heart pattern",
+        "small crochet heart tutorial"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Ahrefs Questions section; user-provided keyword list"
     }
   ]
 }
