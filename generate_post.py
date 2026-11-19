@@ -166,7 +166,7 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8H6KLQH6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){{dataLayer.push(arguments);}}
     gtag('js', new Date());
     gtag('config', 'G-ZT8H6KLQH6');
   </script>
