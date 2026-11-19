@@ -148,7 +148,7 @@ practical beginner-friendly advice, and a conclusion. No Markdown fences."""
     if canonical_url not in sitemap:
         if "</urlset>" not in sitemap:
             raise RuntimeError("sitemap.xml has no closing urlset element.")
-        sitemap = sitemap.replace("</urlset>", f"  {sitemap_entry}\\n</urlset>")
+        sitemap = sitemap.replace("</urlset>", f"  {sitemap_entry}\n</urlset>")
 
     post_file.write_text(page, encoding="utf-8")
     card = f"""
