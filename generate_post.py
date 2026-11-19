@@ -265,7 +265,7 @@ SEO requirements:
 """
     blog_path.write_text(blog[:grid_end] + card + blog[grid_end:], encoding="utf-8")
     sitemap_path.write_text(sitemap, encoding="utf-8")
-        history.setdefault("used", []).append({
+    history.setdefault("used", []).append({
         "primary": primary_keyword,
         "secondary": secondary_keywords,
         "title": title,
