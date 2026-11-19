@@ -34,7 +34,7 @@ def pixabay_image():
     if data is None:
         r = requests.get("https://pixabay.com/api/", params={
             "key": PIXABAY_KEY, "q": "crochet amigurumi yarn craft",
-            "image_type": "photo", "safesearch": "true", "per_page": 20,
+            "image_type": "photo", "safesearch": "true", "per_page": 50,
             "order": "popular"
         }, timeout=30)
         r.raise_for_status()
@@ -43,10 +43,32 @@ def pixabay_image():
             raise RuntimeError("Pixabay returned no images.")
         cache.parent.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps({"saved": time.time(), "data": data}), encoding="utf-8")
-    hit = random.choice(data["hits"])
+
+    # Read attribution URLs already used by published pages so a cached Pixabay
+    # result cannot be selected again for another post.
+    used_urls = set()
+    for html_file in ROOT.glob("*.html"):
+        try:
+            html = html_file.read_text(encoding="utf-8")
+            used_urls.update(re.findall(
+                r'href=["\\'](https?://(?:www\\.)?pixabay\\.com/[^"\\']+)',
+                html, re.I
+            ))
+        except OSError:
+            continue
+
+    available = [
+        hit for hit in data.get("hits", [])
+        if hit.get("pageURL") and hit.get("webformatURL")
+        and hit.get("pageURL") not in used_urls
+    ]
+    if not available:
+        raise RuntimeError(
+            "No unused Pixabay images remain in the cached results. "
+            "Refresh the Pixabay cache or expand the search before generating another post."
+        )
+    hit = random.choice(available)
     image_url, credit_url = hit.get("webformatURL"), hit.get("pageURL")
-    if not image_url or not credit_url:
-        raise RuntimeError("Pixabay result has no image or attribution URL.")
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d-%H%M%S")
     folder = ROOT / "images"
     folder.mkdir(exist_ok=True)
