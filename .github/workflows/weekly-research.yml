@@ -1,0 +1,46 @@
+name: Weekly Yarn Nest Research (No Publishing)
+
+on:
+  schedule:
+    - cron: "0 10 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yarn-nest-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Gemini SDK
+        run: pip install "google-genai<3"
+
+      - name: Discover new yarn and craft topics with Gemini and Google Search
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_RESEARCH_MODEL: gemini-3.8-flash
+        run: python research_keywords.py
+
+      - name: Commit research only
+        run: |
+          git config user.name "YarnNest Research Bot"
+          git config user.email "research-bot@yarnnest.local"
+          git add research/discovered_keywords.json research/ongoing-research.md
+          if git diff --cached --quiet; then
+            echo "No new research changes to commit."
+            exit 0
+          fi
+          git commit -m "Update weekly yarn and craft keyword research"
+          git push
