@@ -21,8 +21,9 @@ def plain(html):
     parser.feed(html)
     return re.sub(r"\s+", " ", unescape(" ".join(parser.parts))).strip()
 
-def pixabay_image():
-    cache = ROOT / ".cache" / "pixabay.json"
+def pixabay_image(search_query):
+    cache_key = re.sub(r"[^a-z0-9]+", "-", search_query.lower()).strip("-")[:60] or "yarn-crafts"
+    cache = ROOT / ".cache" / f"pixabay-{cache_key}.json"
     data = None
     if cache.exists():
         try:
@@ -33,7 +34,7 @@ def pixabay_image():
             data = None
     if data is None:
         r = requests.get("https://pixabay.com/api/", params={
-            "key": PIXABAY_KEY, "q": "crochet amigurumi yarn craft",
+            "key": PIXABAY_KEY, "q": search_query,
             "image_type": "photo", "safesearch": "true", "per_page": 50,
             "order": "popular"
         }, timeout=30)
@@ -72,7 +73,7 @@ def pixabay_image():
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d-%H%M%S")
     folder = ROOT / "images"
     folder.mkdir(exist_ok=True)
-    name = f"crochet-{stamp}.jpg"
+    name = f"yarn-craft-{stamp}.jpg"
     response = requests.get(image_url, timeout=45)
     response.raise_for_status()
     (folder / name).write_bytes(response.content)
@@ -115,7 +116,7 @@ def main():
     primary_keyword = keyword["primary"]
     secondary_keywords = keyword.get("secondary", [])
 
-    prompt = f"""You are the SEO editor and expert crochet writer for The Yarn Nest.
+    prompt = f"""You are the SEO editor and expert yarn crafts, crochet, knitting, and handmade-project writer for The Yarn Nest.
 Write ONE genuinely useful, original, detailed blog article in English only.
 Chosen primary long-tail keyword: "{primary_keyword}"
 Related secondary keywords: {", ".join(secondary_keywords)}
@@ -200,7 +201,8 @@ SEO requirements:
     stamp = now.strftime("%Y-%m-%d-%H-%M-%S")
     filename = "post-" + stamp + ".html"
     canonical_url = "https://www.theyarnnest.shop/" + filename
-    image_path, credit_url = pixabay_image()
+    image_query = primary_keyword + " yarn craft"
+    image_path, credit_url = pixabay_image(image_query)
     image_url = "https://www.theyarnnest.shop/" + image_path
     published_at = now.isoformat(timespec="seconds").replace("+00:00", "Z")
 
@@ -217,7 +219,7 @@ SEO requirements:
         "dateModified": published_at,
         "author": {"@type": "Organization", "name": "The Yarn Nest"},
         "publisher": {"@type": "Organization", "name": "The Yarn Nest"},
-        "articleSection": "Crochet Ideas",
+        "articleSection": "Yarn Crafts",
         "inLanguage": "en"
     }
     breadcrumb_schema = {
@@ -277,7 +279,7 @@ SEO requirements:
 <!-- POST {post_number} - AUTO GENERATED -->
 <article class="blog-card"><div class="blog-img">
 <img src="{escape(image_path, quote=True)}" alt="{safe_title}">
-<span class="blog-cat">Crochet Ideas</span></div>
+<span class="blog-cat">Yarn Crafts</span></div>
 <div class="blog-content"><span class="blog-date">{now.strftime("%B %d, %Y")}</span>
 <h3><a href="{filename}">{safe_title}</a></h3><p>{escape(excerpt)}</p>
 <a href="{filename}" class="read-more">Read Article</a>
