@@ -50,3 +50,42 @@ For every new topic, add verified notes here after checking trustworthy sources 
 - Include troubleshooting only when it is relevant to the project.
 - Use FAQs to answer genuine follow-up questions, not to repeat keywords.
 - Avoid filler, keyword stuffing, fabricated experience, and guaranteed SEO claims.
+
+
+## Google Search Console observations — checked 2026-11-20
+
+These are early site-specific search signals supplied by the site owner from Google Search Console for the displayed period ending 2026-11-17. They are observations, not validated keyword-volume or ranking-difficulty metrics. The reported queries and impressions were:
+- "how do i choose the right yarn for a delicate shawl project?" — 5 impressions, 0 clicks
+- "how to choose the right yarn for a beginner project?" — 3 impressions, 0 clicks
+- "what yarn weight works best for a beginner crochet blanket?" — 2 impressions, 0 clicks
+- "what factors should i keep in mind when selecting yarn for crochet projects?" — 1 impression, 0 clicks
+- "good yarn for crocheting" — query observed; impression count not supplied
+
+Editorial use:
+- Treat these as promising early topic clues, not proven high-volume or low-competition keywords.
+- Prefer closely related useful topics around choosing yarn by project, fiber, yarn weight, and beginner needs.
+- Recheck Search Console periodically. Compare impressions, clicks, CTR, and average position over a meaningful period before calling a query a winner.
+- Do not claim that these queries generated clicks; the supplied click counts were zero.
+- Keep the exact query wording natural. Improve titles for clarity and reader usefulness rather than copying awkward question phrasing verbatim.
+
+## Product and market research notes — Amazon US snapshot, checked 2026-11-20
+
+A third-party daily tracker of Amazon.com's Knitting & Crochet Best Sellers recorded these products/categories near the top of its 2026-11-20 snapshot:
+- Red Heart Super Saver Economy Yarn — recorded #1 in the overall Knitting & Crochet list.
+- Chunky chenille yarn and other bulky blanket yarns appeared near the top of the list in the preceding 2026-11-19 snapshot.
+- Beginner crochet kits, multi-size crochet hook sets, cotton yarn, baby blanket yarn, tapestry needles, and yarn storage bags also appeared in the tracked top 100.
+- A separate August 2026 Amazon listing benchmark reported strong representation for yarn, crochet kits, crochet hooks, notions, and yarn storage. It described listing content and review benchmarks, not unit sales.
+
+Research limitations and editorial rules:
+- Best Seller rank is a relative marketplace ranking, not a verified number of units sold or revenue. Never say "most sold" or give sales volumes unless a reliable source provides them.
+- Rankings, prices, stock, reviews, and product specifications change. Recheck the live Amazon category and manufacturer product pages before publishing current product comparisons.
+- For product-specific claims, prefer manufacturer pages and product labels for fiber content, yarn weight, yardage, hook/needle recommendations, care, and availability.
+- Do not invent prices, ratings, sales counts, stock, or product tests. Clearly date any marketplace snapshot.
+- Useful product-led editorial clusters include: beginner crochet kits; acrylic/worsted yarn for beginners; chunky chenille and blanket yarn; cotton yarn for dishcloths and bags; baby blanket yarn; ergonomic crochet hooks; tapestry needles and stitch markers; yarn bowls/holders and storage bags; yarn weights and fiber comparisons.
+- Keep informational tutorials distinct from commercial buying guides. Add pros/cons only when supported by verified specifications and clear use cases.
+
+Sources checked:
+- Amazon Knitting & Crochet Best Sellers tracker snapshot (2026-11-20): https://parseshelf.com/best-sellers/arts-crafts/12897221-knitting-and-crochet/
+- Amazon Yarn listing content benchmark (August 2026): https://www.cohley.com/amazon-content-benchmarks/arts-crafts-and-sewing/knitting-and-crochet/yarn
+- Amazon Crochet Kits listing benchmark (August 2026): https://www.cohley.com/amazon-content-benchmarks/arts-crafts-and-sewing/knitting-and-crochet/crochet-kits
+- Amazon Knitting & Crochet Notions benchmark (August 2026): https://www.cohley.com/amazon-content-benchmarks/arts-crafts-and-sewing/knitting-and-crochet/knitting-and-crochet-notions
