@@ -1314,6 +1314,83 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "woobles yarn",
+      "secondary": [],
+      "category": "brand-specific yarn",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "bernat blanket",
+      "secondary": [],
+      "category": "brand / product line",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "crochet cotton thread",
+      "secondary": [],
+      "category": "crochet / cotton thread",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "woobles easy peasy yarn",
+      "secondary": [],
+      "category": "brand / product line",
+      "reported_volume_range": "100-1K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "crochet wool",
+      "secondary": [],
+      "category": "crochet / wool",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "bernat softee chunky yarn",
+      "secondary": [],
+      "category": "brand / product line",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "lion brand wool ease",
+      "secondary": [],
+      "category": "brand / wool blend",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
     }
   ],
   "keyword_strategy": {
