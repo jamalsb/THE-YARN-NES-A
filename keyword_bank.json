@@ -1127,6 +1127,193 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "drops cotton merino",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "alize cotton gold",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "mercerized cotton",
+      "secondary": [],
+      "category": "cotton fiber / finish",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "pima cotton yarn",
+      "secondary": [],
+      "category": "cotton fiber",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "organic cotton yarn",
+      "secondary": [],
+      "category": "cotton fiber",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "chunky cotton yarn",
+      "secondary": [],
+      "category": "cotton yarn / yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "dk cotton yarn",
+      "secondary": [],
+      "category": "cotton yarn / yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "cotton blend yarn",
+      "secondary": [],
+      "category": "cotton yarn / blend",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "sport weight cotton yarn",
+      "secondary": [],
+      "category": "cotton yarn / yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "worsted weight cotton yarn",
+      "secondary": [],
+      "category": "cotton yarn / yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "bernat handcrafter cotton yarn",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "lily sugar and cream yarn",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "lion brand 24 7 cotton",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "peaches and cream yarn",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "bamboo cotton",
+      "secondary": [],
+      "category": "cotton blend / fiber",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "dishie yarn",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "100-1K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "catania yarn",
+      "secondary": [],
+      "category": "cotton yarn / brand-product",
+      "reported_volume_range": "100-1K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
     }
   ],
   "keyword_strategy": {
