@@ -517,6 +517,69 @@
       "target_country": "US",
       "research_priority": "high",
       "source_note": "User-provided Ubersuggest result on 2026-11-20: volume >1,000; KD unavailable (N/A). Needs difficulty and SERP review."
+    },
+    {
+      "primary": "yarn crochet",
+      "secondary": [
+        "crochet yarn ideas",
+        "yarn for crochet projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 8 days ago. Exact current volume and SERP review not verified."
+    },
+    {
+      "primary": "scrap yarn crochet projects",
+      "secondary": [
+        "crochet projects with scrap yarn",
+        "small crochet projects using leftover yarn",
+        "what to crochet with yarn scraps"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 2026-11-07. Exact current volume and SERP review not verified."
+    },
+    {
+      "primary": "chunky yarn crochet patterns",
+      "secondary": [
+        "crochet patterns using chunky yarn",
+        "easy chunky yarn crochet projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 8 days ago. Related to existing 'chunky yarn' cluster; check SERP intent and existing-post overlap before planning an article."
+    },
+    {
+      "primary": "super bulky yarn crochet patterns",
+      "secondary": [
+        "super bulky yarn crochet projects",
+        "crochet patterns with super bulky yarn",
+        "easy super bulky crochet patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 2026-10-24. Exact current volume and SERP review not verified."
+    },
+    {
+      "primary": "bernat blanket yarn crochet patterns",
+      "secondary": [
+        "crochet patterns using Bernat Blanket yarn",
+        "Bernat Blanket yarn projects",
+        "easy Bernat Blanket crochet patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume not supplied. Related to existing 'bernat blanket yarn' cluster; check SERP intent and existing-post overlap before planning an article."
     }
   ]
 }
