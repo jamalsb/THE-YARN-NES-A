@@ -452,6 +452,71 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "Google Search Console query observed by owner on 2026-11-20; impression count not supplied. Search volume, difficulty and SERP review not verified."
+    },
+    {
+      "primary": "bernat blanket yarn",
+      "secondary": [
+        "bernat blanket yarn projects",
+        "bernat blanket yarn patterns",
+        "bernat blanket yarn alternatives"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >10,000. Related terms are research ideas only; exact metrics and SERP review not verified."
+    },
+    {
+      "primary": "chunky yarn",
+      "secondary": [
+        "chunky yarn projects",
+        "best chunky yarn for crochet blankets",
+        "what to make with chunky yarn"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided Ubersuggest keyword suggestion on 2026-11-20. KD and volume were not supplied; needs further research."
+    },
+    {
+      "primary": "what is worsted weight yarn",
+      "secondary": [
+        "worsted weight yarn meaning",
+        "worsted yarn weight guide",
+        "worsted weight yarn projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >1,000. Exact monthly volume and Google SERP review not verified."
+    },
+    {
+      "primary": "what is dk weight yarn",
+      "secondary": [
+        "what is dk yarn",
+        "dk yarn weight guide",
+        "dk weight yarn projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >1,000. 'what is dk yarn' grouped as a close variant, not a separate article. Exact monthly volume and SERP review not verified."
+    },
+    {
+      "primary": "how to choose high quality crochet yarn",
+      "secondary": [
+        "how to choose yarn for crochet projects",
+        "what makes crochet yarn good quality",
+        "best yarn for beginner crochet projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: volume >1,000; KD unavailable (N/A). Needs difficulty and SERP review."
     }
   ]
 }
