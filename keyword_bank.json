@@ -387,6 +387,71 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "Ahrefs Questions section; user-provided keyword list"
+    },
+    {
+      "primary": "how do i choose the right yarn for a delicate shawl project",
+      "secondary": [
+        "best yarn for a crochet shawl",
+        "how to choose yarn for shawls",
+        "yarn fiber and weight for delicate shawls"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Google Search Console observation checked 2026-11-20: 5 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+    },
+    {
+      "primary": "how to choose the right yarn for a beginner project",
+      "secondary": [
+        "best beginner yarn for crochet",
+        "how to choose yarn for crochet beginners",
+        "beginner yarn weight guide"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Google Search Console observation checked 2026-11-20: 3 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+    },
+    {
+      "primary": "what yarn weight works best for a beginner crochet blanket",
+      "secondary": [
+        "best yarn weight for crochet blanket",
+        "beginner blanket yarn weight",
+        "how to choose blanket yarn"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Google Search Console observation checked 2026-11-20: 2 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+    },
+    {
+      "primary": "what factors should i keep in mind when selecting yarn for crochet projects",
+      "secondary": [
+        "how to choose yarn for crochet projects",
+        "crochet yarn fiber guide",
+        "crochet yarn weight and texture"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Google Search Console observation checked 2026-11-20: 1 impression, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+    },
+    {
+      "primary": "good yarn for crocheting",
+      "secondary": [
+        "best yarn for crochet projects",
+        "beginner friendly crochet yarn",
+        "types of yarn for crochet"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Google Search Console query observed by owner on 2026-11-20; impression count not supplied. Search volume, difficulty and SERP review not verified."
     }
   ]
 }
