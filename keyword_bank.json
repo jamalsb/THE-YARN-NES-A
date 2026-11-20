@@ -580,6 +580,212 @@
       "target_country": "US",
       "research_priority": "high",
       "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume not supplied. Related to existing 'bernat blanket yarn' cluster; check SERP intent and existing-post overlap before planning an article."
+    },
+    {
+      "primary": "amigurumi yarn",
+      "secondary": [
+        "best yarn for amigurumi",
+        "yarn for crochet toys"
+      ],
+      "category": "Amigurumi / toy yarn",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and exact volume not supplied; SERP review pending."
+    },
+    {
+      "primary": "the woobles yarn",
+      "secondary": [
+        "wobbles yarn",
+        "woobles easy peasy yarn"
+      ],
+      "category": "Brand-specific / beginner amigurumi yarn",
+      "target_role": "secondary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided screenshot transcription: 'wobbles yarn' volume 1K-10K and 'woobles easy peasy yarn' 100-1K. Brand spelling normalized to The Woobles; verify search wording and trademark/brand intent before targeting."
+    },
+    {
+      "primary": "easy peasy yarn",
+      "secondary": [
+        "woobles easy peasy yarn"
+      ],
+      "category": "Beginner-friendly yarn / brand-specific",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K; related long-tail 'woobles easy peasy yarn' 100-1K. KD and SERP review pending."
+    },
+    {
+      "primary": "caron cotton cakes",
+      "secondary": [
+        "caron blossom cakes",
+        "caron cakes yarn"
+      ],
+      "category": "Brand-specific / cotton and cake yarn",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: each related brand phrase reported 1K-10K. Group related Caron cake terms for intent review; do not assume interchangeable product specifications."
+    },
+    {
+      "primary": "bernat softee chunky",
+      "secondary": [
+        "chunky yarn for crochet",
+        "bernat chunky yarn"
+      ],
+      "category": "Brand-specific / chunky yarn",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending."
+    },
+    {
+      "primary": "crochet cotton",
+      "secondary": [
+        "crochet cotton thread",
+        "cotton yarn for crochet"
+      ],
+      "category": "Generic material / cotton crochet",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: 'crochet cotton' and 'crochet cotton thread' reported 1K-10K. SERP intent needs separating between yarn and thread."
+    },
+    {
+      "primary": "lion brand mandala yarn",
+      "secondary": [
+        "lion brand wool ease",
+        "lion brand yarn"
+      ],
+      "category": "Brand-specific / yarn lines",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: Lion Brand Mandala and Wool-Ease phrases reported 1K-10K. Keep distinct products/intent if SERPs differ; KD and SERP review pending."
+    },
+    {
+      "primary": "hobbii twister",
+      "secondary": [
+        "hobbii yarn",
+        "cotton gradient yarn"
+      ],
+      "category": "Brand-specific / gradient cake yarn",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending."
+    },
+    {
+      "primary": "crochet shop",
+      "secondary": [
+        "crochet stores",
+        "crochet supplies shop"
+      ],
+      "category": "Commercial / shop intent",
+      "target_role": "secondary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. Likely transactional/local intent; check relevance to The Yarn Nest's actual offer before targeting."
+    },
+    {
+      "primary": "bernat velvet yarn",
+      "secondary": [
+        "bernat crushed velvet yarn"
+      ],
+      "category": "Brand-specific / velvet texture yarn",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: 'bernat velvet yarn' 1K-10K and 'bernat crushed velvet yarn' 100-1K. Screenshot transcription typo 'bern at' normalized to 'bernat'."
+    },
+    {
+      "primary": "caron cakes yarn",
+      "secondary": [
+        "caron cotton cakes",
+        "caron blossom cakes"
+      ],
+      "category": "Brand-specific / cake yarn",
+      "target_role": "secondary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. Group with Caron cake cluster after checking SERP intent."
+    },
+    {
+      "primary": "red heart soft yarn",
+      "secondary": [
+        "red heart yarn",
+        "red heart soft"
+      ],
+      "category": "Brand-specific / acrylic yarn",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending."
+    },
+    {
+      "primary": "amigurumi kits",
+      "secondary": [
+        "beginner amigurumi kit",
+        "crochet toy kits"
+      ],
+      "category": "Commercial / amigurumi kits",
+      "target_role": "primary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Commercial intent; check whether content or product page best matches SERP."
+    },
+    {
+      "primary": "bernat crushed velvet yarn",
+      "secondary": [
+        "bernat velvet yarn"
+      ],
+      "category": "Brand-specific / velvet texture yarn",
+      "target_role": "secondary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Grouped under Bernat Velvet topic unless SERP shows distinct intent."
+    },
+    {
+      "primary": "off the hook yarn",
+      "secondary": [
+        "off the hook yarn meaning"
+      ],
+      "category": "Brand or niche term / ambiguous",
+      "target_role": "secondary",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Ambiguous term; identify exact brand/product/search intent before article planning."
     }
   ]
 }
