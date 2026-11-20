@@ -786,6 +786,447 @@
       "target_country": "US",
       "research_priority": "low",
       "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Ambiguous term; identify exact brand/product/search intent before article planning."
+    },
+    {
+      "primary": "yarn",
+      "secondary": [],
+      "category": "generic root term",
+      "reported_volume_range": "100K-1M",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. high competition; seed only. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "mohair",
+      "secondary": [],
+      "category": "fiber type",
+      "reported_volume_range": "100K-1M",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. broad fiber seed. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "yarn store near me",
+      "secondary": [],
+      "category": "local / transactional",
+      "reported_volume_range": "100K-1M",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. local intent; not suitable for non-local informational blog. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "sock yarn",
+      "secondary": [],
+      "category": "yarn type / project use",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand with buy, best, crochet, knitting. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "alize puffy",
+      "secondary": [],
+      "category": "brand-specific / product",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "wool yarn",
+      "secondary": [],
+      "category": "material",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project and use. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "worsted weight yarn",
+      "secondary": [],
+      "category": "yarn weight",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. already related to existing worsted topic. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "drops alpaca",
+      "secondary": [],
+      "category": "brand-specific / fiber",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "cashmere yarn",
+      "secondary": [],
+      "category": "luxury material",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. material and buying intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "cotton yarn",
+      "secondary": [],
+      "category": "material",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. high-value seed for crochet/craft long tails. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "red heart yarn",
+      "secondary": [],
+      "category": "brand-specific",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "hobbii yarn",
+      "secondary": [],
+      "category": "brand-specific",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "mohair yarn",
+      "secondary": [],
+      "category": "fiber / material",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. related to mohair seed. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "chenille yarn",
+      "secondary": [],
+      "category": "texture / material",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project, crochet, blanket. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "malabrigo yarn",
+      "secondary": [],
+      "category": "brand-specific",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "caron simply soft yarn",
+      "secondary": [],
+      "category": "brand-specific / product line",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "t shirt yarn",
+      "secondary": [],
+      "category": "material / recycled textile",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project and how-to. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "bernat yarn",
+      "secondary": [],
+      "category": "brand-specific",
+      "reported_volume_range": "10K-100K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "stylecraft special dk",
+      "secondary": [],
+      "category": "brand-specific / yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "aran wool",
+      "secondary": [],
+      "category": "yarn weight / material",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. weight + fiber. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "scheepjes yarn",
+      "secondary": [],
+      "category": "brand-specific",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "super chunky yarn",
+      "secondary": [],
+      "category": "yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. related to chunky yarn. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "chunky wool",
+      "secondary": [],
+      "category": "weight + material",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. expand by project/use. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "yarn canada",
+      "secondary": [],
+      "category": "geographic / commercial ambiguous",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. check location intent before targeting. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "yarn bee",
+      "secondary": [],
+      "category": "brand-specific",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "scheepjes catona",
+      "secondary": [],
+      "category": "brand-specific / cotton yarn",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "wholesale yarn",
+      "secondary": [],
+      "category": "commercial / B2B",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "low",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. only if wholesale offer/content is relevant. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "velvet yarn",
+      "secondary": [],
+      "category": "texture / material",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. related to Bernat velvet cluster. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "bulky yarn",
+      "secondary": [],
+      "category": "yarn weight",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. expand by project and crochet. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "norwegian wool",
+      "secondary": [],
+      "category": "origin + material",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. niche material. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+    },
+    {
+      "primary": "malabrigo rios",
+      "secondary": [],
+      "category": "brand-specific / product line",
+      "reported_volume_range": "1K-10K",
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
     }
-  ]
+  ],
+  "keyword_strategy": {
+    "modifier_categories": [
+      {
+        "category": "Intent / action modifiers",
+        "examples": [
+          "how to buy",
+          "where to buy",
+          "how to choose",
+          "best",
+          "review",
+          "alternatives",
+          "price",
+          "cheap",
+          "for beginners"
+        ],
+        "note": "Use only when search intent and SERP support it."
+      },
+      {
+        "category": "Craft / project modifiers",
+        "examples": [
+          "crochet",
+          "knitting",
+          "blanket",
+          "scarf",
+          "socks",
+          "amigurumi",
+          "bag",
+          "hat",
+          "dishcloth",
+          "plushie"
+        ]
+      },
+      {
+        "category": "Material / quality modifiers",
+        "examples": [
+          "cotton",
+          "wool",
+          "acrylic",
+          "alpaca",
+          "cashmere",
+          "chenille",
+          "mohair",
+          "velvet",
+          "soft",
+          "durable",
+          "washable"
+        ]
+      },
+      {
+        "category": "Weight / size modifiers",
+        "examples": [
+          "sock weight",
+          "DK",
+          "worsted",
+          "aran",
+          "bulky",
+          "super bulky",
+          "chunky",
+          "lace"
+        ]
+      },
+      {
+        "category": "Audience / skill modifiers",
+        "examples": [
+          "for beginners",
+          "easy",
+          "quick",
+          "baby",
+          "kids",
+          "advanced"
+        ]
+      },
+      {
+        "category": "Quantity / specification modifiers",
+        "examples": [
+          "how much yarn",
+          "yardage",
+          "meters",
+          "grams",
+          "hook size",
+          "weight chart",
+          "gauge"
+        ]
+      },
+      {
+        "category": "Brand / product modifiers",
+        "examples": [
+          "Bernat",
+          "Caron",
+          "Red Heart",
+          "Hobbii",
+          "Lion Brand",
+          "Malabrigo",
+          "Scheepjes",
+          "Alize"
+        ]
+      }
+    ],
+    "workflow": "Treat broad, high-volume root terms as seed keywords, not direct article targets. Combine one seed with one or more relevant modifiers to discover long-tail phrases (e.g. 'where to buy sock yarn for crochet projects'). Validate each phrase's actual volume, KD, intent, and Google SERP before choosing it as a primary target. Do not assume adding 'buy' or 'crochet' guarantees low competition or relevance."
+  }
 }
