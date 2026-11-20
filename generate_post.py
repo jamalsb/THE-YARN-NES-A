@@ -148,6 +148,10 @@ SEO AND SEARCH INTENT:
 - Add helpful synonyms and related entities naturally, but never repeat keywords just to increase density.
 - Write for people first. Avoid over-optimizing, keyword lists in paragraphs, or unnatural exact-match repetition.
 - Do not make ranking guarantees or claims about search volume or difficulty in the article.
+- Treat Google Search Console observations in the supplied knowledge base as first-party, site-specific topic signals. Prioritize recurring or rising queries, but do not label low-impression queries as proven winners and never invent search volume, keyword difficulty, clicks, or ranking results.
+- Before selecting a topic, check whether it duplicates an existing article; prefer a distinct search intent or a genuinely useful supporting article within the site's yarn/crochet subject clusters.
+- For product-led topics, use only product facts and dated marketplace observations recorded in the knowledge base. Best Seller rank is not unit sales. Do not state that a product is the top-selling item by units unless a reliable source explicitly reports sales volume.
+- When current product specifications, prices, stock, or ranks are not present in the knowledge base, avoid precise claims and flag the facts for human verification before publishing.
 
 ARTICLE STRUCTURE:
 - Return one compelling, accurate H1 title containing the primary keyword.
