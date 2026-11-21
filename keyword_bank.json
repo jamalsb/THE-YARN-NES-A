@@ -1391,6 +1391,85 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+    },
+    {
+      "primary": "easy crochet projects",
+      "secondary": [
+        "easy crochet projects for beginners",
+        "beginner crochet projects",
+        "easy crochet ideas",
+        "fast crochet projects"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ research run 2026-11-21: estimated monthly searches 20,119; competition score 32; overall score 66. YouTube-tool estimate, not Google volume. Validate Google Planner and US SERP."
+    },
+    {
+      "primary": "crochet tutorial for beginners",
+      "secondary": [
+        "beginner crochet tutorial",
+        "how to crochet for beginners",
+        "easy crochet tutorial"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ research run 2026-11-21: estimated monthly searches 6,438; competition score 40; demand growth +93.3% in vidIQ data. Not Google-confirmed."
+    },
+    {
+      "primary": "one skein crochet projects",
+      "secondary": [
+        "crochet projects with one skein",
+        "one ball of yarn crochet ideas",
+        "single skein crochet patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "New editorial candidate inspired by YouTube breakout content around stash-busting and projects from small yarn quantities. Volume/KD/SERP not verified."
+    },
+    {
+      "primary": "crochet upcycling ideas",
+      "secondary": [
+        "upcycled crochet projects",
+        "crochet from old clothes",
+        "yarn upcycling crafts"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Pinterest 2026 Hobbies trend report indicates strong interest in crochet upcycling; reported trend growth +523% from Pinterest report. Search volume and SEO difficulty not verified."
+    },
+    {
+      "primary": "lace crochet projects",
+      "secondary": [
+        "crochet lace bandana",
+        "crochet doily projects",
+        "lace crochet ideas"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Pinterest Predicts 2026 trend signal: lace doily searches +105%, lace bandana +150% as reported in Pinterest trend coverage. Google volume/KD/SERP not verified."
+    },
+    {
+      "primary": "easy crochet blanket",
+      "secondary": [
+        "beginner crochet blanket",
+        "easy crochet blanket pattern",
+        "crochet blanket for beginners"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ US research run 2026-11-21: estimated monthly searches 4,960; competition score 40; overall 57. YouTube-tool estimate, not Google volume."
     }
   ],
   "keyword_strategy": {
@@ -1492,5 +1571,21 @@
       }
     ],
     "workflow": "Treat broad, high-volume root terms as seed keywords, not direct article targets. Combine one seed with one or more relevant modifiers to discover long-tail phrases (e.g. 'where to buy sock yarn for crochet projects'). Validate each phrase's actual volume, KD, intent, and Google SERP before choosing it as a primary target. Do not assume adding 'buy' or 'crochet' guarantees low competition or relevance."
-  }
+  },
+  "research_updates": [
+    {
+      "date": "2026-11-21",
+      "scope": "US-focused The Yarn Nest research: vidIQ keyword research, YouTube breakout videos, Pinterest 2026 trend signals, competitor review, Google Search guidance.",
+      "notes": [
+        "vidIQ estimates are YouTube-tool data and must not be represented as Google search volume or Google SEO difficulty.",
+        "Pinterest trend signals: crochet upcycling +523%; lace doily +105%; lace bandana +150%, as reported in 2026 trend coverage. Recheck source/date before using in new content.",
+        "Observed YouTube breakout patterns: useful lists of many crochet ideas, beginner-friendly quick projects, stash-buster ideas, and projects using one skein. Examples are inspiration only; create original instructions and imagery.",
+        "Competitor examples reviewed: Sarah Maker, Make & Do Crew, Moogly, Easy Crochet, The Funky Stitch. Their content depth, project instructions, photos, internal linking, and topical coverage are competitive benchmarks.",
+        "Google guidance: prioritize helpful, original, people-first content; avoid mass-produced low-value pages; maintain technical SEO, clear authorship, useful internal links, image quality, and structured data.",
+        "Existing Scrap Yarn article should be expanded with yarn quantity, weight, hook size, difficulty, estimated time, original photos, and step-by-step instructions to compete with larger roundups.",
+        "Existing DK Yarn article can be strengthened with a full yarn-weight chart, DK vs worsted visual comparison, US/UK terminology, gauge swatch guidance, and project examples.",
+        "Candidate keyword list is research backlog only. Verify Google Keyword Planner location, monthly searches, organic difficulty, search intent, and live US SERP before selecting article targets."
+      ]
+    }
+  ]
 }
