@@ -1577,6 +1577,45 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "vidIQ US research 2026-11-21: estimated monthly searches <750; competition 21; overall 32. YouTube-tool estimate only; style-led topic to validate in Google and Pinterest."
+    },
+    {
+      "primary": "crochet head scarf",
+      "secondary": [
+        "crochet hair scarf",
+        "crochet easy headscarf",
+        "how to crochet a head scarf"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Related terms from vidIQ US crochet summer accessories research 2026-11-21. Individual search volumes not reliably available; validate Google US demand and seasonality."
+    },
+    {
+      "primary": "lightweight crochet",
+      "secondary": [
+        "lightweight crochet projects",
+        "summer crochet patterns",
+        "lightweight yarn crochet"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Related topic from vidIQ US crochet summer accessories research 2026-11-21; estimated below 750 on YouTube tool. Validate Google intent and demand."
+    },
+    {
+      "primary": "summer crochet projects",
+      "secondary": [
+        "easy summer crochet projects",
+        "crochet summer accessories",
+        "beach crochet accessories"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Related topic from vidIQ US research 2026-11-21; estimated below 750 on YouTube tool. Seasonal editorial candidate, plan ahead for US spring/summer."
     }
   ],
   "keyword_strategy": {
@@ -1718,6 +1757,20 @@
         "New vidIQ US keyword estimates (YouTube-tool estimates only): shell stitch crochet 4,880 monthly (competition 34, overall 60); crochet headband 22,796 (competition 54, overall 57; reported change -72.1%); crochet summer project <750 (competition 35, overall 26); crochet cottagecore <750 (competition 21, overall 32). Do not call these Google volume or Google SEO difficulty.",
         "Editorial learning: strong crochet articles quickly show the finished outcome and who it suits; explain materials, yarn weight, yardage, hook size, gauge, skill level and sizing; provide numbered steps, original close-up photos/video, troubleshooting, variations and concise FAQs. Distinguish tested patterns from inspiration roundups; never claim a pattern was tested unless it was.",
         "New strategy: plan US seasonal crochet content ahead of the season. Prioritize airy/lightweight accessories, lace textures, bandanas/scarves, headbands, bags, floral motifs, mixed-media trims and sea-glass/coastal palettes. Confirm demand and SERP before drafting."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "Independent follow-up research: Pinterest, Etsy, YouTube keyword discovery and editorial learning.",
+      "notes": [
+        "Pinterest 2026 Hobbies Trend Report: crochet upcycle +523%; crochet parandi +5,265%; unique amigurumi +56%; report describes tactile, beginner-friendly, giftable crafting and miniatures/upcycling. These are Pinterest search trend changes, not Google volumes. Source https://newsroom.pinterest.com/en-ca/news/2026-pinterest-hobbies-trend-report/",
+        "Pinterest Predicts 2026 lace trend: lace bandana +150%, lace doily +105%. Global English-language search data, analysis Sep 2023-Aug 2025; do not label as US or Google volume. Source https://business.pinterest.com/pdf/pinterest-predicts/2026-trend-report/",
+        "Etsy Spring/Summer 2026 Seller Trend Report: crochet clothing sales +36%; recommends texture close-ups and process photography. Etsy US signed-in marketplace data through Feb 10, 2026, not Google search volume. Source https://www.etsy.com/seller-handbook/article/1473931456647",
+        "Pinterest Summer 2025 report listed crochet micro shorts +1,393%, crochet short dresses +2,030%, crochet summer set +349%, crochet ruffle bag +453%, crochet lace bandana +54%. Historical seasonal trend, not current search volume. Source https://newsroom.pinterest.com/news/the-2025-pinterest-summer-trend-report/",
+        "eRank Q3 2026 Etsy search analysis: crochet pattern ranked #7 on its US top-20 list, up from #123 in Q3 2025; crochet ranked #12. This is Etsy marketplace search evidence, not Google search demand. Source https://help.erank.com/blog/top-etsy-searches-q3-2026/",
+        "Additional vidIQ US keyword research for crochet summer accessories: shell stitch crochet estimated 4,880 monthly (competition 34, overall 60); crochet headband 22,796 (competition 54, overall 57; demand change -72.1%); related candidates crochet head scarf, crochet cottagecore, lightweight crochet, summer crochet projects all estimated below 750 or lacking precise volume. These are YouTube-tool estimates, not Google volume.",
+        "Editorial learning: strong tutorial articles should be accurate, original, tested where patterns are provided, answer search intent early, state materials/yarn weight/yardage/hook/gauge, show finished project and close-up process photos, explain steps and abbreviations, include troubleshooting, sizing/variations, useful FAQs, and relevant internal links. Use an original The Yarn Nest voice; do not imitate a specific writer or reproduce competitor content.",
+        "Visual strategy: use Pinterest trends for project and palette inspiration only. Generate original images; never reuse or closely replicate a specific pin, seller photo, or protected pattern. Prioritize clear stitch texture, plausible yarn construction, realistic tools, consistent project dimensions, and space for manually added title text."
       ]
     }
   ]
