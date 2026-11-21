@@ -108,3 +108,44 @@ For every suitable article:
 3. Compare the existing scrap-yarn and DK-weight articles with current top-ranking pages.
 4. Build a 6–8 week editorial calendar from verified opportunities.
 5. Create original Pinterest visual concepts for the best-performing article clusters.
+
+
+## Editorial style benchmark — added 2026-11-21
+Reviewed a 2026 roundup of leading crochet blogs and the editorial criteria it highlights. Useful patterns to learn from include:
+- **Moogly / The Crochet Crowd:** approachable teaching, extensive tutorials and video support.
+- **Repeat Crafter Me:** themed, giftable projects with clear step-by-step photos.
+- **Heart Hook Home:** warm, conversational guidance, wearable projects, yarn reviews and sizing clarity.
+- **Yarnspirations:** professionally structured patterns and clear yarn pairing.
+- **Look At What I Made / PlanetJune:** detailed, precise instructions and careful technique explanations.
+
+Do not copy any creator's exact wording, signature voice, or article structure. The Yarn Nest's own editorial standard should combine the useful high-level traits: warm but direct writing; an opening that quickly tells readers what they will make/learn; finished-project visuals early; clear skill level; exact materials, yarn weight, yardage and hook; numbered steps; close-up process images; practical tips and troubleshooting; concise FAQs; and relevant internal links. For patterns, instructions must be tested by a real crocheter before being presented as tested.
+
+## Etsy and new crochet accessory keyword research — 2026-11-21
+Etsy's official Spring/Summer 2026 Seller Trend Report reports crochet clothing sales +36%, and recommends showing handcrafted texture, close-up details and process photography. This is marketplace trend evidence, not Google search volume. Source: https://www.etsy.com/seller-handbook/article/1473931456647
+
+vidIQ US research for crochet wearables/accessories (YouTube-tool estimates, not Google search volume):
+- crochet bandana: 25,966 estimated monthly searches; competition 57; overall 57.
+- crochet bandana tutorial: 15,926; competition 52; overall 57; reported demand change -33.6%.
+- crochet lace: 3,792; competition 46; overall 54.
+- crochet lace bandana: below 750; competition 23; overall 31.
+Treat all as unverified for Google organic SEO. Recheck seasonality and US SERPs before choosing a post.
+
+Google's current people-first content guidance stresses original information, completeness, added value beyond rewriting competitors, clear authorship/experience, and avoiding scaled, thin, search-engine-first pages. AI assistance is acceptable only when the result is accurate, useful, original and reviewed. Source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+Google's Generative AI search guide similarly emphasizes unique, non-commodity value rather than recycled summaries or so-called GEO hacks. Source: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+
+## New content ideas to investigate
+1. Easy Crochet Bandana for Beginners (check US demand and pattern SERP).
+2. Crochet Lace Bandana: Stitch, Yarn and Styling Guide (visual trend-led, validate demand).
+3. Crochet Lace Stitches for Beginners (tutorial intent, inspect competition).
+4. Crochet Summer Accessories (seasonal topic; plan ahead of US spring/summer).
+
+## Article quality checklist
+- Answer the searcher's main question in the first section without filler.
+- State the intended reader and skill level.
+- Include materials, yarn category/weight, yardage, hook size, gauge where relevant.
+- Use original, accurate project photos and close-ups; do not copy Pinterest pins or competitor images.
+- Use numbered instructions, stitch abbreviations and explanations; include left-handed help only if actually supplied.
+- Add troubleshooting, variations, care notes, and FAQs only when useful.
+- Cite reliable sources for technical yarn standards and distinguish tested experience from sourced facts.
+- Include internal links that genuinely help the reader.
+- Check US SERP, search intent, competition, and existing-site overlap before drafting.
