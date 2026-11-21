@@ -278,3 +278,13 @@ For The Yarn Nest, improve existing pages where they lack concrete instruction a
 3. Revisit the existing blanket-border and scrap-yarn pages before creating related URLs.
 4. Prioritize one test tutorial: an original two-row lace stitch with a small swatch and multiple project applications, if US SERP intent is attainable.
 5. Do not publish or change website pages from this research run.
+
+
+## 2026-11-21: Crochet rug and edging follow-up (vidIQ US)
+
+- vidIQ YouTube estimates: **crochet rug** 6,007 estimated monthly searches, competition 25, overall 64; **crochet edging** 4,925, competition 49, overall 54; **crochet lace edging** 4,267, competition 41, overall 56.
+- Related rug phrases such as “crochet rug tutorial” and “crochet rug pattern” were estimated below 750 monthly in vidIQ; “crochet rug pattern” competition 12 and “crochet rug tutorial” competition 18.
+- These are vidIQ YouTube-tool estimates, not Google search volume, Google Keyword Planner figures, or Google organic difficulty.
+- Editorial candidates added to keyword bank as unverified: “crochet rug”, “crochet edging”, and “crochet lace border”.
+- **Cannibalization warning:** The site already has a blanket-border article. Do not publish a second generic edging page unless a Google US SERP review confirms distinct intent. A lace-specific section or guide may be more appropriate if SERPs overlap.
+- No articles were published and no website pages were changed.
