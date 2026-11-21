@@ -299,3 +299,18 @@ For The Yarn Nest, improve existing pages where they lack concrete instruction a
 - New unverified candidates were added to keyword_bank.json: lace stitch crochet, crochet lace patterns, crochet rag rug, how to crochet a rug, crochet oval rug pattern, and crochet triangle shawl pattern. Duplicate primary keywords were skipped.
 - **Ahrefs was not queried:** no Ahrefs-specific research tool was exposed in the active tool catalog during this run, so no Ahrefs figures are claimed.
 - No articles were published and no website pages were changed.
+
+
+## 2026-11-21: Live Google US SERP review (OpenSEO, desktop, page 1)
+
+Five queries were checked in Google US (location code 2840, English, desktop; depth 10; results merged from three reads per keyword). `bestPosition` is the observed position in the merged read; entries with `seenIn: 1` are weaker evidence and should not be treated as stable rank.
+
+- **crochet lace patterns:** Mixed intent: stitch tutorials, motif patterns, pattern roundups, Pinterest and video content. Visible domains included justtheworsted.com (observed best position 5, seen in 3 reads), Pinterest (3, seen in 2), and itsoverflowing.com (1, seen in 1). A pattern roundup is represented, but the page-one mix suggests a tutorial/pattern collection format. Need original patterns, stitch instructions, clear photos and useful skill-level filters to compete.
+- **lace stitch crochet:** Strong tutorial intent. NordicHook's “30 beautiful crochet lace stitches” appeared at observed position 1; MyPicot at 2. Multiple video/tutorial results also appeared. A focused guide with several distinct stitches, repeat instructions, stitch multiples, yarn/hook details and original photos could fit; differentiate from any existing beginner stitch posts.
+- **crochet rag rug:** Clear DIY/tutorial intent. Results included Pinterest, Crochetville, A Homegrown Journal, My Poppet, Heart Hook Home and Craftdrawer. This is a more specific project angle than a generic rug roundup and has a plausible opening for a detailed original rag-rug tutorial. Check existing scrap-yarn content to avoid overlap; rag fabric strips are a distinct material angle.
+- **crochet triangle shawl pattern:** Pattern/tutorial intent, with many video/tutorial results. Yarnspirations and Creative Crochet Corner appeared among results, alongside independent tutorials. Competition includes established pattern publishers and video creators; a new page should offer a tested original pattern, exact stitch counts, gauge, sizing and step photos.
+- **crochet rug pattern:** Crowded roundup intent. Results included Pinterest, RedAgapeBlog, Crocht, Cream of the Crop Crochet and Craftdrawer. Harder to differentiate with another generic list; avoid as a standalone roundup unless offering genuinely original patterns or a clear unique filter/use case.
+
+**Priority from this SERP sample:** (1) lace stitch crochet, (2) crochet rag rug, (3) crochet lace patterns only with original pattern value. Deprioritize generic crochet rug pattern. Triangle shawl is possible but requires a genuinely tested, differentiated pattern.
+
+Caveats: this is a live tool snapshot for US desktop results, not a guarantee of what every user sees. Google results can vary by time, device, location and personalization. Several result URLs were Google redirect links or lacked a resolved domain, so use domain/title as directional evidence only. No site pages were edited or published.
