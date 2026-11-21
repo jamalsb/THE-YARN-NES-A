@@ -224,3 +224,57 @@ These are research candidates only. Check US Google search intent, organic compe
 
 ### Google content quality reminder
 Google Search Central recommends original, people-first value, trust, and explaining how content was produced when readers would reasonably expect it. Do not publish generic rewrites of other sites or scale low-value pages. Source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+
+
+## Daily research — 2026-11-21 (focused crochet lace + upcycling scan)
+
+### Scope and evidence separation
+Reviewed Pinterest Predicts 2026, Google Search Central guidance, vidIQ YouTube keyword research and recent YouTube breakout examples, plus the existing keyword bank and research notes. The current repo keyword bank contained 142 entries before this scan; exact-match duplicate checks were applied before adding candidates. No Google Keyword Planner export or Google Trends time series was available in this run, so no Google search volumes or confirmed Google organic difficulty scores are claimed.
+
+### Pinterest trend signal
+Pinterest Predicts 2026's “Laced Up” trend reports global English-language search growth of lace bandana +150% and lace doily +105%. Pinterest states the comparison period is Sep 2024–Aug 2025 versus Sep 2023–Aug 2024. This is a global Pinterest trend signal, not US-only Google demand and not proof that crochet-specific Google queries have the same growth.
+Source: https://business.pinterest.com/nb/pinterest-predicts/?category=market-news&change_language=true&query=success+stories
+
+### YouTube / vidIQ keyword signals (not Google)
+US-targeted vidIQ keyword research for “crochet lace” returned:
+- crochet lace: estimated 3,792 monthly YouTube searches; competition score 46; overall score 54.
+- crochet lace edging: estimated 4,267 monthly YouTube searches; competition score 41; overall score 56.
+- crochet lace pattern, how to crochet lace, easy crochet lace, beginner crochet lace and crochet lace tutorial were each shown below 750 estimated monthly searches.
+- “crochet upcycling” itself was below 750; related terms included crochet rug (6,007; competition 25), crochet with fabric strips (below 750; competition 12), and upcycling clothes (15,955; competition 39).
+These are vidIQ estimates for YouTube, not Google monthly search volumes, and the tool's competition scores are not Google organic KD.
+
+### Recent YouTube breakout examples
+vidIQ's six-month English long-form scan for “crochet lace tutorial” returned:
+- US channel Crochet Craft World: “Easy Crochet Stitch! Lovely 2-Row Crochet Pattern for Beginners”, 313.6K views, 34x channel breakout, published 2026-09-11.
+- Knitting World: beginner lace shawl tutorial, 178.5K views, 39x breakout, published 2026-07-19 (channel based in Turkey).
+- US channel Yelena StyleCrochet: crochet lace top, 5.8K views, 2.1x breakout, published 2026-06-17.
+This supports testing clear beginner lace-stitch and wearable-lace tutorial formats on YouTube, but it does not prove Google blog demand. Sample is limited and videos are not all US channels.
+
+### Topic and intent opportunities
+1. **Easy crochet lace stitch / two-row lace stitch** — informational tutorial intent; promising video-to-blog companion. Include stitch multiple, row repeat, turning chain, swatch dimensions, and project examples. Confidence: medium for YouTube interest; low for Google SEO until SERP review.
+2. **Crochet lace shawl for beginners** — pattern/tutorial intent; strong visual and wearable-project fit. Include yarn weight, yardage, hook, gauge, finished dimensions and chart/abbreviation explanations. Confidence: medium-low; based on breakout examples, Google demand unverified.
+3. **Crochet lace edging** — tutorial intent; possible companion to blanket-border content. Must differentiate from existing blanket border article by focusing on lace stitch repeats, corners, and edging on fabric/linens, or avoid a new URL if SERP intent overlaps. Confidence: low-medium.
+4. **Crochet rug from old clothes / fabric strips** — upcycling project intent; possible extension to scrap-yarn content but materially different material and technique. Validate demand and assess whether it deserves a standalone post or a section in an upcycling roundup. Confidence: low.
+
+### Existing-content overlap check
+The bank already contains “how to make a crochet border for a blanket”, “scrap yarn crochet projects”, crochet lace-related candidates, and general upcycling candidates. Do not create another generic scrap-yarn roundup or a generic blanket-border post. New candidates saved below are exact-primary additions only; semantically close topics still need manual cannibalization review.
+
+### Competitor and content-quality benchmark
+Continue using Sarah Maker, Make & Do Crew, Moogly, Easy Crochet, The Funky Stitch, PlanetJune and Loopy Panda as SERP review references. A competitive article should add original sample swatches/photos, precise stitch multiples, US stitch terminology, yarn weight/yardage, hook and gauge, row-by-row counts, troubleshooting, and useful project adaptations. Never reproduce their text, images or signature structure. Pattern testing must be real before claiming it was tested.
+
+### Google quality guidance
+Google Search Central emphasizes original information, completeness, added value beyond rewriting other pages, and content made to help people rather than primarily attract search traffic. Source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+For The Yarn Nest, improve existing pages where they lack concrete instruction and original visual evidence instead of multiplying thin trend-led posts.
+
+### Saved candidate keywords
+- crochet lace edging — intent: tutorial; US target; status unverified.
+- crochet lace shawl — intent: pattern/tutorial; US target; status unverified.
+- easy crochet lace stitch — intent: tutorial; US target; status unverified.
+- crochet rug from old clothes — intent: tutorial/project; US target; status unverified.
+
+### Next steps
+1. Check US Google SERPs manually for the four candidates and record dominant page type, ranking domain strength, freshness, and content gaps.
+2. Use Google Keyword Planner with location explicitly set to United States; record the selected network and date range.
+3. Revisit the existing blanket-border and scrap-yarn pages before creating related URLs.
+4. Prioritize one test tutorial: an original two-row lace stitch with a small swatch and multiple project applications, if US SERP intent is attainable.
+5. Do not publish or change website pages from this research run.
