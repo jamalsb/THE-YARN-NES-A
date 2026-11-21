@@ -1853,6 +1853,42 @@
       "source_note": "OpenSEO US keyword research 2026-11-21: crochet triangle shawl pattern estimated 1,300 monthly; beginner crochet shawl patterns free 1,300; reported KD 0. CPC around $0.15-$0.25. Tool estimates; verify SERP.",
       "editorial_note": "Potential original beginner pattern. Search volume may be shared across close variants; do not sum. Confirm content quality and pattern testing before publishing.",
       "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "crochet patterns free",
+      "secondary": [
+        "free crochet patterns for beginners",
+        "free crochet blanket patterns",
+        "free easy crochet patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "meaning_ur": "مفت کروشیا کے ڈیزائن یا بنائی کے نمونے",
+      "monthly_searches": 40500,
+      "competition": "LOW",
+      "competition_index": 19,
+      "metric_type": "advertiser competition, not organic SEO difficulty",
+      "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 40,500; advertiser competition LOW (index 19/100). CPC $0.31. Google organic difficulty and live SERP not verified."
+    },
+    {
+      "primary": "knitting patterns free",
+      "secondary": [
+        "free knitting patterns for beginners",
+        "free scarf knitting patterns",
+        "easy free knitting patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "meaning_ur": "مفت نِٹنگ یا سلائی بنائی کے ڈیزائن/نمونے",
+      "monthly_searches": 9900,
+      "competition": "LOW",
+      "competition_index": 20,
+      "metric_type": "advertiser competition, not organic SEO difficulty",
+      "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 9,900; advertiser competition LOW (index 20/100). CPC $0.34. Google organic difficulty and live SERP not verified."
     }
   ],
   "keyword_strategy": {
@@ -2045,6 +2081,15 @@
         "Added new unverified keyword candidates to keyword_bank.json: lace stitch crochet, crochet lace patterns, crochet rag rug, how to crochet a rug, crochet oval rug pattern, crochet triangle shawl pattern. Existing duplicate primary terms were not added again.",
         "Ahrefs: no Ahrefs research tool was exposed in the active tool catalog during this run, so no Ahrefs metrics or keyword results are claimed. OpenSEO research only was completed.",
         "No website pages were edited and no articles were published."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "HYPD US English keyword volume and advertiser competition research",
+      "notes": [
+        "Added crochet patterns free: Urdu meaning مفت کروشیا کے ڈیزائن/نمونے; 40,500 average monthly searches; advertiser competition LOW, index 19/100; CPC $0.31.",
+        "Added knitting patterns free: Urdu meaning مفت نِٹنگ کے ڈیزائن/نمونے; 9,900 average monthly searches; advertiser competition LOW, index 20/100; CPC $0.34.",
+        "These competition labels are advertiser competition, not Google organic SEO difficulty. Both remain unverified for organic SEO until live US SERP review and organic difficulty evidence are recorded."
       ]
     }
   ]
