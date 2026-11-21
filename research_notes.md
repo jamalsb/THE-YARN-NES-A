@@ -196,3 +196,31 @@ All figures are vidIQ estimates for YouTube, not Google search volume or organic
 
 ### Editorial and visual standard
 Create an original The Yarn Nest voice: warm, direct, practical and precise. Do not imitate a specific writer or reproduce competitor phrasing. Every tutorial should answer intent early, identify skill level, list materials and yarn details, show the finished result and close-up process photos, provide clear steps and stitch explanations, add troubleshooting and useful variations, and link to relevant guides. Patterns should be genuinely tested before being described as tested. Pinterest imagery is trend inspiration only; generate original visuals with plausible stitch construction and leave text placement for manual design.
+
+
+## Amigurumi deep dive — 2026-11-21
+### Trend and demand signals
+- Pinterest 2026 Hobbies report lists “unique amigurumi” +56% and “crochet parandi” +5,265%. These are Pinterest trend signals, not Google search volumes. Source: https://newsroom.pinterest.com/en-ca/news/2026-pinterest-hobbies-trend-report/
+- vidIQ US YouTube estimates: amigurumi crochet 27,060 monthly (competition 25, overall 70; demand change -39.2%); amigurumi crochet doll 4,622 (competition 28, overall 62); crochet doll 6,711; crochet doll tutorial 5,291. These are YouTube-tool estimates, not Google volume or organic SEO difficulty.
+- Aubrium's Nov 12, 2026 analysis of 800+ selected viral reels from 600+ creators found amigurumi/plushies among 70 creators, with median reel reach 16x creator follower count. This is a selected viral sample, not average results or a guarantee. Source: https://aubrium.com/blog/crochet-and-knitting-reel-ideas/
+- Crochetify's preliminary Q3 2026 report covers 883 paid orders across 13 shops; Amigurumi & Toys represented 67% of patterns sold in that small marketplace sample, and 64% of recorded buyers were US-based. Treat as directional only, not representative of the whole crochet market. Source: https://crochetify.app/reports/2026-q3
+
+### Specialist tutorial standards to learn from
+- PlanetJune organizes tutorials into Amigurumi Essentials, Basics, Perfect Finish, Embellishment and Speciality. Its tutorial index offers step-by-step photos/videos, right- and left-handed help, and troubleshooting. Source: https://www.planetjune.com/blog/tutorials/crochet-tutorials/
+- Loopy Panda emphasizes real-speed hand demonstrations, exact stitch counts for every round, US/UK terminology side by side, left-handed videos, and original patterns. Source: https://loopypanda.com/
+- Adapt the principles, not the wording: create a beginner-to-advanced learning path, exact stitch counts, clear abbreviations, close-up technique photos/video, and troubleshooting. Only claim a pattern was tested if a real maker has tested it.
+
+### Amigurumi topic cluster candidates
+1. Amigurumi for Beginners: Tools, Yarn and First Stitches.
+2. How to Make a Magic Ring for Amigurumi.
+3. Invisible Decrease in Crochet: Step-by-Step.
+4. How to Stuff Amigurumi Evenly Without Lumps.
+5. Clean Colour Changes in Amigurumi.
+6. How to Finish and Close Amigurumi Neatly.
+7. Beginner Crochet Doll Tutorial.
+8. Crochet Doll Hair and Simple Clothing.
+9. Beginner Amigurumi Animal Patterns.
+These are research candidates only. Check US Google search intent, organic competition, seasonality, and overlap with existing pages before writing.
+
+### Google content quality reminder
+Google Search Central recommends original, people-first value, trust, and explaining how content was produced when readers would reasonably expect it. Do not publish generic rewrites of other sites or scale low-value pages. Source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
