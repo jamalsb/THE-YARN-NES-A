@@ -1763,6 +1763,96 @@
       "source_note": "vidIQ related-keyword research on 2026-11-21: YouTube estimate below 750 monthly; competition 25; overall 30. Not Google volume or organic SEO difficulty.",
       "editorial_note": "Candidate subtopic; consider adding as a section to a lace edging guide unless SERP supports a separate page.",
       "search_intent": "tutorial"
+    },
+    {
+      "primary": "lace stitch crochet",
+      "secondary": [
+        "crochet lace stitch",
+        "crochet lace stitches",
+        "easy crochet lace stitch"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly search volume 1,600; reported keyword difficulty 1; CPC $0.34. Tool estimate; verify live SERP and metric reliability before targeting.",
+      "editorial_note": "Potential standalone stitch tutorial. Check overlap with existing crochet stitch content and current easy crochet lace stitch candidate.",
+      "search_intent": "informational/tutorial"
+    },
+    {
+      "primary": "crochet lace patterns",
+      "secondary": [
+        "lace crochet patterns",
+        "crochet lace pattern",
+        "free crochet lace patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly search volume 3,600; reported keyword difficulty 0; CPC $0.36. Keyword variants may share the same volume; do not add their volumes. Verify SERP.",
+      "editorial_note": "Pattern roundup or pattern hub only if The Yarn Nest can provide original, accurate patterns and useful photos.",
+      "search_intent": "informational"
+    },
+    {
+      "primary": "crochet rag rug",
+      "secondary": [
+        "rag rug crochet",
+        "t-shirt rug crochet",
+        "crochet rug from old clothes"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "OpenSEO US keyword research 2026-11-21: crochet rag rug estimated 480 monthly searches, rag rug crochet 390, t-shirt rug crochet 210; reported KD 0. Low-volume long-tail candidates; verify SERP and exact intent.",
+      "editorial_note": "Could make a more specific and useful tutorial than a generic crochet rug page. Compare with existing crochet rug from old clothes candidate.",
+      "search_intent": "informational/tutorial"
+    },
+    {
+      "primary": "how to crochet a rug",
+      "secondary": [
+        "crochet rug how to",
+        "how to crochet rug",
+        "crochet a rug"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly searches 260; reported KD 0; CPC $0.28. Tool estimate; verify SERP.",
+      "editorial_note": "Potential beginner tutorial. Consider using as a supporting phrase on a broader rug guide, not automatically a separate URL.",
+      "search_intent": "informational/tutorial"
+    },
+    {
+      "primary": "crochet oval rug pattern",
+      "secondary": [
+        "oval crochet rug pattern",
+        "oval rug crochet pattern",
+        "crochet pattern for oval rug"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly searches 320; reported KD 0; CPC $0.13. Tool estimate; verify SERP.",
+      "editorial_note": "Specific project tutorial candidate; assess whether a separate page is justified by SERP intent.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "crochet triangle shawl pattern",
+      "secondary": [
+        "triangle shawl crochet pattern",
+        "crochet pattern triangle shawl",
+        "beginner crochet shawl patterns free"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "OpenSEO US keyword research 2026-11-21: crochet triangle shawl pattern estimated 1,300 monthly; beginner crochet shawl patterns free 1,300; reported KD 0. CPC around $0.15-$0.25. Tool estimates; verify SERP.",
+      "editorial_note": "Potential original beginner pattern. Search volume may be shared across close variants; do not sum. Confirm content quality and pattern testing before publishing.",
+      "search_intent": "informational/pattern"
     }
   ],
   "keyword_strategy": {
@@ -1942,6 +2032,19 @@
         "Related crochet rug terms such as crochet rug tutorial, crochet rug pattern and how to crochet a rug were estimated below 750 monthly in vidIQ; crochet rug pattern competition 12, tutorial competition 18. Treat as YouTube estimates only.",
         "Potential overlap risk: The site already has a blanket-border article, so do not create a second generic edging URL until Google SERP intent and page scope prove it is distinct. Consider an edging hub with lace-specific section if SERP overlap is high.",
         "New candidate topics were added to the keyword bank as unverified: crochet rug, crochet edging, crochet lace border. No articles were published and no website pages were changed."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "OpenSEO US keyword research for crochet lace, crochet rug and crochet shawl; seed-based related keyword discovery.",
+      "notes": [
+        "OpenSEO project created for The Yarn Nest (theyarnnest.shop), default market United States, English. Keyword research used US location code 2840.",
+        "OpenSEO results included: crochet lace 3,600 monthly searches (reported KD 0); crochet lace patterns 3,600 (KD 0); lace stitch crochet 1,600 (KD 1); crochet lace edging 1,000 (KD 0); crochet rug 2,400 (KD 0); crochet rug pattern 1,300 (KD 0); crochet rag rug 480 (KD 0); t-shirt rug crochet 210 (KD 0); crochet shawl 5,400 (KD 0); crochet shawl pattern variants 8,100 (KD 0); beginner crochet shawl patterns free 1,300 (KD 0). CPC and intent fields are also present in OpenSEO results.",
+        "Important data-quality caution: many semantically different variants share the same estimated volume and several difficulty values are zero. Do not sum close variants or interpret KD 0 as guaranteed easy ranking. Validate each target with live Google US SERP and the actual ranking pages before planning a URL.",
+        "Crochet rug seed returned many unrelated rug terms, so filter carefully. Best specific project candidates include crochet rag rug, t-shirt rug crochet, oval crochet rug pattern and how to crochet a rug.",
+        "Added new unverified keyword candidates to keyword_bank.json: lace stitch crochet, crochet lace patterns, crochet rag rug, how to crochet a rug, crochet oval rug pattern, crochet triangle shawl pattern. Existing duplicate primary terms were not added again.",
+        "Ahrefs: no Ahrefs research tool was exposed in the active tool catalog during this run, so no Ahrefs metrics or keyword results are claimed. OpenSEO research only was completed.",
+        "No website pages were edited and no articles were published."
       ]
     }
   ]
