@@ -1718,6 +1718,51 @@
       "source_note": "vidIQ research surfaced crochet rug and crochet with fabric strips related terms; estimated searches below 750 for specific phrases and tool competition values are YouTube estimates, not Google.",
       "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
       "search_intent": "tutorial/project"
+    },
+    {
+      "primary": "crochet rug",
+      "secondary": [
+        "crochet rug tutorial",
+        "crochet rug pattern",
+        "how to crochet a rug"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ US YouTube keyword research on 2026-11-21: estimated monthly searches 6,007; competition 25; overall 64. YouTube-tool estimate only, not Google search volume or organic SEO difficulty.",
+      "editorial_note": "Broad topic candidate. Review Google US SERP and differentiate by material, technique, or beginner intent before drafting.",
+      "search_intent": "tutorial/pattern"
+    },
+    {
+      "primary": "crochet edging",
+      "secondary": [
+        "crochet lace edging",
+        "crochet edging pattern",
+        "how to crochet lace edging"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ US YouTube keyword research on 2026-11-21: estimated monthly searches 4,925; competition 49; overall 54. YouTube-tool estimate only, not Google search volume or organic SEO difficulty.",
+      "editorial_note": "Potentially overlaps existing blanket-border article. Only create a separate page if Google SERP and scope show distinct intent.",
+      "search_intent": "tutorial"
+    },
+    {
+      "primary": "crochet lace border",
+      "secondary": [
+        "crochet lace edging",
+        "lace border crochet",
+        "crochet lace border pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ related-keyword research on 2026-11-21: YouTube estimate below 750 monthly; competition 25; overall 30. Not Google volume or organic SEO difficulty.",
+      "editorial_note": "Candidate subtopic; consider adding as a section to a lace edging guide unless SERP supports a separate page.",
+      "search_intent": "tutorial"
     }
   ],
   "keyword_strategy": {
@@ -1887,6 +1932,16 @@
         "Crochetify Q3 2026 preliminary marketplace report covers 883 paid orders across 13 shops; 67% of patterns sold in its sample were Amigurumi & Toys, and 64% of recorded buyers were in the US. Very small, platform-specific sample; directional only, not a market-wide estimate. Source https://crochetify.app/reports/2026-q3",
         "Google Search Central says focus on original people-first value, trust, and explain how content was produced where readers would reasonably expect it. Avoid copying or mass-producing generic summaries. Source https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
         "New content opportunities to validate: amigurumi basics hub, invisible decrease, magic ring, stuffing evenly, clean colour changes, amigurumi finishing, crochet doll tutorial, doll hair/clothes, beginner amigurumi animal. These are candidates, not approved post targets; verify Google US SERP and existing-site overlap first."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "Follow-up vidIQ US keyword research for crochet rugs and edging.",
+      "notes": [
+        "vidIQ US YouTube estimates: crochet rug 6,007 monthly searches (competition 25, overall 64); crochet edging 4,925 (competition 49, overall 54); crochet lace edging 4,267 (competition 41, overall 56). These are YouTube-tool estimates, not Google search volume or organic SEO difficulty.",
+        "Related crochet rug terms such as crochet rug tutorial, crochet rug pattern and how to crochet a rug were estimated below 750 monthly in vidIQ; crochet rug pattern competition 12, tutorial competition 18. Treat as YouTube estimates only.",
+        "Potential overlap risk: The site already has a blanket-border article, so do not create a second generic edging URL until Google SERP intent and page scope prove it is distinct. Consider an edging hub with lace-specific section if SERP overlap is high.",
+        "New candidate topics were added to the keyword bank as unverified: crochet rug, crochet edging, crochet lace border. No articles were published and no website pages were changed."
       ]
     }
   ]
