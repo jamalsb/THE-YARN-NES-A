@@ -1470,6 +1470,61 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "vidIQ US research run 2026-11-21: estimated monthly searches 4,960; competition score 40; overall 57. YouTube-tool estimate, not Google volume."
+    },
+    {
+      "primary": "crochet bandana",
+      "secondary": [
+        "crochet bandana tutorial",
+        "crochet bandana pattern",
+        "easy crochet bandana",
+        "how to crochet a bandana",
+        "beginner crochet bandana"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 25,966; competition 57; overall 57. YouTube-tool estimate only, not Google volume or organic SEO difficulty. Validate US Google Planner and SERP."
+    },
+    {
+      "primary": "crochet bandana tutorial",
+      "secondary": [
+        "how to crochet bandana",
+        "crochet bandana tutorial for beginners",
+        "easy crochet bandana tutorial"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 15,926; competition 52; overall 57; demand change -33.6%. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+    },
+    {
+      "primary": "crochet lace",
+      "secondary": [
+        "crochet lace stitch",
+        "crochet lace pattern",
+        "crochet lace projects",
+        "crochet lace bandana"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 3,792; competition 46; overall 54. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+    },
+    {
+      "primary": "crochet lace bandana",
+      "secondary": [
+        "crochet lacey bandana",
+        "crochet diamond lace bandana",
+        "lace crochet bandana pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ US seed estimate <750; competition 23; overall 31 (2026-11-21). Pinterest/Etsy visual trend relevance; Google volume and SEO difficulty not verified."
     }
   ],
   "keyword_strategy": {
@@ -1585,6 +1640,17 @@
         "Existing Scrap Yarn article should be expanded with yarn quantity, weight, hook size, difficulty, estimated time, original photos, and step-by-step instructions to compete with larger roundups.",
         "Existing DK Yarn article can be strengthened with a full yarn-weight chart, DK vs worsted visual comparison, US/UK terminology, gauge swatch guidance, and project examples.",
         "Candidate keyword list is research backlog only. Verify Google Keyword Planner location, monthly searches, organic difficulty, search intent, and live US SERP before selecting article targets."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "Additional competitor editorial-style and Etsy/vidIQ keyword research for crochet wearables and lace accessories.",
+      "notes": [
+        "Reviewed KnotToYarn's 2026 roundup of crochet blogs and its stated quality criteria: tested/accurate patterns, clear step-by-step instructions with photos/video, consistent updates, strong visual presentation, and community support. Competitor examples named include Moogly, The Crochet Crowd, Repeat Crafter Me, Heart Hook Home, Ravelry, Yarnspirations, Look At What I Made, and PlanetJune.",
+        "Style principles to adapt at The Yarn Nest: warm but direct opening; explain who the project is for; show finished result early; list materials and exact yarn weight/yardage/hook; give numbered steps with close-up photos; include tips/troubleshooting and FAQs; add concise internal links and a printable pattern/summary where appropriate. This is a general editorial framework, not copying any writer's wording, structure verbatim, or signature voice.",
+        "Etsy Spring/Summer 2026 official Seller Trend Report says crochet clothing sales rose 36% and highlights handcrafted texture, process photography, and meaningful handmade detail. Use as a trend signal for original crochet wearables and process-led visuals, not as Google search-volume data.",
+        "Additional vidIQ US keyword estimates: crochet bandana 25,966 monthly (competition 57, overall 57); crochet bandana tutorial 15,926 (competition 52, overall 57; demand change -33.6%); crochet lace 3,792 (competition 46, overall 54); crochet lace bandana <750 (competition 23, overall 31). These are vidIQ YouTube-tool estimates, not Google search volume or organic SEO difficulty.",
+        "Candidate topics: beginner crochet bandana, crochet lace bandana, crochet hair scarf, lace stitch tutorial, crochet summer accessories. Verify seasonality, Google US search intent, competition and site overlap before choosing."
       ]
     }
   ]
