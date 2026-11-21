@@ -1616,6 +1616,48 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "Related topic from vidIQ US research 2026-11-21; estimated below 750 on YouTube tool. Seasonal editorial candidate, plan ahead for US spring/summer."
+    },
+    {
+      "primary": "amigurumi crochet",
+      "secondary": [
+        "crochet amigurumi",
+        "amigurumi crochet for beginners",
+        "amigurumi crochet tutorial",
+        "free amigurumi crochet patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 27,060; competition 25; overall 70; demand change -39.2%. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+    },
+    {
+      "primary": "amigurumi crochet doll",
+      "secondary": [
+        "crochet doll",
+        "crochet doll tutorial",
+        "amigurumi crochet doll pattern",
+        "how to crochet a doll"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 4,622; competition 28; overall 62. Related keyword crochet doll: 6,711; crochet doll tutorial: 5,291. YouTube-tool estimates, not Google volume."
+    },
+    {
+      "primary": "crochet doll tutorial",
+      "secondary": [
+        "how to crochet a doll",
+        "beginner crochet doll",
+        "crochet doll patterns",
+        "amigurumi doll"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 5,291; competition 19; overall 66. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
     }
   ],
   "keyword_strategy": {
@@ -1771,6 +1813,20 @@
         "Additional vidIQ US keyword research for crochet summer accessories: shell stitch crochet estimated 4,880 monthly (competition 34, overall 60); crochet headband 22,796 (competition 54, overall 57; demand change -72.1%); related candidates crochet head scarf, crochet cottagecore, lightweight crochet, summer crochet projects all estimated below 750 or lacking precise volume. These are YouTube-tool estimates, not Google volume.",
         "Editorial learning: strong tutorial articles should be accurate, original, tested where patterns are provided, answer search intent early, state materials/yarn weight/yardage/hook/gauge, show finished project and close-up process photos, explain steps and abbreviations, include troubleshooting, sizing/variations, useful FAQs, and relevant internal links. Use an original The Yarn Nest voice; do not imitate a specific writer or reproduce competitor content.",
         "Visual strategy: use Pinterest trends for project and palette inspiration only. Generate original images; never reuse or closely replicate a specific pin, seller photo, or protected pattern. Prioritize clear stitch texture, plausible yarn construction, realistic tools, consistent project dimensions, and space for manually added title text."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "Amigurumi and crochet-doll deep dive across Pinterest, YouTube, specialist tutorial sites, Google guidance and marketplace data.",
+      "notes": [
+        "Pinterest 2026 Hobbies report: 'unique amigurumi' search trend +56%, and 'crochet parandi' +5,265%. These are Pinterest trend signals, not Google volume. Source https://newsroom.pinterest.com/en-ca/news/2026-pinterest-hobbies-trend-report/",
+        "vidIQ US YouTube research: amigurumi crochet estimated 27,060 monthly (competition 25, overall 70; demand change -39.2%); amigurumi crochet doll 4,622 (competition 28, overall 62); crochet doll 6,711; crochet doll tutorial 5,291. These are YouTube-tool estimates, not Google search volumes or Google organic difficulty.",
+        "Specialist tutorial benchmark: PlanetJune organizes tutorials by essentials, basics, finishing, embellishment and specialty techniques; includes step-by-step photos and videos, right/left-handed support, and troubleshooting. Learn the information architecture and completeness, not exact copy. Source https://www.planetjune.com/blog/tutorials/crochet-tutorials/",
+        "Additional specialist benchmark: Loopy Panda highlights real-speed hand demonstrations, exact round stitch counts, US/UK term comparison, left-handed tutorials and original amigurumi patterns. These are useful quality standards to adapt if The Yarn Nest develops its own tutorial library. Source https://loopypanda.com/",
+        "Aubrium's Nov 12 2026 analysis says its library contained 800+ viral crochet/knitting reels from 600+ creators; amigurumi/plushies appeared among 70 creators, with median reel reach 16x follower count. This is a selected viral-reel sample, not general Instagram performance or odds of success. Source https://aubrium.com/blog/crochet-and-knitting-reel-ideas/",
+        "Crochetify Q3 2026 preliminary marketplace report covers 883 paid orders across 13 shops; 67% of patterns sold in its sample were Amigurumi & Toys, and 64% of recorded buyers were in the US. Very small, platform-specific sample; directional only, not a market-wide estimate. Source https://crochetify.app/reports/2026-q3",
+        "Google Search Central says focus on original people-first value, trust, and explain how content was produced where readers would reasonably expect it. Avoid copying or mass-producing generic summaries. Source https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+        "New content opportunities to validate: amigurumi basics hub, invisible decrease, magic ring, stuffing evenly, clean colour changes, amigurumi finishing, crochet doll tutorial, doll hair/clothes, beginner amigurumi animal. These are candidates, not approved post targets; verify Google US SERP and existing-site overlap first."
       ]
     }
   ]
