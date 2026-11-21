@@ -176,3 +176,23 @@ A high-quality article should not imitate a named writer. Use a consistent origi
 
 ### Additional seasonal content directions
 Investigate lightweight crochet accessories, lace bandanas, crochet headbands, shell-stitch tutorials, crochet bags, floral motifs, crochet trims on fabric, small wearable gifts and coastal colour palettes. Publish seasonal guides before US demand peaks, and refresh after the season using Search Console data.
+
+
+## Independent trend research expansion — 2026-11-21
+### Pinterest signals
+- Pinterest 2026 Hobbies Trend Report reports crochet upcycle +523%, crochet parandi +5,265%, and unique amigurumi +56%. It also highlights tactile, beginner-friendly, giftable crafting and upcycling. These are Pinterest trend changes, not Google search volumes. Source: https://newsroom.pinterest.com/en-ca/news/2026-pinterest-hobbies-trend-report/
+- Pinterest Predicts 2026 lace trend reports lace bandana +150% and lace doily +105%. The report uses global English-language Pinterest search data, with a Sep 2023–Aug 2025 analysis period, not US-only Google data. Source: https://business.pinterest.com/pdf/pinterest-predicts/2026-trend-report/
+- Pinterest Summer 2025 report had crochet micro shorts +1,393%, crochet short dresses +2,030%, crochet summer set +349%, crochet ruffle bag +453%, and crochet lace bandana +54%. This is a historical seasonal signal, not current demand. Source: https://newsroom.pinterest.com/news/the-2025-pinterest-summer-trend-report/
+
+### Etsy signals
+- Etsy Spring/Summer 2026 Seller Trend Report says crochet clothing sales rose 36% and recommends close-up texture and process photography. Data is Etsy marketplace activity among US signed-in users through Feb 10, 2026, not Google search volume. Source: https://www.etsy.com/seller-handbook/article/1473931456647
+- eRank's Q3 2026 Etsy search analysis lists “crochet pattern” at #7, up from #123 in Q3 2025, and “crochet” at #12 in its US Etsy top-20 list. This is Etsy marketplace search evidence, not Google. Source: https://help.erank.com/blog/top-etsy-searches-q3-2026/
+
+### New vidIQ US YouTube keyword research
+- shell stitch crochet: 4,880 estimated monthly searches; competition 34; overall 60.
+- crochet headband: 22,796; competition 54; overall 57; reported demand change -72.1%.
+- Related candidates: crochet head scarf, crochet cottagecore, lightweight crochet, summer crochet projects. Precise volume is low, missing, or below 750 in the YouTube tool.
+All figures are vidIQ estimates for YouTube, not Google search volume or organic SEO difficulty. Validate each topic against Google US SERPs and Keyword Planner before choosing.
+
+### Editorial and visual standard
+Create an original The Yarn Nest voice: warm, direct, practical and precise. Do not imitate a specific writer or reproduce competitor phrasing. Every tutorial should answer intent early, identify skill level, list materials and yarn details, show the finished result and close-up process photos, provide clear steps and stitch explanations, add troubleshooting and useful variations, and link to relevant guides. Patterns should be genuinely tested before being described as tested. Pinterest imagery is trend inspiration only; generate original visuals with plausible stitch construction and leave text placement for manual design.
