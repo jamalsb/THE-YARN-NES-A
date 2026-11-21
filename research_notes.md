@@ -149,3 +149,30 @@ Google's Generative AI search guide similarly emphasizes unique, non-commodity v
 - Cite reliable sources for technical yarn standards and distinguish tested experience from sourced facts.
 - Include internal links that genuinely help the reader.
 - Check US SERP, search intent, competition, and existing-site overlap before drafting.
+
+
+## Further independent research — 2026-11-21
+### Pinterest signals
+Official Pinterest Predicts 2026 global English-language search data reported: lace bandana +150%, lace doily +105%, lace belt +55%, lace nails +215%. Pinterest Summer 2026 report additionally surfaced bandana scarf +424%, bandana jewelry +303%, scarf on bags +217%, tiny scarf +112%, and belt scarf +140%. These are Pinterest trend-growth indicators, not Google search volumes and not all crochet-specific.
+Sources:
+- https://business.pinterest.com/pdf/pinterest-predicts/2026-trend-report/
+- https://newsroom.pinterest.com/news/summer-trend-report-2026/
+
+### Etsy, creator and short-video signals
+- Etsy Spring/Summer 2026 Seller Trend Report reports crochet clothing sales +36% and highlights the Soft Stitch Era: visible craftsmanship, close-up texture, process photography and meaningful handmade details. https://www.etsy.com/seller-handbook/article/1473931456647
+- A 2026 crochet designer trend article highlights lightweight lace layers, coastal/sea-glass palettes, mixed-media crochet trims, bags, wraps and accessories. Treat as expert inspiration, not keyword metrics. https://www.kristinomdahl.com/summer-crochet-trends-for-2026-lightweight-layers-sea-glass-colors-elevated-handmade-style/
+- Aubrium's Nov 12, 2026 review of 800+ viral crochet/knitting Reels identified recurring formats: wearable makes, stitch tutorials, craft-fair/selling stories, amigurumi, yarn hauls, granny squares, accessories, crochet art, home decor, bags and handmade gifts. This is a third-party sample/library analysis, not a platform-wide audited statistic. https://aubrium.com/blog/crochet-and-knitting-reel-ideas
+- TikTok's 2026 Discovery On TikTok report mentions CraftTok growth and crochet activity in selected markets. Treat as platform signal, not Google volume. https://sf16-va.tiktokcdn.com/obj/eden-va2/fuulweh7ohyhz/Discovery%20On%20TikTok%20Report%202026.pdf
+
+### New vidIQ US keyword estimates (YouTube data only)
+- shell stitch crochet: 4,880 estimated monthly searches; competition 34; overall 60.
+- crochet headband: 22,796; competition 54; overall 57; reported demand change -72.1%.
+- crochet summer project: below 750; competition 35; overall 26.
+- crochet cottagecore: below 750; competition 21; overall 32.
+All are unverified for Google organic SEO. Do not report these as Google search volume or organic keyword difficulty. Check US Google Planner, a proper SEO difficulty source, seasonality, search intent and live SERP before selection.
+
+### Further editorial principles
+A high-quality article should not imitate a named writer. Use a consistent original Yarn Nest voice: warm, clear, practical, and specific. Show the finished project early; identify skill level; give exact yarn weight, yardage, hook size, gauge, sizing and materials where relevant; use numbered steps and original close-up images; include troubleshooting and variations; add concise FAQs and internal links. Never state that a pattern was tested unless a maker actually tested it.
+
+### Additional seasonal content directions
+Investigate lightweight crochet accessories, lace bandanas, crochet headbands, shell-stitch tutorials, crochet bags, floral motifs, crochet trims on fabric, small wearable gifts and coastal colour palettes. Publish seasonal guides before US demand peaks, and refresh after the season using Search Console data.
