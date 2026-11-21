@@ -288,3 +288,14 @@ For The Yarn Nest, improve existing pages where they lack concrete instruction a
 - Editorial candidates added to keyword bank as unverified: “crochet rug”, “crochet edging”, and “crochet lace border”.
 - **Cannibalization warning:** The site already has a blanket-border article. Do not publish a second generic edging page unless a Google US SERP review confirms distinct intent. A lace-specific section or guide may be more appropriate if SERPs overlap.
 - No articles were published and no website pages were changed.
+
+
+## 2026-11-21: OpenSEO US keyword research (crochet lace, rugs, shawls)
+
+- Created an OpenSEO project for The Yarn Nest (theyarnnest.shop), with United States (location code 2840) and English as the default market.
+- OpenSEO seed results (estimated US monthly searches): **crochet lace** 3,600 (reported KD 0); **crochet lace patterns** 3,600 (KD 0); **lace stitch crochet** 1,600 (KD 1); **crochet lace edging** 1,000 (KD 0); **crochet rug** 2,400 (KD 0); **crochet rug pattern** 1,300 (KD 0); **crochet rag rug** 480 (KD 0); **t-shirt rug crochet** 210 (KD 0); **crochet shawl** 5,400 (KD 0); crochet shawl pattern variants 8,100 (KD 0); **beginner crochet shawl patterns free** 1,300 (KD 0).
+- These are OpenSEO/keyword-data-provider estimates, not guaranteed traffic. Many close variants share the same volume, and several KD values are zero. Do not add variant volumes together or assume KD 0 means easy ranking. Check live US Google SERPs and ranking-page quality before choosing a target.
+- The crochet-rug seed was noisy and surfaced unrelated rug terms. More specific candidates include rag rugs, T-shirt-yarn rugs, oval rugs, and beginner rug tutorials.
+- New unverified candidates were added to keyword_bank.json: lace stitch crochet, crochet lace patterns, crochet rag rug, how to crochet a rug, crochet oval rug pattern, and crochet triangle shawl pattern. Duplicate primary keywords were skipped.
+- **Ahrefs was not queried:** no Ahrefs-specific research tool was exposed in the active tool catalog during this run, so no Ahrefs figures are claimed.
+- No articles were published and no website pages were changed.
