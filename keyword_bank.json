@@ -1889,6 +1889,34 @@
       "competition_index": 20,
       "metric_type": "advertiser competition, not organic SEO difficulty",
       "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 9,900; advertiser competition LOW (index 20/100). CPC $0.34. Google organic difficulty and live SERP not verified."
+    },
+    {
+      "primary": "crochet flower pattern",
+      "secondary": [
+        "easy crochet flower pattern",
+        "small crochet flower tutorial",
+        "crochet flower applique"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Cross-tool candidate checked 2026-11-21. Semrush US: 6,600 monthly searches, KD 18, CPC $0.22, advertiser competition 0.54. OpenSEO US: 12,100 monthly searches, KD 0 (not treated as confirmed easy), informational intent, CPC $0.27, advertiser competition 0.53. Volume differs by provider; live SERP review required.",
+      "editorial_note": "Third-priority draft: 'Easy Crochet Flower Pattern: A Step-by-Step Beginner Tutorial'. Include original step photos, materials, stitch abbreviations and clear finishing instructions."
+    },
+    {
+      "primary": "amigurumi patterns",
+      "secondary": [
+        "easy amigurumi patterns",
+        "beginner amigurumi crochet",
+        "simple crochet plush patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "Cross-tool candidate checked 2026-11-21. Semrush US: 4,400 monthly searches, KD 22, CPC $0.24, advertiser competition 0.97. OpenSEO US: 5,400 monthly searches, KD 19, informational intent, CPC $0.45, advertiser competition 0.95. Good demand agreement, but higher advertiser competition and SERP review still required.",
+      "editorial_note": "Fourth-priority draft: 'Easy Amigurumi Patterns for Beginners'. Focus on genuinely beginner-friendly original projects and precise materials/stitch-count guidance."
     }
   ],
   "keyword_strategy": {
@@ -2090,6 +2118,17 @@
         "Added crochet patterns free: Urdu meaning مفت کروشیا کے ڈیزائن/نمونے; 40,500 average monthly searches; advertiser competition LOW, index 19/100; CPC $0.31.",
         "Added knitting patterns free: Urdu meaning مفت نِٹنگ کے ڈیزائن/نمونے; 9,900 average monthly searches; advertiser competition LOW, index 20/100; CPC $0.34.",
         "These competition labels are advertiser competition, not Google organic SEO difficulty. Both remain unverified for organic SEO until live US SERP review and organic difficulty evidence are recorded."
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "scope": "Semrush and OpenSEO cross-tool comparison; low-KD editorial shortlist for The Yarn Nest",
+      "notes": [
+        "Compared seven US English keyword candidates in Semrush and OpenSEO. Search volume estimates differ across providers, so do not treat one provider's figure as exact or average them without a defined method.",
+        "Shortlisted easy crochet projects (Semrush KD 14; OpenSEO KD 5), knitting patterns free (Semrush KD 7; OpenSEO KD 0, treated as unconfirmed), crochet flower pattern (Semrush KD 18; OpenSEO KD 0, treated as unconfirmed), and amigurumi patterns (Semrush KD 22; OpenSEO KD 19).",
+        "All shortlisted keywords remain unverified for publication. A zero KD from OpenSEO is not assumed to mean effortless ranking. Check live US Google SERP, page intent, ranking-page authority/content quality and overlap with existing pages before final URL selection.",
+        "Editorial order proposal: 1) Easy Crochet Projects, 2) Free Knitting Patterns for Beginners (only if site scope supports knitting), 3) Easy Crochet Flower Pattern, 4) Easy Amigurumi Patterns. These are draft priorities, not published articles.",
+        "No article was published and no website page was changed."
       ]
     }
   ]
