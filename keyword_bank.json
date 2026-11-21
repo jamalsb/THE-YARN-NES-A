@@ -1658,6 +1658,66 @@
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 5,291; competition 19; overall 66. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+    },
+    {
+      "primary": "crochet lace edging",
+      "secondary": [
+        "crochet lace border",
+        "how to crochet lace edging",
+        "easy lace edging for blankets"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ YouTube keyword research returned an estimated 4,267 monthly searches and competition score 41; not Google data.",
+      "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
+      "search_intent": "tutorial"
+    },
+    {
+      "primary": "crochet lace shawl",
+      "secondary": [
+        "easy crochet lace shawl pattern",
+        "beginner crochet shawl",
+        "lightweight crochet shawl"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Recent vidIQ breakout scan found a lace shawl tutorial with 178.5K views and 39x channel breakout; YouTube performance signal only, not Google demand.",
+      "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
+      "search_intent": "pattern/tutorial"
+    },
+    {
+      "primary": "easy crochet lace stitch",
+      "secondary": [
+        "two row crochet lace stitch",
+        "beginner lace crochet stitch",
+        "simple crochet lace pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "source_note": "Recent US-based YouTube channel breakout: easy two-row crochet stitch tutorial with 313.6K views and 34x channel breakout; not Google search data.",
+      "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
+      "search_intent": "tutorial"
+    },
+    {
+      "primary": "crochet rug from old clothes",
+      "secondary": [
+        "crochet rug with fabric strips",
+        "upcycled crochet rug",
+        "how to crochet with fabric strips"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "normal",
+      "source_note": "vidIQ research surfaced crochet rug and crochet with fabric strips related terms; estimated searches below 750 for specific phrases and tool competition values are YouTube estimates, not Google.",
+      "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
+      "search_intent": "tutorial/project"
     }
   ],
   "keyword_strategy": {
