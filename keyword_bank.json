@@ -1929,6 +1929,142 @@
       "status": "candidate",
       "verification": null,
       "notes": "Topic selected for The Yarn Nest article. SEMrush volume and organic difficulty evidence has not been recorded in this repository; do not treat as verified."
+    },
+    {
+      "primary": "free crochet cap patterns",
+      "secondary": [
+        "crochet cap patterns free",
+        "easy crochet cap patterns",
+        "beginner crochet cap pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 14800,
+      "organic_difficulty": 1,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "crochet blanket patterns free",
+      "secondary": [
+        "free crochet blanket patterns",
+        "easy crochet blanket patterns",
+        "crochet blanket pattern for beginners"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 12100,
+      "organic_difficulty": 0,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "free crochet sweater patterns",
+      "secondary": [
+        "easy crochet sweater patterns",
+        "crochet sweater patterns for beginners",
+        "free beginner crochet sweater"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 8100,
+      "organic_difficulty": 0,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "free crochet bags and purses patterns",
+      "secondary": [
+        "free crochet bag patterns",
+        "crochet purse patterns free",
+        "easy crochet bag pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 6600,
+      "organic_difficulty": 0,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "free crochet scarf patterns",
+      "secondary": [
+        "easy crochet scarf patterns",
+        "crochet scarf patterns for beginners",
+        "free scarf crochet pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 6600,
+      "organic_difficulty": 0,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "free crochet heart patterns",
+      "secondary": [
+        "easy crochet heart pattern",
+        "small crochet heart pattern",
+        "crochet heart applique"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 3600,
+      "organic_difficulty": 2,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "free crochet ornament patterns",
+      "secondary": [
+        "easy crochet ornaments",
+        "crochet Christmas ornament patterns",
+        "small crochet ornament pattern"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 2900,
+      "organic_difficulty": 0,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
+    },
+    {
+      "primary": "free knitting patterns",
+      "secondary": [
+        "free knitting patterns for beginners",
+        "easy free knitting patterns",
+        "free scarf knitting patterns"
+      ],
+      "status": "unverified",
+      "verification": null,
+      "target_country": "US",
+      "research_priority": "high",
+      "monthly_searches": 9900,
+      "organic_difficulty": 1,
+      "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
+      "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
+      "search_intent": "informational/pattern"
     }
   ],
   "keyword_strategy": {
@@ -2141,6 +2277,17 @@
         "All shortlisted keywords remain unverified for publication. A zero KD from OpenSEO is not assumed to mean effortless ranking. Check live US Google SERP, page intent, ranking-page authority/content quality and overlap with existing pages before final URL selection.",
         "Editorial order proposal: 1) Easy Crochet Projects, 2) Free Knitting Patterns for Beginners (only if site scope supports knitting), 3) Easy Crochet Flower Pattern, 4) Easy Amigurumi Patterns. These are draft priorities, not published articles.",
         "No article was published and no website page was changed."
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "scope": "OpenSEO US English follow-up keyword research for free crochet patterns, free knitting patterns and beginner crochet patterns",
+      "notes": [
+        "Added new unverified keyword candidates to keyword_bank.json: free crochet cap patterns; crochet blanket patterns free; free crochet sweater patterns; free crochet bags and purses patterns; free crochet scarf patterns; free crochet heart patterns; free crochet ornament patterns; free knitting patterns.",
+        "Recorded OpenSEO estimated monthly searches and reported organic difficulty for each candidate. These are tool estimates, not verified ranking outcomes.",
+        "Skipped exact or close terms already present in the bank to avoid duplicate primary entries: free crochet patterns for beginners; free amigurumi crochet patterns.",
+        "All newly added candidates remain unverified. Complete live US Google SERP review, intent validation and existing-page overlap checks before promoting any keyword to verified or assigning a new article URL.",
+        "No articles were written or published and no website pages were changed."
       ]
     }
   ]
