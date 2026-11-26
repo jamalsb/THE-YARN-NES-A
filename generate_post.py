@@ -322,7 +322,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
 <span class="blog-cat">Yarn Crafts</span></div>
 <div class="blog-content"><span class="blog-date">{now.strftime("%B %d, %Y")}</span>
 <h3><a href="{filename.removesuffix('.html')}">{safe_title}</a></h3><p>{escape(excerpt)}</p>
-<a href="{filename}" class="read-more">Read Article</a>
+<a href="{filename.removesuffix('.html')}" class="read-more">Read Article</a>
 <small>Image: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></small>
 </div></article>
 """
