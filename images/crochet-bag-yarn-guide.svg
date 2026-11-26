@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7eee3"/><stop offset="1" stop-color="#e8d2bd"/></linearGradient><pattern id="stitch" width="24" height="20" patternUnits="userSpaceOnUse"><path d="M4 4 Q12 16 20 4 M4 14 Q12 2 20 14" fill="none" stroke="#9b6247" stroke-width="2.5" stroke-linecap="round"/></pattern></defs>
+<rect width="960" height="640" fill="url(#bg)"/><ellipse cx="480" cy="555" rx="260" ry="34" fill="#cbb29c" opacity=".45"/>
+<path d="M320 265 C325 170 390 125 480 125 C570 125 635 170 640 265" fill="none" stroke="#81533d" stroke-width="28" stroke-linecap="round"/>
+<path d="M250 245 Q480 210 710 245 L670 525 Q480 575 290 525 Z" fill="#c88961" stroke="#81533d" stroke-width="10" stroke-linejoin="round"/>
+<path d="M270 260 Q480 230 690 260 L655 505 Q480 545 305 505 Z" fill="url(#stitch)" opacity=".95"/>
+<path d="M250 245 Q480 210 710 245" fill="none" stroke="#f3d7b9" stroke-width="18"/>
+<path d="M380 340 Q480 390 580 340" fill="none" stroke="#f2d9c2" stroke-width="12" stroke-linecap="round"/>
+<circle cx="480" cy="410" r="13" fill="#f2d9c2"/><text x="480" y="600" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#654632">Crochet Bag Yarn Guide</text>
+</svg>
