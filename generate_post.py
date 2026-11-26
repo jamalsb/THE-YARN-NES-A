@@ -240,7 +240,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
     now = datetime.datetime.now(datetime.timezone.utc)
     stamp = now.strftime("%Y-%m-%d-%H-%M-%S")
     filename = "post-" + stamp + ".html"
-    canonical_url = "https://www.theyarnnest.shop/" + filename
+    canonical_url = "https://www.theyarnnest.shop/" + filename.removesuffix(".html")
     image_query = primary_keyword + " yarn craft"
     image_path, credit_url = pixabay_image(image_query)
     image_url = "https://www.theyarnnest.shop/" + image_path
@@ -267,7 +267,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
         "@type": "BreadcrumbList",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.theyarnnest.shop/"},
-            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.theyarnnest.shop/blog.html"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.theyarnnest.shop/blog"},
             {"@type": "ListItem", "position": 3, "name": title, "item": canonical_url}
         ]
     }
@@ -295,7 +295,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
     gtag('config', 'G-ZT8H6KLQH6');
   </script>
 </head>
-<body><div class="container"><a href="blog.html">Back to Blog</a>
+<body><div class="container"><a href="/blog">Back to Blog</a>
 <figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
 {article}
 <p class="image-credit">Image source: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></p>
@@ -321,7 +321,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
 <img src="{escape(image_path, quote=True)}" alt="{safe_title}">
 <span class="blog-cat">Yarn Crafts</span></div>
 <div class="blog-content"><span class="blog-date">{now.strftime("%B %d, %Y")}</span>
-<h3><a href="{filename}">{safe_title}</a></h3><p>{escape(excerpt)}</p>
+<h3><a href="{filename.removesuffix('.html')}">{safe_title}</a></h3><p>{escape(excerpt)}</p>
 <a href="{filename}" class="read-more">Read Article</a>
 <small>Image: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></small>
 </div></article>
