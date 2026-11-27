@@ -299,7 +299,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
 <figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
 {article}
 <p class="image-credit">Image source: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></p>
-</div></body></html>"""
+</div><script src="js/share.js" defer></script></body></html>"""
     post_file = ROOT / filename
     if post_file.exists():
         raise RuntimeError("Refusing to overwrite an existing post.")
