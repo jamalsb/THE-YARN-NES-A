@@ -4,6 +4,7 @@ from html import escape, unescape
 from html.parser import HTMLParser
 import requests
 from google import genai
+from affiliate import pick_links, render_block
 
 ROOT = Path(__file__).resolve().parent
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
@@ -115,6 +116,9 @@ def main():
     keyword = candidates[0]
     primary_keyword = keyword["primary"]
     secondary_keywords = keyword.get("secondary", [])
+    # Affiliate (Buy Now) links come only from affiliate_links.json and are inserted by code, never written by the AI.
+    affiliate_picks = pick_links(primary_keyword, secondary_keywords, history.get("used", []))
+    affiliate_html = render_block(affiliate_picks)
 
     knowledge_path = ROOT / "yarn_knowledge_base.md"
     knowledge_base = ""
@@ -299,6 +303,7 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
 <body><div class="container"><a href="/blog">Back to Blog</a>
 <figure><img src="{escape(image_path, quote=True)}" alt="{safe_title}" style="max-width:100%;height:auto"></figure>
 {article}
+{affiliate_html}
 <p class="image-credit">Image source: <a href="{escape(credit_url, quote=True)}" rel="noopener noreferrer">Pixabay</a></p>
 </div><script src="js/share.js" defer></script><script src="js/chat.js" defer></script></body></html>"""
     post_file = ROOT / filename
@@ -334,7 +339,8 @@ Return only the finished article HTML and the required SEO_DESCRIPTION comment.
         "secondary": secondary_keywords,
         "title": title,
         "file": filename,
-        "published_at": published_at
+        "published_at": published_at,
+        "affiliate_ids": [link["id"] for link in affiliate_picks]
     })
     history_path.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Created post {post_number}: {filename}; primary keyword: {primary_keyword}; image: {image_path}; sitemap updated.")

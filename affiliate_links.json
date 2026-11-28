@@ -1,0 +1,162 @@
+{
+  "note": "Bank of affiliate (Buy Now) links. generate_post.py inserts at most one matching link per new article, chosen by keyword overlap with the article's primary and secondary keywords. Add a new product by appending an object with: id (unique), name (product name as shown on the product page), url (your affiliate link), keywords (phrases that should trigger it), description (neutral text, no invented specs or prices), and optionally image and image_alt. Never put prices, ratings or specification claims here unless you have checked them.",
+  "links": [
+    {
+      "id": "ergonomic-hook-set",
+      "name": "13-Piece Ergonomic Soft-Grip Crochet Hook Set",
+      "url": "https://s.click.aliexpress.com/e/_c4CNJQVB",
+      "keywords": [
+        "crochet hook",
+        "hooks",
+        "ergonomic",
+        "arthritis",
+        "hook set"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "stitch-markers-set",
+      "name": "Crochet & Knitting Stitch Markers Set",
+      "url": "https://s.click.aliexpress.com/e/_c3KBOey9",
+      "keywords": [
+        "stitch marker",
+        "read crochet pattern",
+        "crochet pattern",
+        "count stitches"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "bent-tip-tapestry-needle",
+      "name": "Bent Tip Tapestry Needle for Crochet Finishing",
+      "url": "https://s.click.aliexpress.com/e/_c3wJd2pPyah",
+      "keywords": [
+        "weave in ends",
+        "tapestry needle",
+        "finishing",
+        "yarn needle"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "silk-lace-cotton-yarn",
+      "name": "50g/PC Silk Lace Cotton Milk Crochet Yarn",
+      "url": "https://s.click.aliexpress.com/e/_c3e0iHk1",
+      "keywords": [
+        "shawl",
+        "lace",
+        "lightweight yarn",
+        "knitting patterns"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "milk-cotton-4ply-set",
+      "name": "40-50g/Set 4ply Milk Cotton Knitting Yarn",
+      "url": "https://s.click.aliexpress.com/e/_c3YNMn8v",
+      "keywords": [
+        "scrap yarn",
+        "leftover yarn",
+        "granny square",
+        "small projects",
+        "coasters",
+        "dk weight",
+        "dk yarn"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "soft-yarn-set-6pc",
+      "name": "6-Piece Soft Yarn Set for Knitting & Crochet",
+      "url": "https://s.click.aliexpress.com/e/_c3mowZgt",
+      "keywords": [
+        "yarn set",
+        "beginner yarn",
+        "soft yarn",
+        "yarn crafts"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "chenille-yarn-250g",
+      "name": "250g Multicolor Chenille Yarn",
+      "url": "https://s.click.aliexpress.com/e/_c3iwPBBJ",
+      "keywords": [
+        "chenille",
+        "chunky",
+        "blanket yarn",
+        "soft blanket"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "tabby-cat-knitting-set",
+      "name": "Tabby Cat DIY Complete Starter Knitting Set",
+      "url": "https://s.click.aliexpress.com/e/_c4kD27Al",
+      "keywords": [
+        "starter kit",
+        "knitting set",
+        "worsted weight",
+        "diy kit"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "beginner-animal-crochet-kit",
+      "name": "Beginner Animal Crochet Kit",
+      "url": "https://s.click.aliexpress.com/e/_c2ujti3P",
+      "keywords": [
+        "amigurumi",
+        "animal crochet",
+        "crochet kit",
+        "crochet animal"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "portable-beginner-crochet-kit",
+      "name": "Portable Beginner Crochet Kit",
+      "url": "https://s.click.aliexpress.com/e/_c2Jmnn3n",
+      "keywords": [
+        "beginner crochet kit",
+        "crochet kit for beginners",
+        "starter crochet",
+        "learn to crochet"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "crochet-tote-bag-kit",
+      "name": "Beginner Crochet Tote Bag Kit",
+      "url": "https://s.click.aliexpress.com/e/_c3RqiA7J",
+      "keywords": [
+        "tote bag",
+        "bag kit",
+        "crochet bag"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "conch-shell-bag-kit",
+      "name": "Crochet Ocean Conch Shell Bag",
+      "url": "https://s.click.aliexpress.com/e/_c4qLVKLX",
+      "keywords": [
+        "conch shell bag",
+        "best yarn for crochet bags",
+        "bag yarn"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    },
+    {
+      "id": "mini-wool-carding-machine",
+      "name": "Mini Wool Yarn Carding Machine",
+      "url": "https://s.click.aliexpress.com/e/_c42yWra1",
+      "keywords": [
+        "carding",
+        "wool carding",
+        "spinning wool"
+      ],
+      "description": "Check the product page for current details, sizes, colors and availability before ordering."
+    }
+  ]
+}

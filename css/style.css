@@ -83,3 +83,15 @@ img { max-width: 100%; display: block; border-radius: 12px; }
   .hero-blog h1 { font-size: 32px; }
   .article-header h1 { font-size: 30px; }
 }
+
+/* Affiliate product block (inserted automatically into generated posts) */
+.affiliate-product{margin:38px 0;padding:24px;background:#faf6f1;border:1px solid #eadfd3;border-radius:14px}
+.affiliate-product h2{margin-top:0}
+.affiliate-product-card{display:flex;gap:22px;align-items:center}
+.affiliate-product-card img{width:220px;max-width:38%;height:auto;object-fit:cover;border-radius:12px}
+.affiliate-product-info{flex:1}
+.affiliate-product-info h3{margin-top:0}
+.shop-now-button{display:inline-block;padding:12px 28px;background:#8b5e45;color:#fff!important;text-decoration:none;border-radius:8px;font-weight:700}
+.shop-now-button:hover{background:#704832}
+.affiliate-disclosure{font-size:.85rem;color:#70665e;margin:14px 0 0}
+@media(max-width:600px){.affiliate-product-card{display:block}.affiliate-product-card img{width:100%;max-width:100%;margin-bottom:14px}.shop-now-button{display:block;text-align:center}}
