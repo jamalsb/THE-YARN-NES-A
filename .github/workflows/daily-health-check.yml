@@ -1,0 +1,20 @@
+name: Daily Yarn Nest Health Check
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 19:00 Pakistan time, after both daily posts
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check today's automatic posts
+        run: python health_check.py --expected 2
