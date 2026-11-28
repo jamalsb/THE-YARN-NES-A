@@ -102,13 +102,21 @@ def main():
             and isinstance(evidence.get("search_intent"), str) and evidence["search_intent"].strip()
             and evidence.get("serp_review") is True
         )
+    def is_approved(item):
+        return (
+            item.get("status") == "approved"
+            and isinstance(item.get("approved_by"), str) and item["approved_by"].strip()
+            and isinstance(item.get("approved_at"), str) and item["approved_at"].strip()
+        )
     candidates = [
         item for item in bank.get("keywords", [])
-        if item.get("primary", "").strip().lower() not in used and is_verified(item)
+        if item.get("primary", "").strip().lower() not in used and (is_verified(item) or is_approved(item))
     ]
+    # Stable sort: high-priority keywords first, otherwise keep the bank order.
+    candidates.sort(key=lambda item: {"high": 0, "medium": 1}.get(item.get("research_priority"), 2))
     if not candidates:
         raise RuntimeError(
-            "SAFE STOP: No unused keyword has verified evidence. "
+            "SAFE STOP: No unused keyword is verified or owner-approved. "
             "No article was generated or published. Verify a keyword first "
             "(organic_difficulty 0-30, source, checked_at, monthly_searches, "
             "search_intent, and serp_review=true)."

@@ -1,7 +1,9 @@
 name: Auto Generate HTML Blog Post
 
 on:
-  # Manual runs only. Automatic publishing stays disabled until keywords are verified.
+  schedule:
+    - cron: "0 5 * * *"   # 10:00 Pakistan time
+    - cron: "0 13 * * *"  # 18:00 Pakistan time
   workflow_dispatch:
 
 permissions:

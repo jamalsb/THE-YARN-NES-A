@@ -1,5 +1,5 @@
 {
-  "note": "All keyword candidates start as unverified. A keyword can be published only after a human adds status='verified' and complete verification evidence: source, checked_at, monthly_searches, organic_difficulty (0-30), search_intent, and serp_review=true. Candidate phrases are not verified metrics. Ahrefs-reported Easy keywords are research priorities only until full evidence is recorded.",
+  "note": "Status 'approved' means the site owner reviewed the topic and approved it for publishing on 2026-11-28. It does NOT mean search volume or ranking difficulty was measured; those fields stay empty and must never be invented. Status 'verified' additionally requires full evidence: source, checked_at, monthly_searches, organic_difficulty (0-30), search_intent, serp_review=true. New keywords added by the weekly research start as 'unverified' and are not published until the owner approves them.",
   "keywords": [
     {
       "primary": "easy yarn crafts",
@@ -9,12 +9,14 @@
         "easy yarn projects for beginners",
         "how to make yarn crafts"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "User-provided Ahrefs research; user reported Easy. Exact KD, USA search volume, and SERP review still need verification.",
-      "editorial_note": "Proposed first article: 'Easy Yarn Crafts: 12 Beginner-Friendly Ideas for Leftover Yarn'. Use related terms naturally and only where relevant."
+      "editorial_note": "Proposed first article: 'Easy Yarn Crafts: 12 Beginner-Friendly Ideas for Leftover Yarn'. Use related terms naturally and only where relevant.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a granny square",
@@ -23,8 +25,10 @@
         "easy granny square for beginners",
         "simple crochet square pattern"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to join granny squares with a flat seam",
@@ -33,8 +37,10 @@
         "flat slip stitch granny square join",
         "crochet blanket square joining"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to weave in ends in crochet neatly",
@@ -43,8 +49,10 @@
         "hide yarn tails crochet",
         "finish crochet project neatly"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to change colors in crochet without knots",
@@ -53,8 +61,10 @@
         "join new yarn crochet",
         "neat color changes crochet"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a magic ring for beginners",
@@ -63,8 +73,10 @@
         "adjustable crochet ring",
         "magic ring amigurumi"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet an oval for beginners",
@@ -73,8 +85,10 @@
         "oval crochet foundation",
         "crochet an oval shape"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to make crochet edges straight",
@@ -83,8 +97,10 @@
         "crochet turning chain tips",
         "fix uneven crochet edges"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to block crochet squares",
@@ -93,8 +109,10 @@
         "how to shape crochet squares",
         "wet blocking crochet"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to read crochet stitch symbols",
@@ -103,8 +121,10 @@
         "read crochet diagrams",
         "crochet pattern symbol guide"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a foundation chain evenly",
@@ -113,8 +133,10 @@
         "loose starting chain crochet",
         "even crochet chain for beginners"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to make a crochet border for a blanket",
@@ -123,8 +145,10 @@
         "simple blanket border crochet",
         "crochet edging tutorial"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a simple flower applique",
@@ -133,8 +157,10 @@
         "small crochet flower tutorial",
         "crochet flower embellishment"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a leaf applique",
@@ -143,8 +169,10 @@
         "crochet leaf tutorial",
         "small crochet leaf embellishment"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to make a crochet bow",
@@ -153,8 +181,10 @@
         "small crochet bow tutorial",
         "crochet hair bow"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a dishcloth for beginners",
@@ -163,8 +193,10 @@
         "cotton crochet dishcloth pattern",
         "easy kitchen crochet project"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "best cotton yarn for crochet dishcloths",
@@ -173,8 +205,10 @@
         "cotton yarn for kitchen crochet",
         "absorbent crochet dishcloth yarn"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to choose a crochet hook size for yarn",
@@ -183,8 +217,10 @@
         "match yarn to crochet hook",
         "crochet gauge beginner tips"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to fix crochet tension that is too tight",
@@ -193,8 +229,10 @@
         "crochet stitches too tight",
         "beginner crochet tension tips"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to count stitches in crochet rows",
@@ -203,8 +241,10 @@
         "avoid missing crochet stitches",
         "crochet row stitch count"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet in the round for beginners",
@@ -213,8 +253,10 @@
         "joining crochet rounds",
         "continuous rounds crochet"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to make a crochet coaster set",
@@ -223,8 +265,10 @@
         "cotton crochet coasters",
         "beginner crochet home decor"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a simple market bag",
@@ -233,8 +277,10 @@
         "reusable crochet shopping bag",
         "easy mesh crochet bag"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to line a crochet bag with fabric",
@@ -243,8 +289,10 @@
         "sew lining for handmade crochet bag",
         "crochet tote bag lining tutorial"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to care for handmade crochet blankets",
@@ -253,8 +301,10 @@
         "care for handmade crochet items",
         "dry crochet blanket properly"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to store crochet projects and yarn",
@@ -263,8 +313,10 @@
         "store yarn neatly",
         "crochet project storage ideas"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a beginner baby blanket",
@@ -273,8 +325,10 @@
         "simple crochet blanket for beginners",
         "soft yarn baby blanket"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a simple headband",
@@ -283,8 +337,10 @@
         "beginner crochet ear warmer",
         "crochet headband tutorial"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a reusable cotton face cloth",
@@ -293,8 +349,10 @@
         "cotton face cloth crochet pattern",
         "reusable crochet skincare cloth"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to make amigurumi stuffing look smooth",
@@ -303,8 +361,10 @@
         "avoid lumpy crochet plushies",
         "amigurumi finishing tips"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to embroider a smile on amigurumi",
@@ -313,8 +373,10 @@
         "add facial features to crochet toys",
         "amigurumi face tutorial"
       ],
-      "status": "unverified",
-      "verification": null
+      "status": "approved",
+      "verification": null,
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet",
@@ -322,11 +384,13 @@
         "crochet for beginners",
         "learn crochet step by step"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Ahrefs Free Keyword Generator; user reported Easy"
+      "source_note": "Ahrefs Free Keyword Generator; user reported Easy",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet patterns for beginners",
@@ -334,11 +398,13 @@
         "easy crochet patterns",
         "beginner crochet projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Ahrefs Free Keyword Generator; user reported Easy"
+      "source_note": "Ahrefs Free Keyword Generator; user reported Easy",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet stitches",
@@ -346,11 +412,13 @@
         "basic crochet stitches",
         "crochet stitch tutorial"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Ahrefs Free Keyword Generator; user reported Easy"
+      "source_note": "Ahrefs Free Keyword Generator; user reported Easy",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a blanket",
@@ -358,11 +426,13 @@
         "easy crochet blanket tutorial",
         "crochet blanket for beginners"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Ahrefs Questions section; user-provided keyword list"
+      "source_note": "Ahrefs Questions section; user-provided keyword list",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet for beginners",
@@ -370,11 +440,13 @@
         "learn how to crochet for beginners",
         "crochet basics tutorial"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Ahrefs Questions section; user-provided keyword list"
+      "source_note": "Ahrefs Questions section; user-provided keyword list",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a heart",
@@ -382,11 +454,13 @@
         "easy crochet heart pattern",
         "small crochet heart tutorial"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Ahrefs Questions section; user-provided keyword list"
+      "source_note": "Ahrefs Questions section; user-provided keyword list",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how do i choose the right yarn for a delicate shawl project",
@@ -395,11 +469,13 @@
         "how to choose yarn for shawls",
         "yarn fiber and weight for delicate shawls"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Google Search Console observation checked 2026-11-20: 5 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+      "source_note": "Google Search Console observation checked 2026-11-20: 5 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to choose the right yarn for a beginner project",
@@ -408,11 +484,13 @@
         "how to choose yarn for crochet beginners",
         "beginner yarn weight guide"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Google Search Console observation checked 2026-11-20: 3 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+      "source_note": "Google Search Console observation checked 2026-11-20: 3 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "what yarn weight works best for a beginner crochet blanket",
@@ -421,11 +499,13 @@
         "beginner blanket yarn weight",
         "how to choose blanket yarn"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Google Search Console observation checked 2026-11-20: 2 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+      "source_note": "Google Search Console observation checked 2026-11-20: 2 impressions, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "what factors should i keep in mind when selecting yarn for crochet projects",
@@ -434,11 +514,13 @@
         "crochet yarn fiber guide",
         "crochet yarn weight and texture"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Google Search Console observation checked 2026-11-20: 1 impression, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified."
+      "source_note": "Google Search Console observation checked 2026-11-20: 1 impression, 0 clicks in owner-supplied report. Early signal only; monthly volume, difficulty and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "good yarn for crocheting",
@@ -447,11 +529,13 @@
         "beginner friendly crochet yarn",
         "types of yarn for crochet"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Google Search Console query observed by owner on 2026-11-20; impression count not supplied. Search volume, difficulty and SERP review not verified."
+      "source_note": "Google Search Console query observed by owner on 2026-11-20; impression count not supplied. Search volume, difficulty and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat blanket yarn",
@@ -460,11 +544,13 @@
         "bernat blanket yarn patterns",
         "bernat blanket yarn alternatives"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >10,000. Related terms are research ideas only; exact metrics and SERP review not verified."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >10,000. Related terms are research ideas only; exact metrics and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "chunky yarn",
@@ -473,11 +559,13 @@
         "best chunky yarn for crochet blankets",
         "what to make with chunky yarn"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Ubersuggest keyword suggestion on 2026-11-20. KD and volume were not supplied; needs further research."
+      "source_note": "User-provided Ubersuggest keyword suggestion on 2026-11-20. KD and volume were not supplied; needs further research.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "what is worsted weight yarn",
@@ -486,11 +574,13 @@
         "worsted yarn weight guide",
         "worsted weight yarn projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >1,000. Exact monthly volume and Google SERP review not verified."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >1,000. Exact monthly volume and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "what is dk weight yarn",
@@ -499,11 +589,13 @@
         "dk yarn weight guide",
         "dk weight yarn projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >1,000. 'what is dk yarn' grouped as a close variant, not a separate article. Exact monthly volume and SERP review not verified."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >1,000. 'what is dk yarn' grouped as a close variant, not a separate article. Exact monthly volume and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to choose high quality crochet yarn",
@@ -512,11 +604,13 @@
         "what makes crochet yarn good quality",
         "best yarn for beginner crochet projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: volume >1,000; KD unavailable (N/A). Needs difficulty and SERP review."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: volume >1,000; KD unavailable (N/A). Needs difficulty and SERP review.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "yarn crochet",
@@ -524,11 +618,13 @@
         "crochet yarn ideas",
         "yarn for crochet projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 8 days ago. Exact current volume and SERP review not verified."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 8 days ago. Exact current volume and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "scrap yarn crochet projects",
@@ -537,11 +633,13 @@
         "small crochet projects using leftover yarn",
         "what to crochet with yarn scraps"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 2026-11-07. Exact current volume and SERP review not verified."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 2026-11-07. Exact current volume and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "chunky yarn crochet patterns",
@@ -549,11 +647,13 @@
         "crochet patterns using chunky yarn",
         "easy chunky yarn crochet projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 8 days ago. Related to existing 'chunky yarn' cluster; check SERP intent and existing-post overlap before planning an article."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 8 days ago. Related to existing 'chunky yarn' cluster; check SERP intent and existing-post overlap before planning an article.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "super bulky yarn crochet patterns",
@@ -562,11 +662,13 @@
         "crochet patterns with super bulky yarn",
         "easy super bulky crochet patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 2026-10-24. Exact current volume and SERP review not verified."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume >100; tool data last updated 2026-10-24. Exact current volume and SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat blanket yarn crochet patterns",
@@ -575,11 +677,13 @@
         "Bernat Blanket yarn projects",
         "easy Bernat Blanket crochet patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume not supplied. Related to existing 'bernat blanket yarn' cluster; check SERP intent and existing-post overlap before planning an article."
+      "source_note": "User-provided Ubersuggest result on 2026-11-20: KD Easy; volume not supplied. Related to existing 'bernat blanket yarn' cluster; check SERP intent and existing-post overlap before planning an article.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "amigurumi yarn",
@@ -589,11 +693,13 @@
       ],
       "category": "Amigurumi / toy yarn",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and exact volume not supplied; SERP review pending."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and exact volume not supplied; SERP review pending.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "the woobles yarn",
@@ -603,11 +709,13 @@
       ],
       "category": "Brand-specific / beginner amigurumi yarn",
       "target_role": "secondary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided screenshot transcription: 'wobbles yarn' volume 1K-10K and 'woobles easy peasy yarn' 100-1K. Brand spelling normalized to The Woobles; verify search wording and trademark/brand intent before targeting."
+      "source_note": "User-provided screenshot transcription: 'wobbles yarn' volume 1K-10K and 'woobles easy peasy yarn' 100-1K. Brand spelling normalized to The Woobles; verify search wording and trademark/brand intent before targeting.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "easy peasy yarn",
@@ -616,11 +724,13 @@
       ],
       "category": "Beginner-friendly yarn / brand-specific",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K; related long-tail 'woobles easy peasy yarn' 100-1K. KD and SERP review pending."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K; related long-tail 'woobles easy peasy yarn' 100-1K. KD and SERP review pending.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "caron cotton cakes",
@@ -630,11 +740,13 @@
       ],
       "category": "Brand-specific / cotton and cake yarn",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: each related brand phrase reported 1K-10K. Group related Caron cake terms for intent review; do not assume interchangeable product specifications."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: each related brand phrase reported 1K-10K. Group related Caron cake terms for intent review; do not assume interchangeable product specifications.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat softee chunky",
@@ -644,11 +756,13 @@
       ],
       "category": "Brand-specific / chunky yarn",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet cotton",
@@ -658,11 +772,13 @@
       ],
       "category": "Generic material / cotton crochet",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: 'crochet cotton' and 'crochet cotton thread' reported 1K-10K. SERP intent needs separating between yarn and thread."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: 'crochet cotton' and 'crochet cotton thread' reported 1K-10K. SERP intent needs separating between yarn and thread.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lion brand mandala yarn",
@@ -672,11 +788,13 @@
       ],
       "category": "Brand-specific / yarn lines",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: Lion Brand Mandala and Wool-Ease phrases reported 1K-10K. Keep distinct products/intent if SERPs differ; KD and SERP review pending."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: Lion Brand Mandala and Wool-Ease phrases reported 1K-10K. Keep distinct products/intent if SERPs differ; KD and SERP review pending.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "hobbii twister",
@@ -686,11 +804,13 @@
       ],
       "category": "Brand-specific / gradient cake yarn",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet shop",
@@ -700,11 +820,13 @@
       ],
       "category": "Commercial / shop intent",
       "target_role": "secondary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. Likely transactional/local intent; check relevance to The Yarn Nest's actual offer before targeting."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. Likely transactional/local intent; check relevance to The Yarn Nest's actual offer before targeting.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat velvet yarn",
@@ -713,11 +835,13 @@
       ],
       "category": "Brand-specific / velvet texture yarn",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: 'bernat velvet yarn' 1K-10K and 'bernat crushed velvet yarn' 100-1K. Screenshot transcription typo 'bern at' normalized to 'bernat'."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: 'bernat velvet yarn' 1K-10K and 'bernat crushed velvet yarn' 100-1K. Screenshot transcription typo 'bern at' normalized to 'bernat'.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "caron cakes yarn",
@@ -727,11 +851,13 @@
       ],
       "category": "Brand-specific / cake yarn",
       "target_role": "secondary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. Group with Caron cake cluster after checking SERP intent."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. Group with Caron cake cluster after checking SERP intent.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "red heart soft yarn",
@@ -741,11 +867,13 @@
       ],
       "category": "Brand-specific / acrylic yarn",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 1K-10K. KD and SERP review pending.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "amigurumi kits",
@@ -755,11 +883,13 @@
       ],
       "category": "Commercial / amigurumi kits",
       "target_role": "primary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Commercial intent; check whether content or product page best matches SERP."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Commercial intent; check whether content or product page best matches SERP.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat crushed velvet yarn",
@@ -768,11 +898,13 @@
       ],
       "category": "Brand-specific / velvet texture yarn",
       "target_role": "secondary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Grouped under Bernat Velvet topic unless SERP shows distinct intent."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Grouped under Bernat Velvet topic unless SERP shows distinct intent.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "off the hook yarn",
@@ -781,616 +913,728 @@
       ],
       "category": "Brand or niche term / ambiguous",
       "target_role": "secondary",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Ambiguous term; identify exact brand/product/search intent before article planning."
+      "source_note": "User-provided combined screenshot data on 2026-11-20: volume range 100-1K. Ambiguous term; identify exact brand/product/search intent before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "yarn",
       "secondary": [],
       "category": "generic root term",
       "reported_volume_range": "100K-1M",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. high competition; seed only. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. high competition; seed only. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "mohair",
       "secondary": [],
       "category": "fiber type",
       "reported_volume_range": "100K-1M",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. broad fiber seed. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. broad fiber seed. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "yarn store near me",
       "secondary": [],
       "category": "local / transactional",
       "reported_volume_range": "100K-1M",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. local intent; not suitable for non-local informational blog. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 100K-1M. KD not supplied. local intent; not suitable for non-local informational blog. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "sock yarn",
       "secondary": [],
       "category": "yarn type / project use",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand with buy, best, crochet, knitting. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand with buy, best, crochet, knitting. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "alize puffy",
       "secondary": [],
       "category": "brand-specific / product",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "wool yarn",
       "secondary": [],
       "category": "material",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project and use. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project and use. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "worsted weight yarn",
       "secondary": [],
       "category": "yarn weight",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. already related to existing worsted topic. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. already related to existing worsted topic. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "drops alpaca",
       "secondary": [],
       "category": "brand-specific / fiber",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "cashmere yarn",
       "secondary": [],
       "category": "luxury material",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. material and buying intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. material and buying intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "cotton yarn",
       "secondary": [],
       "category": "material",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. high-value seed for crochet/craft long tails. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. high-value seed for crochet/craft long tails. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "red heart yarn",
       "secondary": [],
       "category": "brand-specific",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "hobbii yarn",
       "secondary": [],
       "category": "brand-specific",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "mohair yarn",
       "secondary": [],
       "category": "fiber / material",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. related to mohair seed. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. related to mohair seed. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "chenille yarn",
       "secondary": [],
       "category": "texture / material",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project, crochet, blanket. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project, crochet, blanket. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "malabrigo yarn",
       "secondary": [],
       "category": "brand-specific",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "caron simply soft yarn",
       "secondary": [],
       "category": "brand-specific / product line",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "t shirt yarn",
       "secondary": [],
       "category": "material / recycled textile",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project and how-to. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. expand by project and how-to. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat yarn",
       "secondary": [],
       "category": "brand-specific",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 10K-100K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "stylecraft special dk",
       "secondary": [],
       "category": "brand-specific / yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "aran wool",
       "secondary": [],
       "category": "yarn weight / material",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. weight + fiber. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. weight + fiber. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "scheepjes yarn",
       "secondary": [],
       "category": "brand-specific",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "super chunky yarn",
       "secondary": [],
       "category": "yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. related to chunky yarn. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. related to chunky yarn. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "chunky wool",
       "secondary": [],
       "category": "weight + material",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. expand by project/use. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. expand by project/use. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "yarn canada",
       "secondary": [],
       "category": "geographic / commercial ambiguous",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. check location intent before targeting. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. check location intent before targeting. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "yarn bee",
       "secondary": [],
       "category": "brand-specific",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "scheepjes catona",
       "secondary": [],
       "category": "brand-specific / cotton yarn",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "wholesale yarn",
       "secondary": [],
       "category": "commercial / B2B",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "low",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. only if wholesale offer/content is relevant. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. only if wholesale offer/content is relevant. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "velvet yarn",
       "secondary": [],
       "category": "texture / material",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. related to Bernat velvet cluster. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. related to Bernat velvet cluster. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bulky yarn",
       "secondary": [],
       "category": "yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. expand by project and crochet. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. expand by project and crochet. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "norwegian wool",
       "secondary": [],
       "category": "origin + material",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. niche material. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. niche material. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "malabrigo rios",
       "secondary": [],
       "category": "brand-specific / product line",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning."
+      "source_note": "User-provided keyword list on 2026-11-20; reported volume range 1K-10K. KD not supplied. brand/product intent. Treat as seed keyword; derive long-tail combinations and verify SERP before article planning.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "drops cotton merino",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "alize cotton gold",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "mercerized cotton",
       "secondary": [],
       "category": "cotton fiber / finish",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "pima cotton yarn",
       "secondary": [],
       "category": "cotton fiber",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "organic cotton yarn",
       "secondary": [],
       "category": "cotton fiber",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "chunky cotton yarn",
       "secondary": [],
       "category": "cotton yarn / yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "dk cotton yarn",
       "secondary": [],
       "category": "cotton yarn / yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "cotton blend yarn",
       "secondary": [],
       "category": "cotton yarn / blend",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "sport weight cotton yarn",
       "secondary": [],
       "category": "cotton yarn / yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "worsted weight cotton yarn",
       "secondary": [],
       "category": "cotton yarn / yarn weight",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat handcrafter cotton yarn",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lily sugar and cream yarn",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lion brand 24 7 cotton",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "peaches and cream yarn",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bamboo cotton",
       "secondary": [],
       "category": "cotton blend / fiber",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "dishie yarn",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "100-1K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "catania yarn",
       "secondary": [],
       "category": "cotton yarn / brand-product",
       "reported_volume_range": "100-1K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided Google Keyword Planner screenshot on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting is not visible in screenshot, so country scope is unconfirmed. SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "woobles yarn",
       "secondary": [],
       "category": "brand-specific yarn",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat blanket",
       "secondary": [],
       "category": "brand / product line",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet cotton thread",
       "secondary": [],
       "category": "crochet / cotton thread",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "woobles easy peasy yarn",
       "secondary": [],
       "category": "brand / product line",
       "reported_volume_range": "100-1K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 100-1K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet wool",
       "secondary": [],
       "category": "crochet / wool",
       "reported_volume_range": "10K-100K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 10K-100K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "bernat softee chunky yarn",
       "secondary": [],
       "category": "brand / product line",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lion brand wool ease",
       "secondary": [],
       "category": "brand / wool blend",
       "reported_volume_range": "1K-10K",
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified."
+      "source_note": "User-provided keyword research transcription on 2026-11-20. Reported monthly average search range: 1K-10K. Location targeting not confirmed; SEO difficulty and Google SERP review not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "easy crochet projects",
@@ -1400,11 +1644,13 @@
         "easy crochet ideas",
         "fast crochet projects"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ research run 2026-11-21: estimated monthly searches 20,119; competition score 32; overall score 66. YouTube-tool estimate, not Google volume. Validate Google Planner and US SERP."
+      "source_note": "vidIQ research run 2026-11-21: estimated monthly searches 20,119; competition score 32; overall score 66. YouTube-tool estimate, not Google volume. Validate Google Planner and US SERP.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet tutorial for beginners",
@@ -1413,11 +1659,13 @@
         "how to crochet for beginners",
         "easy crochet tutorial"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ research run 2026-11-21: estimated monthly searches 6,438; competition score 40; demand growth +93.3% in vidIQ data. Not Google-confirmed."
+      "source_note": "vidIQ research run 2026-11-21: estimated monthly searches 6,438; competition score 40; demand growth +93.3% in vidIQ data. Not Google-confirmed.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "one skein crochet projects",
@@ -1426,11 +1674,13 @@
         "one ball of yarn crochet ideas",
         "single skein crochet patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "New editorial candidate inspired by YouTube breakout content around stash-busting and projects from small yarn quantities. Volume/KD/SERP not verified."
+      "source_note": "New editorial candidate inspired by YouTube breakout content around stash-busting and projects from small yarn quantities. Volume/KD/SERP not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet upcycling ideas",
@@ -1439,11 +1689,13 @@
         "crochet from old clothes",
         "yarn upcycling crafts"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "Pinterest 2026 Hobbies trend report indicates strong interest in crochet upcycling; reported trend growth +523% from Pinterest report. Search volume and SEO difficulty not verified."
+      "source_note": "Pinterest 2026 Hobbies trend report indicates strong interest in crochet upcycling; reported trend growth +523% from Pinterest report. Search volume and SEO difficulty not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lace crochet projects",
@@ -1452,11 +1704,13 @@
         "crochet doily projects",
         "lace crochet ideas"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Pinterest Predicts 2026 trend signal: lace doily searches +105%, lace bandana +150% as reported in Pinterest trend coverage. Google volume/KD/SERP not verified."
+      "source_note": "Pinterest Predicts 2026 trend signal: lace doily searches +105%, lace bandana +150% as reported in Pinterest trend coverage. Google volume/KD/SERP not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "easy crochet blanket",
@@ -1465,11 +1719,13 @@
         "easy crochet blanket pattern",
         "crochet blanket for beginners"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US research run 2026-11-21: estimated monthly searches 4,960; competition score 40; overall 57. YouTube-tool estimate, not Google volume."
+      "source_note": "vidIQ US research run 2026-11-21: estimated monthly searches 4,960; competition score 40; overall 57. YouTube-tool estimate, not Google volume.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet bandana",
@@ -1480,11 +1736,13 @@
         "how to crochet a bandana",
         "beginner crochet bandana"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 25,966; competition 57; overall 57. YouTube-tool estimate only, not Google volume or organic SEO difficulty. Validate US Google Planner and SERP."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 25,966; competition 57; overall 57. YouTube-tool estimate only, not Google volume or organic SEO difficulty. Validate US Google Planner and SERP.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet bandana tutorial",
@@ -1493,11 +1751,13 @@
         "crochet bandana tutorial for beginners",
         "easy crochet bandana tutorial"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 15,926; competition 52; overall 57; demand change -33.6%. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 15,926; competition 52; overall 57; demand change -33.6%. YouTube-tool estimate only, not Google volume or organic SEO difficulty.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet lace",
@@ -1507,11 +1767,13 @@
         "crochet lace projects",
         "crochet lace bandana"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 3,792; competition 46; overall 54. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 3,792; competition 46; overall 54. YouTube-tool estimate only, not Google volume or organic SEO difficulty.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet lace bandana",
@@ -1520,11 +1782,13 @@
         "crochet diamond lace bandana",
         "lace crochet bandana pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US seed estimate <750; competition 23; overall 31 (2026-11-21). Pinterest/Etsy visual trend relevance; Google volume and SEO difficulty not verified."
+      "source_note": "vidIQ US seed estimate <750; competition 23; overall 31 (2026-11-21). Pinterest/Etsy visual trend relevance; Google volume and SEO difficulty not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "shell stitch crochet",
@@ -1533,11 +1797,13 @@
         "easy shell stitch crochet",
         "crochet shell stitch pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 4,880; competition 34; overall 60. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 4,880; competition 34; overall 60. YouTube-tool estimate only, not Google volume or organic SEO difficulty.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet headband",
@@ -1546,11 +1812,13 @@
         "crochet headband pattern",
         "crochet headband tutorial"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 22,796; competition 54; overall 57; reported demand change -72.1%. YouTube-tool estimate only, validate seasonality and Google SERP."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 22,796; competition 54; overall 57; reported demand change -72.1%. YouTube-tool estimate only, validate seasonality and Google SERP.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet summer project",
@@ -1559,11 +1827,13 @@
         "lightweight crochet projects",
         "crochet summer accessories"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches <750; competition 35; overall 26. YouTube-tool estimate only; seasonal editorial candidate."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches <750; competition 35; overall 26. YouTube-tool estimate only; seasonal editorial candidate.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet cottagecore",
@@ -1572,11 +1842,13 @@
         "crochet cottagecore accessories",
         "crochet floral accessories"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches <750; competition 21; overall 32. YouTube-tool estimate only; style-led topic to validate in Google and Pinterest."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches <750; competition 21; overall 32. YouTube-tool estimate only; style-led topic to validate in Google and Pinterest.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet head scarf",
@@ -1585,11 +1857,13 @@
         "crochet easy headscarf",
         "how to crochet a head scarf"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Related terms from vidIQ US crochet summer accessories research 2026-11-21. Individual search volumes not reliably available; validate Google US demand and seasonality."
+      "source_note": "Related terms from vidIQ US crochet summer accessories research 2026-11-21. Individual search volumes not reliably available; validate Google US demand and seasonality.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lightweight crochet",
@@ -1598,11 +1872,13 @@
         "summer crochet patterns",
         "lightweight yarn crochet"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Related topic from vidIQ US crochet summer accessories research 2026-11-21; estimated below 750 on YouTube tool. Validate Google intent and demand."
+      "source_note": "Related topic from vidIQ US crochet summer accessories research 2026-11-21; estimated below 750 on YouTube tool. Validate Google intent and demand.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "summer crochet projects",
@@ -1611,11 +1887,13 @@
         "crochet summer accessories",
         "beach crochet accessories"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "Related topic from vidIQ US research 2026-11-21; estimated below 750 on YouTube tool. Seasonal editorial candidate, plan ahead for US spring/summer."
+      "source_note": "Related topic from vidIQ US research 2026-11-21; estimated below 750 on YouTube tool. Seasonal editorial candidate, plan ahead for US spring/summer.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "amigurumi crochet",
@@ -1625,11 +1903,13 @@
         "amigurumi crochet tutorial",
         "free amigurumi crochet patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 27,060; competition 25; overall 70; demand change -39.2%. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 27,060; competition 25; overall 70; demand change -39.2%. YouTube-tool estimate only, not Google volume or organic SEO difficulty.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "amigurumi crochet doll",
@@ -1639,11 +1919,13 @@
         "amigurumi crochet doll pattern",
         "how to crochet a doll"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 4,622; competition 28; overall 62. Related keyword crochet doll: 6,711; crochet doll tutorial: 5,291. YouTube-tool estimates, not Google volume."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 4,622; competition 28; overall 62. Related keyword crochet doll: 6,711; crochet doll tutorial: 5,291. YouTube-tool estimates, not Google volume.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet doll tutorial",
@@ -1653,11 +1935,13 @@
         "crochet doll patterns",
         "amigurumi doll"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
-      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 5,291; competition 19; overall 66. YouTube-tool estimate only, not Google volume or organic SEO difficulty."
+      "source_note": "vidIQ US research 2026-11-21: estimated monthly searches 5,291; competition 19; overall 66. YouTube-tool estimate only, not Google volume or organic SEO difficulty.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet lace edging",
@@ -1666,13 +1950,15 @@
         "how to crochet lace edging",
         "easy lace edging for blankets"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "vidIQ YouTube keyword research returned an estimated 4,267 monthly searches and competition score 41; not Google data.",
       "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
-      "search_intent": "tutorial"
+      "search_intent": "tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet lace shawl",
@@ -1681,13 +1967,15 @@
         "beginner crochet shawl",
         "lightweight crochet shawl"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "Recent vidIQ breakout scan found a lace shawl tutorial with 178.5K views and 39x channel breakout; YouTube performance signal only, not Google demand.",
       "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
-      "search_intent": "pattern/tutorial"
+      "search_intent": "pattern/tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "easy crochet lace stitch",
@@ -1696,13 +1984,15 @@
         "beginner lace crochet stitch",
         "simple crochet lace pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "Recent US-based YouTube channel breakout: easy two-row crochet stitch tutorial with 313.6K views and 34x channel breakout; not Google search data.",
       "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
-      "search_intent": "tutorial"
+      "search_intent": "tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet rug from old clothes",
@@ -1711,13 +2001,15 @@
         "upcycled crochet rug",
         "how to crochet with fabric strips"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "vidIQ research surfaced crochet rug and crochet with fabric strips related terms; estimated searches below 750 for specific phrases and tool competition values are YouTube estimates, not Google.",
       "editorial_note": "Research candidate only. Review US Google Keyword Planner, organic difficulty and live SERP before drafting.",
-      "search_intent": "tutorial/project"
+      "search_intent": "tutorial/project",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet rug",
@@ -1726,13 +2018,15 @@
         "crochet rug pattern",
         "how to crochet a rug"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "vidIQ US YouTube keyword research on 2026-11-21: estimated monthly searches 6,007; competition 25; overall 64. YouTube-tool estimate only, not Google search volume or organic SEO difficulty.",
       "editorial_note": "Broad topic candidate. Review Google US SERP and differentiate by material, technique, or beginner intent before drafting.",
-      "search_intent": "tutorial/pattern"
+      "search_intent": "tutorial/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet edging",
@@ -1741,13 +2035,15 @@
         "crochet edging pattern",
         "how to crochet lace edging"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "vidIQ US YouTube keyword research on 2026-11-21: estimated monthly searches 4,925; competition 49; overall 54. YouTube-tool estimate only, not Google search volume or organic SEO difficulty.",
       "editorial_note": "Potentially overlaps existing blanket-border article. Only create a separate page if Google SERP and scope show distinct intent.",
-      "search_intent": "tutorial"
+      "search_intent": "tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet lace border",
@@ -1756,13 +2052,15 @@
         "lace border crochet",
         "crochet lace border pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "vidIQ related-keyword research on 2026-11-21: YouTube estimate below 750 monthly; competition 25; overall 30. Not Google volume or organic SEO difficulty.",
       "editorial_note": "Candidate subtopic; consider adding as a section to a lace edging guide unless SERP supports a separate page.",
-      "search_intent": "tutorial"
+      "search_intent": "tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "lace stitch crochet",
@@ -1771,13 +2069,15 @@
         "crochet lace stitches",
         "easy crochet lace stitch"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly search volume 1,600; reported keyword difficulty 1; CPC $0.34. Tool estimate; verify live SERP and metric reliability before targeting.",
       "editorial_note": "Potential standalone stitch tutorial. Check overlap with existing crochet stitch content and current easy crochet lace stitch candidate.",
-      "search_intent": "informational/tutorial"
+      "search_intent": "informational/tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet lace patterns",
@@ -1786,13 +2086,15 @@
         "crochet lace pattern",
         "free crochet lace patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly search volume 3,600; reported keyword difficulty 0; CPC $0.36. Keyword variants may share the same volume; do not add their volumes. Verify SERP.",
       "editorial_note": "Pattern roundup or pattern hub only if The Yarn Nest can provide original, accurate patterns and useful photos.",
-      "search_intent": "informational"
+      "search_intent": "informational",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet rag rug",
@@ -1801,13 +2103,15 @@
         "t-shirt rug crochet",
         "crochet rug from old clothes"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "OpenSEO US keyword research 2026-11-21: crochet rag rug estimated 480 monthly searches, rag rug crochet 390, t-shirt rug crochet 210; reported KD 0. Low-volume long-tail candidates; verify SERP and exact intent.",
       "editorial_note": "Could make a more specific and useful tutorial than a generic crochet rug page. Compare with existing crochet rug from old clothes candidate.",
-      "search_intent": "informational/tutorial"
+      "search_intent": "informational/tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "how to crochet a rug",
@@ -1816,13 +2120,15 @@
         "how to crochet rug",
         "crochet a rug"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly searches 260; reported KD 0; CPC $0.28. Tool estimate; verify SERP.",
       "editorial_note": "Potential beginner tutorial. Consider using as a supporting phrase on a broader rug guide, not automatically a separate URL.",
-      "search_intent": "informational/tutorial"
+      "search_intent": "informational/tutorial",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet oval rug pattern",
@@ -1831,13 +2137,15 @@
         "oval rug crochet pattern",
         "crochet pattern for oval rug"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "OpenSEO US keyword research 2026-11-21: estimated monthly searches 320; reported KD 0; CPC $0.13. Tool estimate; verify SERP.",
       "editorial_note": "Specific project tutorial candidate; assess whether a separate page is justified by SERP intent.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet triangle shawl pattern",
@@ -1846,13 +2154,15 @@
         "crochet pattern triangle shawl",
         "beginner crochet shawl patterns free"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "OpenSEO US keyword research 2026-11-21: crochet triangle shawl pattern estimated 1,300 monthly; beginner crochet shawl patterns free 1,300; reported KD 0. CPC around $0.15-$0.25. Tool estimates; verify SERP.",
       "editorial_note": "Potential original beginner pattern. Search volume may be shared across close variants; do not sum. Confirm content quality and pattern testing before publishing.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet patterns free",
@@ -1861,7 +2171,7 @@
         "free crochet blanket patterns",
         "free easy crochet patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -1870,7 +2180,9 @@
       "competition": "LOW",
       "competition_index": 19,
       "metric_type": "advertiser competition, not organic SEO difficulty",
-      "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 40,500; advertiser competition LOW (index 19/100). CPC $0.31. Google organic difficulty and live SERP not verified."
+      "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 40,500; advertiser competition LOW (index 19/100). CPC $0.31. Google organic difficulty and live SERP not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "knitting patterns free",
@@ -1879,7 +2191,7 @@
         "free scarf knitting patterns",
         "easy free knitting patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -1888,7 +2200,9 @@
       "competition": "LOW",
       "competition_index": 20,
       "metric_type": "advertiser competition, not organic SEO difficulty",
-      "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 9,900; advertiser competition LOW (index 20/100). CPC $0.34. Google organic difficulty and live SERP not verified."
+      "source_note": "HYPD Keyword Research, United States, English; checked 2026-11-21. Average monthly searches 9,900; advertiser competition LOW (index 20/100). CPC $0.34. Google organic difficulty and live SERP not verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet flower pattern",
@@ -1897,12 +2211,14 @@
         "small crochet flower tutorial",
         "crochet flower applique"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
       "source_note": "Cross-tool candidate checked 2026-11-21. Semrush US: 6,600 monthly searches, KD 18, CPC $0.22, advertiser competition 0.54. OpenSEO US: 12,100 monthly searches, KD 0 (not treated as confirmed easy), informational intent, CPC $0.27, advertiser competition 0.53. Volume differs by provider; live SERP review required.",
-      "editorial_note": "Third-priority draft: 'Easy Crochet Flower Pattern: A Step-by-Step Beginner Tutorial'. Include original step photos, materials, stitch abbreviations and clear finishing instructions."
+      "editorial_note": "Third-priority draft: 'Easy Crochet Flower Pattern: A Step-by-Step Beginner Tutorial'. Include original step photos, materials, stitch abbreviations and clear finishing instructions.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "amigurumi patterns",
@@ -1911,12 +2227,14 @@
         "beginner amigurumi crochet",
         "simple crochet plush patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "normal",
       "source_note": "Cross-tool candidate checked 2026-11-21. Semrush US: 4,400 monthly searches, KD 22, CPC $0.24, advertiser competition 0.97. OpenSEO US: 5,400 monthly searches, KD 19, informational intent, CPC $0.45, advertiser competition 0.95. Good demand agreement, but higher advertiser competition and SERP review still required.",
-      "editorial_note": "Fourth-priority draft: 'Easy Amigurumi Patterns for Beginners'. Focus on genuinely beginner-friendly original projects and precise materials/stitch-count guidance."
+      "editorial_note": "Fourth-priority draft: 'Easy Amigurumi Patterns for Beginners'. Focus on genuinely beginner-friendly original projects and precise materials/stitch-count guidance.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free shawl knitting patterns",
@@ -1926,9 +2244,11 @@
         "beginner shawl knitting pattern",
         "knitted shawl patterns free"
       ],
-      "status": "candidate",
+      "status": "approved",
       "verification": null,
-      "notes": "Topic selected for The Yarn Nest article. SEMrush volume and organic difficulty evidence has not been recorded in this repository; do not treat as verified."
+      "notes": "Topic selected for The Yarn Nest article. SEMrush volume and organic difficulty evidence has not been recorded in this repository; do not treat as verified.",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free crochet cap patterns",
@@ -1937,7 +2257,7 @@
         "easy crochet cap patterns",
         "beginner crochet cap pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -1945,7 +2265,9 @@
       "organic_difficulty": 1,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "crochet blanket patterns free",
@@ -1954,7 +2276,7 @@
         "easy crochet blanket patterns",
         "crochet blanket pattern for beginners"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -1962,7 +2284,9 @@
       "organic_difficulty": 0,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free crochet sweater patterns",
@@ -1971,7 +2295,7 @@
         "crochet sweater patterns for beginners",
         "free beginner crochet sweater"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -1979,7 +2303,9 @@
       "organic_difficulty": 0,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free crochet bags and purses patterns",
@@ -1988,7 +2314,7 @@
         "crochet purse patterns free",
         "easy crochet bag pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -1996,7 +2322,9 @@
       "organic_difficulty": 0,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free crochet scarf patterns",
@@ -2005,7 +2333,7 @@
         "crochet scarf patterns for beginners",
         "free scarf crochet pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -2013,7 +2341,9 @@
       "organic_difficulty": 0,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free crochet heart patterns",
@@ -2022,7 +2352,7 @@
         "small crochet heart pattern",
         "crochet heart applique"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -2030,7 +2360,9 @@
       "organic_difficulty": 2,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free crochet ornament patterns",
@@ -2039,7 +2371,7 @@
         "crochet Christmas ornament patterns",
         "small crochet ornament pattern"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -2047,7 +2379,9 @@
       "organic_difficulty": 0,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     },
     {
       "primary": "free knitting patterns",
@@ -2056,7 +2390,7 @@
         "easy free knitting patterns",
         "free scarf knitting patterns"
       ],
-      "status": "unverified",
+      "status": "approved",
       "verification": null,
       "target_country": "US",
       "research_priority": "high",
@@ -2064,7 +2398,9 @@
       "organic_difficulty": 1,
       "metric_type": "OpenSEO estimated Google organic keyword metrics; not independently SERP-verified",
       "source_note": "OpenSEO US English keyword research, location code 2840; checked 2026-11-22. Monthly search and reported KD are tool estimates. Live Google US SERP review, intent confirmation, and ranking-page assessment are still required before publication.",
-      "search_intent": "informational/pattern"
+      "search_intent": "informational/pattern",
+      "approved_by": "owner",
+      "approved_at": "2026-11-28"
     }
   ],
   "keyword_strategy": {
